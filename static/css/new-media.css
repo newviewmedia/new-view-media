@@ -1,0 +1,48 @@
+body,#portfolio,portfolio-card{
+  background-color: #2a3040;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.content>h2,h3{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.content>h3{
+  font-size: 22px;
+}
+
+.content>nav>ul>a>li{
+  color: white;
+  padding-top: 3%;
+  list-style: none;
+  padding-left: 3%;
+  float: left;
+}
+
+a>li:hover{
+  text-decoration: underline;
+  text-decoration-color: yellow;
+}
+
+.content>nav{
+  margin-left: 250px;
+}
+
+.media{
+  padding-top: 3%;
+  margin: 100px;
+  display: block;
+}
+
+.portfolio-card{
+  float: left;
+  padding-left: 5%;
+  display: inline-block;
+}
+
+.portfolio-card>h4{
+  color: white;
+  text-align: center;
+}
