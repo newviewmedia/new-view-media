@@ -14,6 +14,7 @@ body,#portfolio,portfolio-card{
 }
 
 .content>nav>ul>a>li{
+  margin-left: 50px;
   color: white;
   padding-top: 3%;
   list-style: none;
@@ -26,9 +27,9 @@ a>li:hover{
   text-decoration-color: yellow;
 }
 
-.content>nav{
-  margin-left: 250px;
-}
+/*.content > nav{
+  margin-left: 550px;
+}*/
 
 .media{
   padding-top: 3%;
@@ -45,4 +46,96 @@ a>li:hover{
 .portfolio-card>h4{
   color: white;
   text-align: center;
+}
+
+#portfolio {
+  background-color: #2a3040;
+  float: left;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 30px;
+}
+#portfolio .content > h2, #portfolio .content > h3 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+#portfolio .content > h3 {
+  font-size: 22px;
+}
+/*#portfolio .content > nav > ul > a > li {*/
+  /*color: white;*/
+  /*float: left;*/
+  /*list-style: none;*/
+  /*margin: 10px auto;*/
+  /*padding-top: 3%;*/
+/*}*/
+#portfolio a:hover {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+}
+#portfolio .content {
+  padding: 15px;
+}
+#portfolio .content > nav {
+  display: block;
+  float: left;
+  margin: 15px auto;
+  text-align: center;
+  width: 100%;
+}
+#portfolio .content > nav a {
+
+}
+#portfolio .media {
+  display: block;
+  float: left;
+  margin: 15px auto;
+}
+#portfolio .portfolio-card {
+  background-color: #2a3040;
+  display: inline-block;
+  float: left;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 5px;
+  text-align: center;
+  width: calc(25% - 10px);
+}
+#portfolio .portfolio-card img {
+  height: auto;
+  width: 100%;
+}
+#portfolio .portfolio-card > h4 {
+  color: white;
+  text-align: center;
+}
+/*-----------------------------------
+# Media Queries
+------------------------------------*/
+/*-----------------------------------
+## Wide Screens, Large Devices
+------------------------------------*/
+@media only screen and (max-width : 1200px) {
+
+}
+/*-----------------------------------
+## Desktops, Medium Devices
+------------------------------------*/
+@media only screen and (max-width : 992px)  {
+
+}
+/*-----------------------------------
+## Tablets, Small Devices
+------------------------------------*/
+@media only screen and (max-width : 768px)  {
+  #portfolio .portfolio-card {
+    width: calc(50% - 10px);
+  }
+}
+/*-----------------------------------
+## Phones, Extra Small Devices
+------------------------------------*/
+@media only screen and (max-width: 480px) {
+#portfolio .portfolio-card{
+  width: 100%;
+}
 }
