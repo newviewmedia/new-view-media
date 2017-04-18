@@ -1,0 +1,74 @@
+.testimonials {
+  background-color: #efefef;
+  display: block;
+  float: left;
+  padding: 30px 15px;
+}
+.testimonials .client-quotes {
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+  font-weight: lighter;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 30px;
+  padding-bottom: 30px;
+}
+.testimonials .client-quotes h4 {
+  margin-bottom: 20px;
+  font-weight: lighter;
+  font-size: 15px;
+}
+.client-quotes span{
+  margin-top: -20px;
+  display: block;
+}
+.testimonials .client-quotes p {
+  margin-bottom: -50px;
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 4%;
+}
+.testimonials h2 {
+  width: 100%;
+  text-align: center;
+  margin: 0 0 0 0 ;
+}
+.circle {
+  border-radius: 50%;
+  background-color: #b2b9c1;
+  height: 60px;
+  width: 60px;
+  margin-left: 47.67%;
+  margin-top: -30px;
+}
+.smaller-circles{
+  border-radius: 50%;
+  background-color: #b2b9c1;
+  height: 13px;
+  width: 13px;
+  display: inline-block;
+  margin: 0px 3px 0px 3px;
+}
+.small-circles-wrap{
+  text-align: center;
+  margin-top: 25px;
+}
+.logo-list .logos {
+  width: 15%;
+  float: left;
+  background-color: #efefef;
+  list-style: none;
+  color: #b2b9c1;
+
+}
+.logo-list {
+  float: left;
+  width: 100%;
+  background-color: #efefef;
+  margin-left: 7%;
+  margin-top: 5%;
+}
+.smaller-circles:hover {
+  background-color: #fcaf31;
+}
