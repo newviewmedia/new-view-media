@@ -1,0 +1,85 @@
+/*
+Author: Resilient Lab
+Author URI: http://www.resilientcoders.org/lab
+Description: Semantically Structured HTML Pen
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+*/
+/*-----------------------------------
+>>> TABLE OF CONTENTS:
+-------------------------------------
+# General
+  ## Events
+  ## Header
+  ## Form
+  ## Footer
+# Typography
+# Navigation
+# Accessibility
+# Components
+# Media Queries
+  ## Wide Screens, Large Devices
+  ## Desktops, Medium Devices
+  ## Tablets, Small Devices
+  ## Phones, Extra Small Devices
+------------------------------------*/
+/*-----------------------------------
+# General
+------------------------------------*/
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: green;
+}
+section {
+  display: block;
+}
+/*-----------------------------------
+## Events
+------------------------------------*/
+a:active {
+
+}
+a:focus {
+
+}
+a:hover {
+  cursor: pointer;
+}
+button:active {
+
+}
+button:focus {
+
+}
+button:hover {
+  cursor: pointer;
+}
+/*-----------------------------------
+# Media Queries
+------------------------------------*/
+/*-----------------------------------
+## Wide Screens, Large Devices
+------------------------------------*/
+@media only screen and (max-width : 1200px) {
+
+}
+/*-----------------------------------
+## Desktops, Medium Devices
+------------------------------------*/
+@media only screen and (max-width : 992px)  {
+
+}
+/*-----------------------------------
+## Tablets, Small Devices
+------------------------------------*/
+@media only screen and (max-width : 768px)  {
+
+}
+/*-----------------------------------
+## Phones, Extra Small Devices
+------------------------------------*/
+@media only screen and (max-width: 480px) {
+
+}
