@@ -1,0 +1,15 @@
+<section class="testimonials">
+  <h2>What our clients have to say about us:</h2>
+  <section class="client-quotes">
+    {% for testimonial in site.data.testimonials %}
+    <blockquote>
+      {{ testimonial.quote }}
+    </blockquote>
+    <h4>{{ testimonial.quoted }}</h4>
+    <span>{{ testimonial.position }}, {{ testimonial.company }}</span>
+  </section>
+  <div class="testimonial-thumbnail">
+    <img src="{{ testimonials.photo }}" alt=""/>
+  </div>
+  {% endfor %}
+</section>
