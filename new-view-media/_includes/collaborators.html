@@ -1,0 +1,10 @@
+<ul class="collaborators">
+  <h2>Our Collaborators</h2>
+{% for collaborator in site.data.collaborators %}
+  <li class="collaborator">
+    <img src="{{ collaborator.logo-photo }}" alt="" />
+    <h3>{{ collaborator.name }}</h3>
+    <span>{{ collaborator.website }}</span>
+  </li>
+{% endfor %}
+</ul>
