@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+<head>
+  <!-- basic.html -->
+  <title>basic.html</title>
+  <meta charset = "UTF-8" />
+  <link rel="stylesheet" href="css/our-process.css">
+</head>
+<body>
+<section id="our-process">
+  <h3> Our Process </h3>
+  <section class="row">
+    <section class="video">
+      <!--<video src="https://www.youtube.com/watch?v=BrXzCpTdhd0" autoplay poster="posterimage.jpg"> </video>-->
+      <video width="640" height="360" id="processVideo1" autoplay poster="">
+        <source type="video/youtube" src="https://www.youtube.com/watch?v=BrXzCpTdhd0" />
+      </video>
+      <video width="640" height="360" id="processVideo2" autoplay
+             poster="">
+        <source type="video/youtube" src="https://www.youtube.com/watch?v=BrXzCpTdhd0" />
+      </video>
+      <video width="640" height="360" id="processVideo3" autoplay
+             poster="">
+        <source type="video/youtube" src="https://www.youtube.com/watch?v=BrXzCpTdhd0" />
+      </video>
+       <!--MAYBE USE IFRAME-->
+    </section>
+  </section>
+  <section class="row">
+    <section class="content"> <h4> Preproduction </h4> <p></p> </section>
+    <section class="content"> <h4> Filming </h4> <p></p> </section>
+    <section class="content"> <h4> Editing </h4> <p></p> </section>
+  </section>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.0.7/mediaelement-and-player.min.js"></script>
+<script>
+  var player = new MediaElementPlayer('#processVideo1');
+  var player2 = new MediaElementPlayer('#processVideo2');
+  var player3 = new MediaElementPlayer('#processVideo3');
+</script>
+</body>
+</html>
