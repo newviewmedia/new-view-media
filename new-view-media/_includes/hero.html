@@ -1,0 +1,8 @@
+<section class="hero banner">
+{% for collaborator in site.data.hero %}
+  <video src="{{ hero.video-url }}" autoplay poster="">
+  <h1>{{ hero.headline1 }}</h1>
+  <h2>{{ hero.headline2 }}</h2>
+  <button>{{ hero.cta-button }}</button>
+{% endfor %}
+</section>
