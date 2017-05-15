@@ -1,0 +1,30 @@
+.hero-banner {
+  margin: 30px auto;
+  padding: 30px;
+  position: absolute;
+  top: 0;
+}
+.hero-banner h1 {
+  color: #e0922f;
+  text-align: center;
+}
+.hero-banner h2 {
+  color: #e0922f;
+  margin: 15px auto;
+  max-width: 75%;
+  text-align: center;
+}
+video {
+  max-width: 100%;
+  position: relative;
+}
+video::before {
+  content:"";
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, .8);
+}
