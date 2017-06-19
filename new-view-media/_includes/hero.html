@@ -1,11 +1,8 @@
-<section class="hero-banner">
-  <video autoplay loop id="video-background" muted>
-    <source src="https://player.vimeo.com/external/158148793.hd.mp4?s=8e8741dbee251d5c35a759718d4b0976fbf38b6f&profile_id=119&oauth2_token_id=57447761"
-            type="video/mp4">
-  </video>
-  <h1> New View Media Will Tell You Story</h1>
-  <h2>Nevermind The Obstacle</h2>
-  <a href="#">
-    <button>See our Work</button>
-  </a>
+<section class="hero banner">
+{% for collaborator in site.data.hero %}
+  <video src="{{ hero.video-url }}" autoplay poster="">
+  <h1>{{ hero.headline1 }}</h1>
+  <h2>{{ hero.headline2 }}</h2>
+  <button>{{ hero.cta-button }}</button>
+{% endfor %}
 </section>
