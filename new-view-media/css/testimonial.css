@@ -7,7 +7,9 @@
   background-color: #efefef;
   display: block;
   float: left;
+  min-width: 100%;
   padding: 30px 60px;
+  width: 100%;
 }
 .testimonials .client-quotes {
   background-color: white;
