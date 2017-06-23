@@ -34,6 +34,100 @@ body, html {
 section {
   display: block;
 }
+header {
+  display: block;
+  float: left;
+  padding: 15px 30px;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+header nav {
+  display: block;
+  float: left;
+  width: 100%;
+}
+header nav div.logo {
+  display: inline-block;
+  float: left;
+  width: 30%;
+}
+header nav div.logo img {
+  display: block;
+  float: left;
+  height: 60px;
+  width: auto;
+}
+header nav ul {
+  display: inline-block;
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  text-align: right;
+  width: 70%;
+}
+header nav ul li {
+  color: #fff;
+  display: inline-block;
+  float: left;
+  padding: 5px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  width: calc(100% / 6);
+}
+header nav ul li:nth-of-type(6) {
+  border: 1px solid orange;
+}
+header nav ul li a {
+
+}
+/*-----------------------------------
+# Hero
+------------------------------------*/
+section.hero {
+  margin: 0 auto;
+  max-height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  width: 100vw;
+}
+section.hero video {
+  position: relative;
+  width: 100%;
+}
+section.hero div.content {
+  display: block;
+  float: left;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+section.hero div.content h1 {
+  color: white;
+  /*left: 40%;
+  position: absolute;
+  top: 70%;*/
+}
+section.hero div.content h2 {
+  color: white;
+  /*left: 46%;
+  position: absolute;
+  top: 80%;*/
+}
+section.hero div.content a {
+
+}
+section.hero div.content a button {
+  background-color: orange;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-size: 20px;
+  /*left: 48%;*/
+  padding: 15px 30px;
+  /*position: absolute;
+  top: 98%;*/
+}
 /*-----------------------------------
 ## Events
 ------------------------------------*/
@@ -68,17 +162,24 @@ button:hover {
 ## Desktops, Medium Devices
 ------------------------------------*/
 @media only screen and (max-width : 992px)  {
+  section.hero div.content {
+    top: 30%;
+  }
 
 }
 /*-----------------------------------
 ## Tablets, Small Devices
 ------------------------------------*/
 @media only screen and (max-width : 768px)  {
-
+  section.hero div.content {
+    top: 18%;
+  }
 }
 /*-----------------------------------
 ## Phones, Extra Small Devices
 ------------------------------------*/
 @media only screen and (max-width: 480px) {
-
+  section.hero div.content {
+    top: 5%;
+  }
 }

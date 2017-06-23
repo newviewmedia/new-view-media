@@ -1,0 +1,21 @@
+<section id="our-process">
+  <h3> Our Process </h3>
+
+  <section class="row">
+    <section class="video">
+      <!--<video src="https://www.youtube.com/watch?v=BrXzCpTdhd0" autoplay poster="posterimage.jpg"> </video>-->
+  {% for our-process in site.data.our-process %}
+      <video width="640" height="360" id="processVideo1" autoplay poster="">
+        <source type="video/youtube" src="{{ our-process.video }}" />
+      </video>
+      <h4> {{ our-process.title }} </h4>
+  {% endfor %}
+       <!--MAYBE USE IFRAME-->
+    </section>
+  </section>
+  <section class="row">
+    <section class="content"> <h4> Preproduction </h4> <p></p> </section>
+    <section class="content"> <h4> Filming </h4> <p></p> </section>
+    <section class="content"> <h4> Editing </h4> <p></p> </section>
+  </section>
+</section>
