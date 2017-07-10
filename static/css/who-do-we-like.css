@@ -43,6 +43,7 @@ li.collaborator {
   border-radius: 50%;
   float: left;
   padding: 15px;
+  max-height: 115px;
 }
 .collaborator h3 {
   margin-bottom: 5px;
