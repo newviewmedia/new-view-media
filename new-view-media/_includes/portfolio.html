@@ -14,7 +14,11 @@
   <ul class="media">
   {% for portfolio in site.data.portfolio %}
     <li class="portfolio-card">
-      <img src= "{{ portfolio.photo }}" />
+      <!-- <img src= "{{ portfolio.photo }}" /> -->
+
+      <iframe src= "{{ portfolio.video }}" >
+      </iframe>
+
       <h3> {{ portfolio.title }} </h3>
       <h4> {{ portfolio.project-name }} </h4>
     </li>
