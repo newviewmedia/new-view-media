@@ -74,7 +74,7 @@
   /*width: calc(25% - 10px);*/
   width: 25%;
 }
-#portfolio .media .portfolio-card img {
+#portfolio .media .portfolio-card iframe {
   height: auto;
   width: 100%;
 }
