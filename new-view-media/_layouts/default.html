@@ -7,19 +7,64 @@
   </head>
   <body>
 
-
     {% include header.html %}
 
     {% include hero.html %}
 
     {% include portfolio.html %}
 
+<section class="about-nvm">
+    {% include row.html
+      title="Meet Tom"
+      content="I am a passionate entrepreneur
+      who recognizes the potential of media to
+      educate, entertain and engage.  As new
+      technologies continue to develop and
+      allow individuals to connect and
+      communicate efficiently like no other
+      period in our history, the importance
+      of video has risen astronomically.
+      Thus, I strive to gather passionate
+      teams together to collaborate and produce
+      video projects that promote innovative
+      ideas and push humanity forward."
+      photo="tomdodge_webphoto.jpg"
+    %}
 
-    {{ content }}
+    {% include row.html
+      title="What's Our Process"
+      content="NewView Media provides
+      video services to entrepreneurial
+      causes in the Greater Boston area
+      and beyond.  Beginning with the
+      critical preproduction phase, to
+      executing shoots and through each
+      editing iteration, we aim to guide
+      our clients through every step of
+      the video production process."
+      photo="tomdodge_webphoto.jpg"
+    %}
 
-    <!-- {% include portfolio.html %}
+    {% include row.html
+      title="What video packages do we offer?"
+      content="We understand every project requires
+      a different strategy to engage your target
+      audience.  With over $1 million raised in
+      crowdfunding campaigns, NewView.Media is
+      confident we can visually communicate your
+      view.  Here are some packages we offer, but
+      we're always happy to sit down and discuss
+      a plan of attack together"
+      photo="tomdodge_webphoto.jpg"
+    %}
+</section>
+    <!-- {{ content }} -->
 
-    {% include who-do-we-like.html %}
+    {% include gradient.html %}
+
+    <!-- {% include portfolio.html %} -->
+
+    <!-- {% include who-do-we-like.html %}
 
     {% include collaborators.html %}
 

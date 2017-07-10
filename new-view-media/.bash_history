@@ -51,3 +51,73 @@ bundle exec jekyll serve --host 0.0.0.0
 cd /vagrant/new-view-media
 bundle install
 bundle exec jekyll serve --host 0.0.0.0
+cd /vagrant/new-view-media
+bundle install
+bundle exec jekyll serve --host 0.0.0.0
+cd /vagrant/new-view-media
+bundle install
+bundle exec jekyll serve --host 0.0.0.0
+cd /vagrant/new-view-media
+bundle install
+bundle exec jekyll serve --host 0.0.0.0
+cd /vagrant/new-view-media
+bundle install
+bundle exec jekyll serve --host 0.0.0.0
+cd /vagrant/new-view-media
+bundle install
+bundle exec jekyll serve --host 0.0.0.0
+cd /vagrant/new-view-media
+bundle install
+bundle exec jekyll serve --host 0.0.0.0
+cd /vagrant/new-view-media
+bundle install
+bundle exec jekyll serve --host 0.0.0.0
+cd /vagrant/new-view-media
+bundle install
+bundle exec jekyll serve --host 0.0.0.0
+cd /vagrant/new-view-media
+bundle install
+bundle exec jekyll serve --host 0.0.0.0
+cd /vagrant/new-view-media
+bundle install
+bundle exec jekyll serve --host 0.0.0.0
+cd /vagrant/new-view-media
+bundle install
+bundle exec jekyll serve --host 0.0.0.0
+cd /vagrant/new-view-media
+bundle install
+bundle exec jekyll serve --host 0.0.0.0
+cd /vagrant/new-view-media
+bundle install
+bundle exec jekyll serve --host 0.0.0.0
+cd /vagrant/new-view-media
+bundle install
+bundle exec jekyll serve --host 0.0.0.0
+cd /vagrant/new-view-media
+bundle install
+bundle exec jekyll serve --host 0.0.0.0
+cd /vagrant/new-view-media
+bundle install
+bundle exec jekyll serve --host 0.0.0.0
+bundle install
+bundle exec jekyll serve --host 0.0.0.0
+bundle install
+bundle exec jekyll serve --host 0.0.0.0
+cd /vagrant/new-view-media
+bundle install
+bundle exec jekyll serve --host 0.0.0.0
+bundle install
+bundle exec jekyll serve --host 0.0.0.0
+bundle install
+bundle exec jekyll serve --host 0.0.0.0
+bundle install
+bundle exec jekyll serve --host 0.0.0.0
+bundle install
+bundle exec jekyll serve --host 0.0.0.0
+bundle install
+bundle exec jekyll serve --host 0.0.0.0
+bundle install
+bundle exec jekyll serve --host 0.0.0.0
+bundle exec jekyll serve --host 0.0.0.0
+bundle install
+bundle exec jekyll serve --host 0.0.0.0
