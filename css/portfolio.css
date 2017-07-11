@@ -1,0 +1,127 @@
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+.flex-horiz-center {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+}
+#portfolio {
+  background-color: #2a3040;
+  float: left;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 30px;
+}
+#portfolio ul {
+  list-style: none;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0;
+}
+#portfolio .filter {
+  float: left;
+  margin: 15px auto;
+  text-align: center;
+  width: 100%;
+}
+#portfolio .filter li {
+  color: white;
+  float: left;
+  margin: 0;
+  padding: 10px;
+}
+#portfolio .filter li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: orange;
+}
+#portfolio .content {
+  color: #fff;
+  padding: 15px;
+}
+#portfolio .content > h2, #portfolio .content > h3 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+#portfolio .content > h3 {
+  font-size: 22px;
+}
+#portfolio .media {
+  display: block;
+  float: left;
+  margin: 15px auto;
+}
+#portfolio .media .portfolio-card {
+  background-color: #2a3040;
+  display: inline-block;
+  float: left;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 5px;
+  text-align: center;
+  /*width: calc(25% - 10px);*/
+  width: 25%;
+}
+#portfolio .media .portfolio-card iframe {
+  height: auto;
+  width: 100%;
+}
+#portfolio .media .portfolio-card > h3{
+  color: white;
+  text-align: center;
+}
+#portfolio .media .portfolio-card > h4 {
+  color: orange;
+  text-align: center;
+}
+/*-----------------------------------
+# Media Queries
+------------------------------------*/
+/*-----------------------------------
+## Wide Screens, Large Devices
+------------------------------------*/
+@media only screen and (max-width : 1200px) {
+
+}
+/*-----------------------------------
+## Desktops, Medium Devices
+------------------------------------*/
+@media only screen and (max-width : 992px)  {
+  #portfolio .media .portfolio-card {
+    /*width: calc(33% - 10px);*/
+    width: 33%;
+  }
+}
+/*-----------------------------------
+## Tablets, Small Devices
+------------------------------------*/
+@media only screen and (max-width : 768px)  {
+  #portfolio .media .portfolio-card {
+    /*width: calc(50% - 10px);*/
+    width: 50%;
+  }
+}
+/*-----------------------------------
+## Phones, Extra Small Devices
+------------------------------------*/
+@media only screen and (max-width: 480px) {
+  #portfolio {
+    padding: 10px;
+  }
+  #portfolio .media .portfolio-card {
+    /*width: calc(100% - 10px);*/
+    width: 100%;
+  }
+}
