@@ -1,8 +1,7 @@
 # new-view-media
 New View Media Jekyll Forestry Build
 
-### Files to edit:
-
+ 
 #### Data
 /new-view-media/_data
 - include any yml/json files here
@@ -10,8 +9,8 @@ New View Media Jekyll Forestry Build
 #### Layouts
 /new-view-media/_layouts
 - include any page layouts, the default.html will hold all of our includes for a single
- page website 
- 
+ page website
+
 #### Includes
 /new-view-media/_includes
 - include html snippet includes here, use data from _data files and loop through
@@ -19,18 +18,18 @@ New View Media Jekyll Forestry Build
 ### Running Locally
 
 1) initiate the vagrant environment
-``` 
-vagrant up 
+```
+vagrant up
 ```
 2) jump into the vagrant environment
-``` 
-vagrant ssh 
+```
+vagrant ssh
 ```
 3) once in the vagrant environment, change into the directory below
 ```
 cd /vagrant/new-view-media
 ```
-4) run the bundle installer 
+4) run the bundle installer
 ```
 bundle install
 ```
