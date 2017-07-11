@@ -33,6 +33,7 @@ body, html {
 }
 section {
   display: block;
+  /*float: left;*/
 }
 header {
   display: block;
@@ -188,6 +189,15 @@ section.row .ceo img{
   -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
   box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
 }
+/*-----UPDATED COPY FOR WHY START VENTURE (START)-----*/
+.nvm-venture .row:nth-of-type(odd) .media {
+  float: right;
+}
+.nvm-venture .row {
+  background-color: rgba(42,48,64,1);
+  color: #fff;
+}
+/*-----UPDATED COPY FOR WHY START VENTURE (END)-----*/
 .gradient-banner {
   display: block;
   float: left;
@@ -198,10 +208,12 @@ section.row .ceo img{
 .gradient-banner .content {
   color: #fff;
   display: inline-block;
-  float: right;
+  float: left;
   padding: 15px;
   position: relative;
   width: 55%;
+  font-size: 20px;
+  font-weight: lighter;
 }
 .gradient-banner .content ul {
   -webkit-margin-before: 0;
@@ -211,12 +223,21 @@ section.row .ceo img{
   -webkit-padding-start: 0;
   display: inline-block;
   float: left;
-  padding: 10px;
+  /*padding: 10px;*/
   width: 25%;
 }
 .gradient-banner .content ul li {
   list-style-type: disc;
 }
+/*----special gradient code------*/
+.gradient-banner .content #special {
+  margin-left: 20px;
+}
+.gradient-banner .content #special-two {
+  margin-left: -60px;
+  margin-right: 26px;
+}
+/*----special gradient code------*/
 .gradient-banner .bg-img {
   float: left;
   width: 45%;
