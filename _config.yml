@@ -36,4 +36,4 @@ exclude:
 keep_files:
   - "CNAME"
   - ".git"
-  -".gitignore"
+  - ".gitignore"
