@@ -16,8 +16,8 @@
 title: NewView.Media
 email: tom@newview.media
 description: "NewView.Media"
-baseurl: "https://stephentsimpson.github.io" # the subpath of your site, e.g. /blog
-url: "/new-view-media" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://stephentsimpson.github.io" # the subpath of your site, e.g. /blog
+baseurl: "/new-view-media" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: newview_media
 github_username:  stephentsimpson
 
