@@ -15,12 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 title: NewView.Media
 email: tom@newview.media
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-url: "http://www.stephentsimpson.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/new-view-media" # the subpath of your site, e.g. /blog
+description: "NewView.Media"
+url: "https://stephentsimpson.github.io" # the subpath of your site, e.g. /blog
+baseurl: "/new-view-media" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: newview_media
 github_username:  stephentsimpson
 
@@ -32,3 +29,11 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - "README.md"
+  - "LICENSE.md"
+  - "*.gemspec"
+
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"

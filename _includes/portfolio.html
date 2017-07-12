@@ -1,7 +1,7 @@
 <section id="portfolio">
   <section class="content">
     <h2>Diverse range of projects to educate, entertain & motivate action.</h2>
-    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h3>
+    <h3>At NewView.Media, we take pride as video producers that facilitate growth for entrepreneurial causes across a range of industries, want to see our portfolio?</h3>
     <ul class="filter flex-horiz-center">
         <li>All</li>
         <li>Crowdfunding</li>
@@ -21,3 +21,18 @@
   {% endfor %}
   </ul>
 </section>
+<script type="text/javascript">
+( function() {
+  console.log("MAIN JS IS WORKING");
+  //gets the youtube thumbnail
+  function getYoutubeThumbnail(){
+    var portfolio = {{ site.data.portfolio | jsonify }};
+    console.log(portfolio);
+  }
+  getYoutubeThumbnail();
+  //sets the youtube thumbnail and loads thumbnail img on page
+  function setYoutubeThumbnail(){
+
+  }
+})();
+</script>
