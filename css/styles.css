@@ -27,8 +27,13 @@ License URI: LICENSE
 /*-----------------------------------
 # General
 ------------------------------------*/
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
 html {
-  font: 100%/1.5 Helvetica, sans-serif;
+font: 100%/1.5 Helvetica, sans-serif;
 }
 body, html {
   margin: 0;
@@ -71,19 +76,29 @@ p {
   margin: 0 0 1em;
 }
 button {
-  font-size: 1.25em;    /* 1.25*16 = 20 */
+  font-size: 1.25em; /* 1.25*16 = 20 */
+}
+a:link,
+a:visited,
+a:active {
+  color: inherit;
+  text-decoration: none;
 }
 a,
-a:visited   {   text-decoration: underline; }
-
-a:hover     {   text-decoration: none; }
+a:visited {
+  text-decoration: underline;
+}
+a:hover {
+  /*color: rgb(255,174,0);*/
+  text-decoration: underline;
+}
 header {
   display: block;
   float: left;
   padding: 15px 30px;
   position: absolute;
   width: 100%;
-  z-index: 1;
+  z-index: 4;
 }
 header nav {
   display: block;
@@ -93,33 +108,43 @@ header nav {
 header nav div.logo {
   display: inline-block;
   float: left;
-  width: 30%;
+  width: 20%;
 }
 header nav div.logo img {
   display: block;
   float: left;
-  height: 60px;
+  max-height: 80px;
   width: auto;
 }
 header nav ul {
   display: inline-block;
   float: left;
+  font-size: 16px;
   list-style-type: none;
   margin: 0;
+  min-width: 80%;
   text-align: right;
-  width: 70%;
 }
 header nav ul li {
   color: #fff;
   display: inline-block;
-  float: left;
+  float: right;
   padding: 5px 5px;
   text-align: center;
-  text-transform: uppercase;
-  width: calc( (100% / 6) - 5px);
+  width: calc( (100% / 6) - 15px);
 }
-header nav ul li:nth-of-type(6) {
-  border: 1px solid orange;
+header nav ul li:nth-of-type(1) {
+  border: 1px solid rgb(255,174,0);
+}
+header nav ul li:nth-of-type(1):hover, header nav ul li:nth-of-type(1):hover a  {
+  background-color: rgb(255,174,0);
+  color: #fff;
+  cursor: pointer;
+  /*-webkit-transform: ; add in some sort of transition*/
+  /*-moz-transform: ;*/
+  /*-ms-transform: ;*/
+  /*-o-transform: ;*/
+  /*transform: ;*/
 }
 header nav ul li a {
 
@@ -134,22 +159,49 @@ footer {
 # Hero
 ------------------------------------*/
 section.hero {
-  margin: 0 auto;
-  max-height: 100vh;
-  overflow: hidden;
-  text-align: center;
-  width: 100vw;
+  /*margin: 0 auto;*/
+  /*max-height: 100vh;*/
+  /*overflow: hidden;*/
+  /*text-align: center;*/
+  /*width: 100vw;*/
+  clear: both;
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+}
+section.hero:before {
+  background-color: rgba(42,48,64, 0.34);
+  content: "";
+  display: block;
+  float: left;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 section.hero video {
+  /*position: relative;*/
+  /*width: 100%;*/
+  display: block;
+  max-width: 100%;
   position: relative;
   width: 100%;
 }
 section.hero div.content {
-  display: block;
-  float: left;
+  /*display: block;*/
+  /*float: left;*/
+  /*position: absolute;*/
+  /*top: 50%;*/
+  /*width: 100%;*/
+  padding: 0 45px;
   position: absolute;
-  top: 50%;
+  text-align: center;
+  top: 25%;
   width: 100%;
+  z-index: 3;
 }
 section.hero div.content h1 {
   color: white;
@@ -167,7 +219,7 @@ section.hero div.content a {
 
 }
 section.hero div.content a button {
-  background-color: orange;
+  background-color: rgb(255,174,0);
   border: none;
   border-radius: 30px;
   color: white;
