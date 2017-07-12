@@ -48,8 +48,8 @@
 
 - title: Insert title here
   company: Blog
-  video: https://www.youtube.com/embed/3pDJQkUhNGI&t=121s
-  video-id: 3pDJQkUhNGI&t=121s
+  video: https://www.youtube.com/embed/3pDJQkUhNGI
+  video-id: 3pDJQkUhNGI
   filter-type: creative-content
 
 - title: Insert title here
@@ -66,8 +66,8 @@
 
 - title: Insert title here
   company: Blog
-  video: https://www.youtube.com/embed/TwozVpT6NbM&t=1s
-  video-id: TwozVpT6NbM&t=1s
+  video: https://www.youtube.com/embed/TwozVpT6NbM
+  video-id: TwozVpT6NbM
   filter-type: events
 
 - title: Resilient Coders
@@ -78,6 +78,6 @@
 
 - title: Resilient Coders
   company: Blog
-  video: https://www.youtube.com/embed/eNKg5bFzBw8&t=27s
-  video-id: eNKg5bFzBw8&t=27s
+  video: https://www.youtube.com/embed/eNKg5bFzBw8
+  video-id: eNKg5bFzBw8
   filter-type: tech
