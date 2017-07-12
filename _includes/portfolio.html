@@ -3,33 +3,40 @@
     <h2>Diverse range of projects to educate, entertain & motivate action.</h2>
     <h3>At NewView.Media, we take pride as video producers that facilitate growth for entrepreneurial causes across a range of industries, want to see our portfolio?</h3>
     <ul class="filter flex-horiz-center">
-        <li>All</li>
-        <li>Crowdfunding</li>
-        <li>Events</li>
-        <li>Marketing</li>
-        <li>Real Estate</li>
-        <li>Creative Content</li>
+        <li data-filter="all">All</li>
+        <li data-filter="crowdfunding">Crowdfunding</li>
+        <li data-filter="events">Events</li>
+        <li data-filter="marketing">Marketing</li>
+        <li data-filter="real-estate">Real Estate</li>
+        <li data-filter="creative-content">Creative Content</li>
       </ul>
   </section>
   <ul class="media">
   {% for portfolio in site.data.portfolio %}
-    <li class="portfolio-card">
+    <li data-filter="{{ portfolio.filter-type }}"class="portfolio-card">
+      <div>
+        <img src="//img.youtube.com/vi/{{ portfolio.video-id}}/0.jpg" alt="{{ portfolio.title }}-{{ portfolio.company }}"/>
+      </div>
       <iframe src= "{{ portfolio.video }}" ></iframe>
       <h3> {{ portfolio.title }} </h3>
       <h4> {{ portfolio.company }} </h4>
     </li>
   {% endfor %}
   </ul>
+  <div class="modal-video">
+    
+  </div>
 </section>
 <script type="text/javascript">
 ( function() {
-  console.log("MAIN JS IS WORKING");
+  // $("img").on("click", function() {
+  //   console.log("function working!");
+  // })
   //gets the youtube thumbnail
   function getYoutubeThumbnail(){
     var portfolio = {{ site.data.portfolio | jsonify }};
     console.log(portfolio);
   }
-  getYoutubeThumbnail();
   //sets the youtube thumbnail and loads thumbnail img on page
   function setYoutubeThumbnail(){
 
