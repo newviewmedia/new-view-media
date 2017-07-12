@@ -27,14 +27,56 @@ License URI: LICENSE
 /*-----------------------------------
 # General
 ------------------------------------*/
+html {
+  font: 100%/1.5 Helvetica, sans-serif;
+}
 body, html {
   margin: 0;
   padding: 0;
 }
+body  {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+button  {-webkit-font-smoothing: antialiased; }
+
 section {
   display: block;
   /*float: left;*/
 }
+h1 {
+  font-size: 2.25em;       /* 2.25*16 = 36 */
+}
+h2 {
+  font-size: 1.75em;     /* 1.75*16 = 28 */
+}
+h3 {
+  font-size: 1.25em;    /* 1.25*16 = 20 */
+}
+h4 {
+  font-size: 1.17em;       /* 1.17*16 = 18.72 */
+}
+h5 {
+  font-size: 0.83em;    /* 0.83*16 = 13.28 */
+}
+h6 {
+  font-size: 0.75em;    /* 0.75*16 = 12 */
+}
+p {
+  font-size: 1.17em;
+  line-height: 1.5;
+  margin: 0 0 1em;
+}
+button {
+  font-size: 1.25em;    /* 1.25*16 = 20 */
+}
+a,
+a:visited   {   text-decoration: underline; }
+
+a:hover     {   text-decoration: none; }
 header {
   display: block;
   float: left;
@@ -71,10 +113,10 @@ header nav ul li {
   color: #fff;
   display: inline-block;
   float: left;
-  padding: 5px 15px;
+  padding: 5px 5px;
   text-align: center;
   text-transform: uppercase;
-  width: calc(100% / 6);
+  width: calc( (100% / 6) - 5px);
 }
 header nav ul li:nth-of-type(6) {
   border: 1px solid orange;
@@ -129,7 +171,7 @@ section.hero div.content a button {
   border: none;
   border-radius: 30px;
   color: white;
-  font-size: 20px;
+  /*font-size: 20px;*/
   /*left: 48%;*/
   padding: 15px 30px;
   /*position: absolute;
@@ -212,7 +254,7 @@ section.row .ceo img{
   padding: 15px;
   position: relative;
   width: 55%;
-  font-size: 20px;
+  /*font-size: 20px;*/
   font-weight: lighter;
 }
 .gradient-banner .content ul {
@@ -267,7 +309,7 @@ section.row .ceo img{
   float: left;
 }
 .our-collab-title {
-  font-size: 20px;
+  /*font-size: 20px;*/
   margin-top: 30px;
   text-align: center;
   width: 100%;
@@ -281,7 +323,7 @@ section.row .ceo img{
 }
 li.collaborator {
   float: left;
-  font-size: 15px;
+  /*font-size: 15px;*/
   list-style: none;
   width: 30%;
   margin-left: 45px;
@@ -304,7 +346,7 @@ li.collaborator {
   margin-top: 35px;
 }
 .collaborators h2 {
-  font-size: 30px;
+  /*font-size: 30px;*/
   text-align: center;
 }
 /*------Collab CSS--------*/
