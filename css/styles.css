@@ -23,17 +23,76 @@ License URI: LICENSE
   ## Desktops, Medium Devices
   ## Tablets, Small Devices
   ## Phones, Extra Small Devices
+# Animations
+
 ------------------------------------*/
 /*-----------------------------------
 # General
 ------------------------------------*/
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+html {
+  font: 100%/1.5 Helvetica, sans-serif;
+}
 body, html {
   margin: 0;
   padding: 0;
 }
+body  {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+button  {-webkit-font-smoothing: antialiased; }
+
 section {
   display: block;
   /*float: left;*/
+}
+h1 {
+  font-size: 2.25em;       /* 2.25*16 = 36 */
+}
+h2 {
+  font-size: 1.75em;     /* 1.75*16 = 28 */
+}
+h3 {
+  font-size: 1.25em;    /* 1.25*16 = 20 */
+}
+h4 {
+  font-size: 1.17em;       /* 1.17*16 = 18.72 */
+}
+h5 {
+  font-size: 0.83em;    /* 0.83*16 = 13.28 */
+}
+h6 {
+  font-size: 0.75em;    /* 0.75*16 = 12 */
+}
+p {
+  font-size: 1.17em;
+  line-height: 1.5;
+  margin: 0 0 1em;
+}
+button {
+  font-size: 1.25em; /* 1.25*16 = 20 */
+}
+a:link,
+a:visited,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+a,
+a:visited {
+  text-decoration: underline;
+}
+a:hover {
+  /*color: rgb(255,174,0);*/
+  text-decoration: underline;
 }
 header {
   display: block;
@@ -41,7 +100,7 @@ header {
   padding: 15px 30px;
   position: absolute;
   width: 100%;
-  z-index: 1;
+  z-index: 4;
 }
 header nav {
   display: block;
@@ -51,33 +110,43 @@ header nav {
 header nav div.logo {
   display: inline-block;
   float: left;
-  width: 30%;
+  width: 20%;
 }
 header nav div.logo img {
   display: block;
   float: left;
-  height: 60px;
+  max-height: 80px;
   width: auto;
 }
 header nav ul {
   display: inline-block;
   float: left;
+  font-size: 16px;
   list-style-type: none;
   margin: 0;
+  min-width: 80%;
   text-align: right;
-  width: 70%;
 }
 header nav ul li {
   color: #fff;
   display: inline-block;
-  float: left;
-  padding: 5px 15px;
+  float: right;
+  padding: 5px 5px;
   text-align: center;
-  text-transform: uppercase;
-  width: calc(100% / 6);
+  width: calc( (100% / 6) - 15px);
 }
-header nav ul li:nth-of-type(6) {
-  border: 1px solid orange;
+header nav ul li:nth-of-type(1) {
+  border: 1px solid rgb(255,174,0);
+}
+header nav ul li:nth-of-type(1):hover, header nav ul li:nth-of-type(1):hover a  {
+  background-color: rgb(255,174,0);
+  color: #fff;
+  cursor: pointer;
+  /*-webkit-transform: ; add in some sort of transition*/
+  /*-moz-transform: ;*/
+  /*-ms-transform: ;*/
+  /*-o-transform: ;*/
+  /*transform: ;*/
 }
 header nav ul li a {
 
@@ -92,22 +161,49 @@ footer {
 # Hero
 ------------------------------------*/
 section.hero {
-  margin: 0 auto;
-  max-height: 100vh;
-  overflow: hidden;
-  text-align: center;
-  width: 100vw;
+  /*margin: 0 auto;*/
+  /*max-height: 100vh;*/
+  /*overflow: hidden;*/
+  /*text-align: center;*/
+  /*width: 100vw;*/
+  clear: both;
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+}
+section.hero:before {
+  background-color: rgba(42,48,64, 0.34);
+  content: "";
+  display: block;
+  float: left;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 section.hero video {
+  /*position: relative;*/
+  /*width: 100%;*/
+  display: block;
+  max-width: 100%;
   position: relative;
   width: 100%;
 }
 section.hero div.content {
-  display: block;
-  float: left;
+  /*display: block;*/
+  /*float: left;*/
+  /*position: absolute;*/
+  /*top: 50%;*/
+  /*width: 100%;*/
+  padding: 0 45px;
   position: absolute;
-  top: 50%;
+  text-align: center;
+  top: 25%;
   width: 100%;
+  z-index: 3;
 }
 section.hero div.content h1 {
   color: white;
@@ -125,11 +221,11 @@ section.hero div.content a {
 
 }
 section.hero div.content a button {
-  background-color: orange;
+  background-color: rgb(255,174,0);
   border: none;
   border-radius: 30px;
   color: white;
-  font-size: 20px;
+  /*font-size: 20px;*/
   /*left: 48%;*/
   padding: 15px 30px;
   /*position: absolute;
@@ -212,7 +308,7 @@ section.row .ceo img{
   padding: 15px;
   position: relative;
   width: 55%;
-  font-size: 20px;
+  /*font-size: 20px;*/
   font-weight: lighter;
 }
 .gradient-banner .content ul {
@@ -263,11 +359,12 @@ section.row .ceo img{
 
 /*---------Collab CSS------------*/
 .collab-sec{
-  height: 70vh;
+  min-height: 100vh;
   float: left;
+  padding: 45px;
 }
 .our-collab-title {
-  font-size: 20px;
+  /*font-size: 20px;*/
   margin-top: 30px;
   text-align: center;
   width: 100%;
@@ -281,31 +378,39 @@ section.row .ceo img{
 }
 li.collaborator {
   float: left;
-  font-size: 15px;
   list-style: none;
-  width: 30%;
-  margin-left: 45px;
+  padding: 15px;
+  width: calc( (100% / 3) - 30px);
 }
-.collaborators li.collaborator:hover {
+ul.collaborators h2 {
+  text-align: center;
+}
+ul.collaborators a:hover {
   -webkit-box-shadow: 0 0 8px 1px rgba(0,0,0,0.55);
   -moz-box-shadow: 0 0 8px 1px rgba(0,0,0,0.55);
   box-shadow: 0 0 8px 1px rgba(0,0,0,0.55);
   border-radius: 2px;
+  cursor: pointer;
 }
-.collaborator img {
+ul.collaborators .collaborator div {
+  border-radius: 50%;
+  display: inline-block;
+  float: left;
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+}
+ul.collaborators .collaborator div img {
   border: none;
   border-radius: 50%;
   float: left;
+  height: auto;
   padding: 15px;
-  max-height: 117px;
+  width: 100%;
 }
-.collaborator h3 {
+ul.collaborators .collaborator h3 {
   margin-bottom: 5px;
   margin-top: 35px;
-}
-.collaborators h2 {
-  font-size: 30px;
-  text-align: center;
 }
 /*------Collab CSS--------*/
 
@@ -407,5 +512,57 @@ button:hover {
   }
   .gradient-banner .content ul {
     width: 100%;
+  }
+}
+/*-----------------------------------
+# Animations
+------------------------------------*/
+.lock-body-overflow {
+  overflow: hidden;
+}
+.rc-loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  width: 100vw;
+}
+.rc-loader .circle-one {
+  animation: loading 1.3s .65s infinite;
+  background: #ffa500;
+  border-radius: 50%;
+  height: 20px;
+  opacity: .0;
+  position: absolute;
+  width: 20px;
+}
+.rc-loader .circle-two {
+  animation: loading 1.3s infinite;
+  background: #2a3040;
+  border-radius: 50%;
+  height: 20px;
+  opacity: .0;
+  position: absolute;
+  width: 20px;
+}
+.rc-loader div {
+
+}
+@keyframes loading {
+  0% {
+    box-shadow: 0 0 2px rgba(black, .1);
+    opacity: .0;
+    transform: scale(.15);
+  }
+  50% {
+    box-shadow: 0 0 10px rgba(black, .1);
+    opacity: 1;
+    transform: scale(2);
+  }
+  100% {
+    box-shadow: 0 0 2px rgba(black, .1);
+    opacity: .0;
+    transform: scale(.15);
   }
 }

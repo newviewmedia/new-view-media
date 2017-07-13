@@ -1,69 +1,83 @@
-- title: Resilient Coders
-  project-name: Blog
+- title: MassTLC Transform 2016
+  company: Mass TLC
   video: https://www.youtube.com/embed/io97zaGmfz8
-  filter-type: tech
+  video-id: io97zaGmfz8
+  filter-type: events
 
-- title: Resilient Coders
-  project-name: Blog
+- title: LG Training Center
+  company: Level Ground MMA
   video: https://www.youtube.com/embed/9JmIvrtnGjM
-  filter-type: tech
+  video-id: 9JmIvrtnGjM
+  filter-type: crowdfunding
 
-- title: Resilient Coders
-  project-name: Blog
+- title: Boston Connect Real Estate
+  company: Boston Connect
   video: https://www.youtube.com/embed/WwKcqB6hDa0
-  filter-type: tech
+  video-id: WwKcqB6hDa0
+  filter-type: real-estate
 
-- title: Resilient Coders
-  project-name: Blog
+- title: Vulsec Information Security
+  company: Vulsec
   video: https://www.youtube.com/embed/qHhEizigk5s
-  filter-type: tech
+  video-id: qHhEizigk5s
+  filter-type: marketing
 
-- title: Emilio Murillo
-  project-name: Blog
+- title: EdTech Innovation
+  company: Cognii
   video: https://www.youtube.com/embed/f7eK_SV0GXw
-  filter-type: tech
+  video-id: f7eK_SV0GXw
+  filter-type: events
 
-- title: Resilient Coders
-  project-name: Blog
+- title: LGMMA Corporate Bootcamp
+  company: Level Ground MMA
   video: https://www.youtube.com/embed/CPBzwBuMOWM
-  filter-type: tech
+  video-id: CPBzwBuMOWM
+  filter-type: marketing
 
-- title: Resilient Coders
-  project-name: Blog
+- title: LGMMA Corporate Bootcamp
+  company: Level Ground MMA
   video: https://www.youtube.com/embed/8vK70JcDNeA
-  filter-type: tech
+  video-id: 8vK70JcDNeA
+  filter-type: marketing
 
-- title: Resilient Coders
-  project-name: Blog
+- title: Insert title here
+  company: Analytix Solutions
   video: https://www.youtube.com/embed/cHYS52StICY
-  filter-type: tech
+  video-id: cHYS52StICY
+  filter-type: crowdfunding
 
-- title: Emilio Murillo
-  project-name: Blog
-  video: https://www.youtube.com/embed/3pDJQkUhNGI&t=121s
-  filter-type: tech
+- title: Insert title here
+  company: Blog
+  video: https://www.youtube.com/embed/3pDJQkUhNGI
+  video-id: 3pDJQkUhNGI
+  filter-type: creative-content
 
-- title: Resilient Coders
-  project-name: Blog
+- title: Insert title here
+  company: Blog
   video: https://www.youtube.com/embed/wTU6xZIiCJE
-  filter-type: tech
+  video-id: wTU6xZIiCJE
+  filter-type: marketing
 
-- title: Resilient Coders
-  project-name: Blog
+- title: Insert title here
+  company: Blog
   video: https://www.youtube.com/embed/TInHxGB0lKE
-  filter-type: tech
+  video-id: TInHxGB0lKE
+  filter-type: real-estate
+
+- title: Insert title here
+  company: Blog
+  video: https://www.youtube.com/embed/TwozVpT6NbM
+  video-id: TwozVpT6NbM
+  filter-type: events
 
 - title: Resilient Coders
-  project-name: Blog
-  video: https://www.youtube.com/embed/TwozVpT6NbM&t=1s
-  filter-type: tech
-
-- title: Resilient Coders
-  project-name: Blog
+  company: Blog
   video: https://www.youtube.com/embed/a1TE2kQkg3I
-  filter-type: tech
+  video-id: a1TE2kQkg3I
+  filter-type: crowdfunding
 
 - title: Resilient Coders
-  project-name: Blog
-  video: https://www.youtube.com/embed/eNKg5bFzBw8&t=27s
+  company: Blog
+  video: https://www.youtube.com/embed/eNKg5bFzBw8
+  video-id: eNKg5bFzBw8
   filter-type: tech
