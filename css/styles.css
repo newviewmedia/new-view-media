@@ -23,6 +23,8 @@ License URI: LICENSE
   ## Desktops, Medium Devices
   ## Tablets, Small Devices
   ## Phones, Extra Small Devices
+# Animations
+
 ------------------------------------*/
 /*-----------------------------------
 # General
@@ -501,5 +503,57 @@ button:hover {
   }
   .gradient-banner .content ul {
     width: 100%;
+  }
+}
+/*-----------------------------------
+# Animations
+------------------------------------*/
+.lock-body-overflow {
+  overflow: hidden;
+}
+.rc-loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  width: 100vw;
+}
+.rc-loader .circle-one {
+  animation: loading 1.3s .65s infinite;
+  background: #ffa500;
+  border-radius: 50%;
+  height: 20px;
+  opacity: .0;
+  position: absolute;
+  width: 20px;
+}
+.rc-loader .circle-two {
+  animation: loading 1.3s infinite;
+  background: #2a3040;
+  border-radius: 50%;
+  height: 20px;
+  opacity: .0;
+  position: absolute;
+  width: 20px;
+}
+.rc-loader div {
+
+}
+@keyframes loading {
+  0% {
+    box-shadow: 0 0 2px rgba(black, .1);
+    opacity: .0;
+    transform: scale(.15);
+  }
+  50% {
+    box-shadow: 0 0 10px rgba(black, .1);
+    opacity: 1;
+    transform: scale(2);
+  }
+  100% {
+    box-shadow: 0 0 2px rgba(black, .1);
+    opacity: .0;
+    transform: scale(.15);
   }
 }

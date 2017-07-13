@@ -31,12 +31,18 @@
     });
   };
   $("img").on("click", function() {
-    
+
     // console.log("function working!");
   })
-
+  function loadingAnimation() {
+    $("body").addClass('lock-body-overflow');
+    $(".rc-loader").delay(1000).fadeOut('slow');
+    setTimeout(function() {
+      $("body").removeClass('lock-body-overflow');
+    }, 2000)
+  }
+  loadingAnimation();
+  //TODO: animation and active state for the filter texts. ex. when crowdfunding is selected it tints yellow
+  //      going for Sandwichvideo.com asthetic
+  //      modal is the goal
 })();
-
-//TODO: animation and active state for the filter texts. ex. when crowdfunding is selected it tints yellow
-//      going for Sandwichvideo.com asthetic
-//      modal is the goal
