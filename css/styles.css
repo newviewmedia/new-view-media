@@ -35,7 +35,7 @@ License URI: LICENSE
   box-sizing: border-box; /* IE */
 }
 html {
-font: 100%/1.5 Helvetica, sans-serif;
+  font: 100%/1.5 Helvetica, sans-serif;
 }
 body, html {
   margin: 0;
@@ -359,8 +359,9 @@ section.row .ceo img{
 
 /*---------Collab CSS------------*/
 .collab-sec{
-  height: 70vh;
+  min-height: 100vh;
   float: left;
+  padding: 45px;
 }
 .our-collab-title {
   /*font-size: 20px;*/
@@ -377,31 +378,39 @@ section.row .ceo img{
 }
 li.collaborator {
   float: left;
-  /*font-size: 15px;*/
   list-style: none;
-  width: 30%;
-  margin-left: 45px;
+  padding: 15px;
+  width: calc( (100% / 3) - 30px);
 }
-.collaborators li.collaborator:hover {
+ul.collaborators h2 {
+  text-align: center;
+}
+ul.collaborators a:hover {
   -webkit-box-shadow: 0 0 8px 1px rgba(0,0,0,0.55);
   -moz-box-shadow: 0 0 8px 1px rgba(0,0,0,0.55);
   box-shadow: 0 0 8px 1px rgba(0,0,0,0.55);
   border-radius: 2px;
+  cursor: pointer;
 }
-.collaborator img {
+ul.collaborators .collaborator div {
+  border-radius: 50%;
+  display: inline-block;
+  float: left;
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+}
+ul.collaborators .collaborator div img {
   border: none;
   border-radius: 50%;
   float: left;
+  height: auto;
   padding: 15px;
-  max-height: 117px;
+  width: 100%;
 }
-.collaborator h3 {
+ul.collaborators .collaborator h3 {
   margin-bottom: 5px;
   margin-top: 35px;
-}
-.collaborators h2 {
-  /*font-size: 30px;*/
-  text-align: center;
 }
 /*------Collab CSS--------*/
 
