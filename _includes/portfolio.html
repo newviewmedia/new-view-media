@@ -16,6 +16,9 @@
     <li data-filter="{{ portfolio.filter-type }}"class="portfolio-card">
       <div>
         <img src="//img.youtube.com/vi/{{ portfolio.video-id}}/0.jpg" alt="{{ portfolio.title }}-{{ portfolio.company }}"/>
+        <div class="overlay">
+          <div class="text">Play</div>
+        </div>
       </div>
       <iframe src= "{{ portfolio.video }}" ></iframe>
       <h3> {{ portfolio.title }} </h3>
@@ -24,7 +27,7 @@
   {% endfor %}
   </ul>
   <div class="modal-video">
-    
+
   </div>
 </section>
 <script type="text/javascript">
