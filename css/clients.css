@@ -1,0 +1,22 @@
+.clients {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 30px auto;
+  padding: 45px;
+  width: 100%;
+}
+.clients h3 {
+  text-align: center;
+  width: 100%;
+  font-size: 1.75em;
+}
+.clients a {
+  padding: 15px;
+  width: calc(100% / 8);
+}
+.clients a img {
+  height: auto;
+  width: 100%;
+}

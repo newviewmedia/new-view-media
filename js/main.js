@@ -20,14 +20,14 @@
       showAllCards('.media', 'li');
     } else {
       $('.media').find('li[data-filter!=' + filter + ']').each(function(i) {
-        $(this).hide();
+        $(this).fadeOut();
       });
     };
   };
   //showAllCards, parameters: parent - parent selector element, finding - child selector element to be found
   function showAllCards(parent, finding) {
     $(parent).find(finding).each(function(i){
-      $(this).show();
+      $(this).fadeIn();
     });
   };
   $("img").on("click", function() {
