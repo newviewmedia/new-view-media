@@ -17,11 +17,10 @@
       <div>
         <img src="//img.youtube.com/vi/{{ portfolio.video-id}}/0.jpg" alt="{{ portfolio.title }}-{{ portfolio.company }}"/>
         <div class="overlay">
-          <div class="text">Play</div>
+          <div class="text">{{ portfolio.title }}</div>
         </div>
       </div>
       <iframe src= "{{ portfolio.video }}" ></iframe>
-      <h3> {{ portfolio.title }} </h3>
       <h4> {{ portfolio.company }} </h4>
     </li>
   {% endfor %}
