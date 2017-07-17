@@ -587,6 +587,20 @@ button:hover {
 ## Tablets, Small Devices
 ------------------------------------*/
 @media only screen and (max-width : 768px)  {
+  header {
+    padding: 15px;
+  }
+  header nav ul {
+    display: none;
+  }
+  section.hero {
+    height: 66vh;
+  }
+  section.hero video {
+    max-width: none;
+    width: auto;
+    height: 100%;
+  }
   section.hero div.content {
     top: 18%;
   }
@@ -628,7 +642,7 @@ button:hover {
 ------------------------------------*/
 @media only screen and (max-width: 480px) {
   section.hero div.content {
-    top: 5%;
+    top: 20%;
   }
   .row .content, .row .media {
     padding: 15px;
