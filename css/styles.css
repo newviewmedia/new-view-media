@@ -18,6 +18,8 @@ License URI: LICENSE
 # Navigation
 # Accessibility
 # Components
+  ## Collaborators
+  ## Clients
 # Media Queries
   ## Wide Screens, Large Devices
   ## Desktops, Medium Devices
@@ -356,8 +358,9 @@ section.row .ceo img{
       color-stop(.40, rgba(255,174,0,1.0)) /* Bottom */
   );
 }
-
-/*---------Collab CSS------------*/
+/*-----------------------------------
+## Collaborators
+------------------------------------*/
 .collab-sec{
   min-height: 100vh;
   float: left;
@@ -380,7 +383,7 @@ li.collaborator {
   float: left;
   list-style: none;
   padding: 15px;
-  width: calc( (100% / 3) - 30px);
+  width: calc(100% / 3);
 }
 ul.collaborators h2 {
   text-align: center;
@@ -412,8 +415,31 @@ ul.collaborators .collaborator h3 {
   margin-bottom: 5px;
   margin-top: 35px;
 }
-/*------Collab CSS--------*/
-
+/*-----------------------------------
+## Clients
+------------------------------------*/
+.clients {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 30px auto;
+  padding: 45px;
+  width: 100%;
+}
+.clients h3 {
+  text-align: center;
+  width: 100%;
+  font-size: 1.75em;
+}
+.clients a {
+  padding: 15px;
+  width: calc(100% / 10);
+}
+.clients a img {
+  height: auto;
+  width: 100%;
+}
 /*-----------------------------------
 ## Events
 ------------------------------------*/
@@ -442,7 +468,9 @@ button:hover {
 ## Wide Screens, Large Devices
 ------------------------------------*/
 @media only screen and (max-width : 1200px) {
-
+  .clients a {
+    width: calc(100% / 8);
+  }
 }
 /*-----------------------------------
 ## Desktops, Medium Devices
@@ -459,6 +487,12 @@ button:hover {
     display: inline-block;
     float: left;
     width: 50%;
+  }
+  .clients a {
+    width: calc(100% / 6);
+  }
+  li.collaborator {
+    width: calc(100% / 2);
   }
 }
 /*-----------------------------------
@@ -489,6 +523,14 @@ button:hover {
     float: left;
     width: 50%;
   }
+  .clients a {
+    width: calc(100% / 4);
+  }
+  ul.collaborators .collaborator div {
+    display: block;
+    float: none;
+    margin: 0 auto;
+  }
 }
 /*-----------------------------------
 ## Phones, Extra Small Devices
@@ -511,6 +553,12 @@ button:hover {
     width: 100%;
   }
   .gradient-banner .content ul {
+    width: 100%;
+  }
+  .clients a {
+    width: calc(100% / 2);
+  }
+  li.collaborator {
     width: 100%;
   }
 }
