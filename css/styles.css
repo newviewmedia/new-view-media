@@ -155,9 +155,32 @@ header nav ul li a {
 }
 footer {
   clear: both;
-  background-color: black;
+  background-color: 0,0,0;
   color: white;
   height: 10vh;
+}
+footer .social-media {
+  display: inline-block;
+  float: left;
+  margin-right: 25px;
+  text-align: right;
+  padding: 20px;
+  width: 50%
+}
+
+footer .social-media a {
+
+}
+footer .social-media a i {
+  size: 20px;
+
+}
+
+footer section.footer {
+  display: block;
+  float: left;
+  padding: 20px;
+  width: 48%;
 }
 /*-----------------------------------
 # Hero
@@ -224,11 +247,14 @@ section.hero div.content a button {
   width: 50%;
 }
 .row .media {
+  border: 1px solid #fff;
   display: inline-block;
   float: left;
   max-height: 440px;
   overflow: hidden;
-  padding: 45px;
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .35);
+  -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, .35);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, .35);
   width: 50%;
 }
 .about-nvm .row:nth-of-type(odd) .media {
@@ -239,12 +265,8 @@ section.hero div.content a button {
   color: #fff;
 }
 .row .media img {
-  border: 1px solid #fff;
   height: auto;
   width: 100%;
-  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
-  -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
-  box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
 }
 /*-----UPDATED COPY FOR WHY START VENTURE (START)-----*/
 .nvm-venture .row:nth-of-type(odd) .media {
@@ -326,7 +348,6 @@ section.hero div.content a button {
   padding: 45px;
 }
 .our-collab-title {
-  /*font-size: 20px;*/
   margin-top: 30px;
   text-align: center;
   width: 100%;
@@ -440,7 +461,9 @@ ul.collaborators .collaborator h3 {
   margin: 0;
   padding: 10px;
 }
+#portfolio .filter li.active,
 #portfolio .filter li:hover {
+  color: #ffae00;
   cursor: pointer;
   text-decoration: underline;
   text-decoration-color: #ffae00;
@@ -524,6 +547,45 @@ ul.collaborators .collaborator h3 {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   margin-top: 0;
+}
+#portfolio .modal-video {
+  background-color: rgba(0,0,0,0.5);
+  display: block;
+  float: left;
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 10;
+}
+#portfolio .modal-video.active {
+  display: none;
+}
+#portfolio .modal-video .modal-video-container {
+  background-color: #000;
+  margin: 0 auto;
+  min-height: 50vh;
+  position: relative;
+  top: 25%;
+  width: 50%;
+}
+#portfolio .modal-video .modal-video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#portfolio .modal-video .modal-video-content {
+  background-color: #ddd;
+  clear: both;
+  display: block;
+  margin: 0 auto;
+  padding: 30px 15px;
+  position: relative;
+  top: 25%;
+  width: 50%;
 }
 /*-----------------------------------
 ## Events
@@ -710,17 +772,17 @@ button:hover {
 }
 @keyframes loading {
   0% {
-    box-shadow: 0 0 2px rgba(black, .1);
+    box-shadow: 0 0 2px rgba(0,0,0, .1);
     opacity: .0;
     transform: scale(.15);
   }
   50% {
-    box-shadow: 0 0 10px rgba(black, .1);
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
     opacity: 1;
     transform: scale(2);
   }
   100% {
-    box-shadow: 0 0 2px rgba(black, .1);
+    box-shadow: 0 0 2px rgba(0,0,0, .1);
     opacity: .0;
     transform: scale(.15);
   }
