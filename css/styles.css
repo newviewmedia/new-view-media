@@ -159,6 +159,29 @@ footer {
   color: white;
   height: 10vh;
 }
+footer .social-media {
+  display: inline-block;
+  float: left;
+  margin-right: 25px;
+  text-align: right;
+  padding: 20px;
+  width: 50%
+}
+
+footer .social-media a {
+
+}
+footer .social-media a i {
+  size: 20px;
+
+}
+
+footer section.footer {
+  display: block;
+  float: left;
+  padding: 20px;
+  width: 48%;
+}
 /*-----------------------------------
 # Hero
 ------------------------------------*/
