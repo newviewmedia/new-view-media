@@ -224,11 +224,14 @@ section.hero div.content a button {
   width: 50%;
 }
 .row .media {
+  border: 1px solid #fff;
   display: inline-block;
   float: left;
   max-height: 440px;
   overflow: hidden;
-  padding: 45px;
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .35);
+  -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, .35);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, .35);
   width: 50%;
 }
 .about-nvm .row:nth-of-type(odd) .media {
@@ -239,12 +242,8 @@ section.hero div.content a button {
   color: #fff;
 }
 .row .media img {
-  border: 1px solid #fff;
   height: auto;
   width: 100%;
-  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
-  -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
-  box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
 }
 /*-----UPDATED COPY FOR WHY START VENTURE (START)-----*/
 .nvm-venture .row:nth-of-type(odd) .media {
