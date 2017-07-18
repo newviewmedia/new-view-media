@@ -3,7 +3,7 @@
     <h2>Diverse range of projects to educate, entertain & motivate action.</h2>
     <h3>At NewView.Media, we take pride as video producers that facilitate growth for entrepreneurial causes across a range of industries, want to see our portfolio?</h3>
     <ul class="filter flex-horiz-center">
-        <li class="all" data-filter="all">All</li>
+        <li class="all active" data-filter="all">All</li>
         <li class="crowdfunding" data-filter="crowdfunding">Crowdfunding</li>
         <li class="events" data-filter="events">Events</li>
         <li class="marketing" data-filter="marketing">Marketing</li>
@@ -13,36 +13,45 @@
   </section>
   <ul class="media">
   {% for portfolio in site.data.portfolio %}
-    <li data-filter="{{ portfolio.filter-type }}"class="portfolio-card">
+    <li data-filter="{{ portfolio.filter-type }}" class="portfolio-card">
       <div>
         <img src="//img.youtube.com/vi/{{ portfolio.video-id}}/0.jpg" alt="{{ portfolio.title }}-{{ portfolio.company }}"/>
         <div class="overlay">
-          <div class="text">Play</div>
+          <div class="text">{{ portfolio.title }}</div>
         </div>
       </div>
       <iframe src= "{{ portfolio.video }}" ></iframe>
-      <h3> {{ portfolio.title }} </h3>
       <h4> {{ portfolio.company }} </h4>
     </li>
   {% endfor %}
   </ul>
-  <div class="modal-video">
-
+  <div class="modal-video active">
+    <div class="modal-video-container">
+      <iframe src= "{{ portfolio.video }}" allowfullscreen="allowfullscreen"
+              width="100%" frameborder="0"></iframe>
+    </div>
+    <div class="modal-video-content">
+      <p>Name</p>
+    </div>
   </div>
 </section>
 <script type="text/javascript">
-( function() {
-  // $("img").on("click", function() {
-  //   console.log("function working!");
-  // })
-  //gets the youtube thumbnail
-  function getYoutubeThumbnail(){
-    var portfolio = {{ site.data.portfolio | jsonify }};
-    console.log(portfolio);
-  }
-  //sets the youtube thumbnail and loads thumbnail img on page
-  function setYoutubeThumbnail(){
+  ( function() {
+    // $("img").on("click", function() {
+    //   console.log("function working!");
+    // })
+    //gets the youtube thumbnail
+    function getYoutubeThumbnail(){
+      var portfolio = {{ site.data.portfolio | jsonify }};
+      console.log(portfolio);
+    }
+    //sets the youtube thumbnail and loads thumbnail img on page
+    function setYoutubeThumbnail(){
 
-  }
-})();
+    }
+//    $('ul.media li div .overlay').on("click", function () {
+//      console.log(this);
+//      console.log($(this).prev());
+//    })
+  })();
 </script>
