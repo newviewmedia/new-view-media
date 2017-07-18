@@ -155,7 +155,7 @@ header nav ul li a {
 }
 footer {
   clear: both;
-  background-color: 0,0,0;
+  background-color: rgba(0,0,0,1);
   color: white;
   height: 10vh;
 }
