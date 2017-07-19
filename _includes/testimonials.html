@@ -1,20 +1,56 @@
 <section class="testimonials">
   <h2>What our clients have to say about us:</h2>
-  {% for testimonial in site.data.testimonials %}
+  <!--{% for testimonial in site.data.testimonials %}-->
+  <!--<section class="client-quotes">-->
+    <!--<blockquote>-->
+      <!--{{ testimonial.quote }}-->
+    <!--</blockquote>-->
+    <!--<h4>{{ testimonial.quoted }}</h4>-->
+    <!--<span>{{ testimonial.position }}, {{ testimonial.company }}</span>-->
+  <!--</section>-->
+  <!--<div class="testimonial-thumbnail">-->
+    <!--<img src="{{ testimonials.photo }}" alt=""/>-->
+  <!--</div>-->
+  <!--{% endfor %}-->
   <section class="client-quotes">
-    <blockquote>
-      {{ testimonial.quote }}
-    </blockquote>
-    <h4>{{ testimonial.quoted }}</h4>
-    <span>{{ testimonial.position }}, {{ testimonial.company }}</span>
+    <blockquote class="testimonial-quote"></blockquote>
+    <h4 class="testimonial-quoted"></h4>
+    <span class="testimonial-position"></span>
   </section>
   <div class="testimonial-thumbnail">
-    <img src="{{ testimonials.photo }}" alt=""/>
+    <img src="http://www.qsconference.com/img/team/placeholder.png" alt=""/>
   </div>
-  {% endfor %}
 </section>
 <script type="text/javascript">
   ( function() {
+    var testimonials = {{ site.data.testimonials | jsonify }};
+    console.log(testimonials);
 
+    function initTestimonials() {
+      $('.client-quotes .testimonial-quote').text(testimonials[0].quote);
+      $('.client-quotes .testimonial-quoted').text(testimonials[0].quoted);
+      $('.client-quotes .testimonial-position').text(testimonials[0].position + ', ' +
+        testimonials[0].company);
+//      $('.client-quotes .testimonial-thumbnail img').attr("src").replace(
+//        testimonials[0].photo);
+    }
+    initTestimonials();
+
+    var itr = 0;
+
+    setInterval(function () {
+      console.log("run");
+      if (itr >= testimonials.length) {
+        itr = 0;
+      } else {
+        itr++;
+      }
+      $('.client-quotes .testimonial-quote').text(testimonials[itr].quote);
+      $('.client-quotes .testimonial-quoted').text(testimonials[itr].quoted);
+      $('.client-quotes .testimonial-position').text(testimonials[itr].position + ', ' +
+        testimonials[itr].company);
+      $('.client-quotes .testimonial-thumbnail img').attr("src").replace(
+        testimonials[num].photo);
+    }, 5000);
   })();
 </script>
