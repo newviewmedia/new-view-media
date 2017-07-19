@@ -12,7 +12,6 @@ License URI: LICENSE
 # General
   ## Events
   ## Header
-  ## Form
   ## Footer
 # Typography
 # Navigation
@@ -21,6 +20,7 @@ License URI: LICENSE
   ## Collaborators
   ## Clients
   ## Portfolio
+  ## Testimonials
 # Media Queries
   ## Wide Screens, Large Devices
   ## Desktops, Medium Devices
@@ -48,54 +48,20 @@ body  {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
-
 body,
-input,
-button  {-webkit-font-smoothing: antialiased; }
-
-section {
-  display: block;
-  /*float: left;*/
-}
-h1 {
-  font-size: 2.25em;       /* 2.25*16 = 36 */
-}
-h2 {
-  font-size: 1.75em;     /* 1.75*16 = 28 */
-}
-h3 {
-  font-size: 1.25em;    /* 1.25*16 = 20 */
-}
-h4 {
-  font-size: 1.17em;       /* 1.17*16 = 18.72 */
-}
-h5 {
-  font-size: 0.83em;    /* 0.83*16 = 13.28 */
-}
-h6 {
-  font-size: 0.75em;    /* 0.75*16 = 12 */
-}
-p {
-  font-size: 1.17em;
-  line-height: 1.5;
-  margin: 0 0 1em;
+button,
+input {
+  -webkit-font-smoothing: antialiased;
 }
 button {
   font-size: 1.25em; /* 1.25*16 = 20 */
 }
-a:link,
-a:visited,
-a:active {
-  color: inherit;
-  text-decoration: none;
+section {
+  display: block;
 }
-a,
-a:visited {
-  text-decoration: underline;
-}
-a:hover {
-  text-decoration: underline;
-}
+/*-----------------------------------
+## Header
+------------------------------------*/
 header {
   display: block;
   float: left;
@@ -153,34 +119,87 @@ header nav ul li:nth-of-type(1):hover, header nav ul li:nth-of-type(1):hover a  
 header nav ul li a {
 
 }
+/*-----------------------------------
+## Footer
+------------------------------------*/
 footer {
+  background-color: rgba(42,48,64,1);
+  border-top: 2px solid #fff;
   clear: both;
-  background-color: rgba(0,0,0,1);
   color: white;
-  height: 10vh;
-}
-footer .social-media {
-  display: inline-block;
-  float: left;
-  margin-right: 25px;
-  text-align: right;
-  padding: 20px;
-  width: 50%
-}
-
-footer .social-media a {
-
-}
-footer .social-media a i {
-  size: 20px;
-
-}
-
-footer section.footer {
   display: block;
   float: left;
-  padding: 20px;
-  width: 48%;
+  width: 100%;
+}
+footer section.company, footer .social-media {
+  display: inline-block;
+  float: left;
+  padding: 45px 30px;
+  width: 50%;
+}
+footer .social-media {
+  text-align: right;
+}
+footer .social-media a {
+  margin: 0 5px;
+}
+footer .social-media a:hover {
+  text-decoration: none;
+}
+footer .social-media a i {
+
+}
+/*-----------------------------------
+## Events
+------------------------------------*/
+a:link,
+a:visited,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+a,
+a:visited {
+  text-decoration: underline;
+}
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+button:active {
+
+}
+button:focus {
+
+}
+button:hover {
+  cursor: pointer;
+}
+/*-----------------------------------
+# Typography
+------------------------------------*/
+h1 {
+  font-size: 2.25em;       /* 2.25*16 = 36 */
+}
+h2 {
+  font-size: 1.75em;     /* 1.75*16 = 28 */
+}
+h3 {
+  font-size: 1.25em;    /* 1.25*16 = 20 */
+}
+h4 {
+  font-size: 1.17em;       /* 1.17*16 = 18.72 */
+}
+h5 {
+  font-size: 0.83em;    /* 0.83*16 = 13.28 */
+}
+h6 {
+  font-size: 0.75em;    /* 0.75*16 = 12 */
+}
+p {
+  font-size: 1.17em;
+  line-height: 1.5;
+  margin: 0 0 1em;
 }
 /*-----------------------------------
 # Hero
@@ -189,6 +208,7 @@ section.hero {
   clear: both;
   display: block;
   float: left;
+  overflow: hidden;
   position: relative;
   width: 100%;
 }
@@ -368,7 +388,7 @@ li.collaborator {
 ul.collaborators h2 {
   text-align: center;
 }
-ul.collaborators a:hover {
+ul.collaborators a li:hover {
   -webkit-box-shadow: 0 0 8px 1px rgba(0,0,0,0.55);
   -moz-box-shadow: 0 0 8px 1px rgba(0,0,0,0.55);
   box-shadow: 0 0 8px 1px rgba(0,0,0,0.55);
@@ -588,25 +608,96 @@ ul.collaborators .collaborator h3 {
   width: 50%;
 }
 /*-----------------------------------
-## Events
+## Testimonials
 ------------------------------------*/
-a:active {
-
+.testimonials {
+  background-color: #efefef;
+  display: block;
+  float: left;
+  min-width: 100%;
+  padding: 30px 60px;
+  width: 100%;
 }
-a:focus {
-
+.testimonials .client-quotes {
+  background-color: white;
+  font-family: sans-serif;
+  font-weight: lighter;
+  line-height: 30px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  text-align: center;
+  width: 80%;
+  -webkit-box-shadow: 0 0 8px 3px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0 0 8px 3px rgba(0,0,0,0.35);
+  box-shadow: 0 0 8px 3px rgba(0,0,0,0.35);
 }
-a:hover {
-  cursor: pointer;
+.testimonials .client-quotes h4 {
+  font-size: 15px;
+  font-weight: lighter;
+  margin-bottom: 20px;
 }
-button:active {
-
+.testimonials .client-quotes span{
+  display: block;
+  margin-top: -20px;
 }
-button:focus {
-
+.testimonials .client-quotes blockquote {
+  font-size: 20px;
+  font-weight: lighter;
+  margin: auto auto -50px auto;
+  max-width: 768px;
+  padding: 30px;
+  text-align: center;
 }
-button:hover {
-  cursor: pointer;
+.testimonials h2 {
+  margin: 15px auto;
+  text-align: center;
+  width: 100%;
+}
+.testimonial-thumbnail {
+  background-color: #b2b9c1;
+  border-radius: 50%;
+  height: 60px;
+  margin: -30px auto 0;
+  text-align: center;
+  width: 60px;
+}
+.testimonial-thumbnail img {
+  height: auto;
+  width: 100%;
+}
+.smaller-circles {
+  border-radius: 50%;
+  background-color: #b2b9c1;
+  display: inline-block;
+  height: 13px;
+  margin: 0 3px;
+  width: 13px;
+}
+.small-circles-wrap {
+  text-align: center;
+  margin-top: 25px;
+}
+.logo-list .logos {
+  background-color: #efefef;
+  color: #b2b9c1;
+  float: left;
+  list-style: none;
+  text-align: center;
+  width: calc(100% / 7);
+}
+.logo-list {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0;
+  background-color: #efefef;
+  float: left;
+  margin: 15px auto;
+  width: 100%;
+}
+.smaller-circles:hover {
+  background-color: #fcaf31;
 }
 /*-----------------------------------
 # Media Queries
@@ -618,6 +709,12 @@ button:hover {
   .clients a {
     width: calc(100% / 8);
   }
+  .testimonials {
+    padding: 30px;
+  }
+  .testimonials .client-quotes {
+    width: 100%;
+  }
 }
 /*-----------------------------------
 ## Desktops, Medium Devices
@@ -626,8 +723,11 @@ button:hover {
   section.hero div.content {
     top: 30%;
   }
+  .row {
+    padding: 45px;
+  }
   .row .content, .row .media {
-    padding: 0 45px;
+    padding: 0;
     width: 100%;
   }
   .gradient-banner .content ul {
@@ -643,6 +743,10 @@ button:hover {
   }
   #portfolio .media .portfolio-card {
     width: calc(100% / 3);
+  }
+  .logo-list .logos {
+    text-align: center;
+    width: 25%;
   }
 }
 /*-----------------------------------
@@ -667,10 +771,13 @@ button:hover {
     top: 18%;
   }
   .row {
-    padding: 15px;
+    padding: 45px;
   }
   .row .content, .row .media {
-    padding: 15px 30px;
+    padding: 0px;
+  }
+  .gradient-banner {
+    height: auto;
   }
   .gradient-banner .bg-img {
     width: 100%;
@@ -698,6 +805,13 @@ button:hover {
   #portfolio .media .portfolio-card {
     width: 50%;
   }
+  .testimonials {
+    padding: 30px 15px;
+  }
+  .logo-list .logos {
+    text-align: center;
+    width: 33%;
+  }
 }
 /*-----------------------------------
 ## Phones, Extra Small Devices
@@ -706,8 +820,11 @@ button:hover {
   section.hero div.content {
     top: 20%;
   }
-  .row .content, .row .media {
+  .row {
     padding: 15px;
+  }
+  .row .content, .row .media {
+    padding: 0px;
   }
   .gradient-banner .bg-img {
     width: 100%;
@@ -722,8 +839,14 @@ button:hover {
   .gradient-banner .content ul {
     width: 100%;
   }
+  .clients {
+    padding: 15px;
+  }
   .clients a {
     width: calc(100% / 2);
+  }
+  .collab-sec {
+    padding: 15px;
   }
   li.collaborator {
     width: 100%;
@@ -734,6 +857,13 @@ button:hover {
   #portfolio .media .portfolio-card {
     width: 100%;
   }
+  .testimonials {
+    padding: 30px 15px;
+  }
+  .logo-list .logos {
+    text-align: center;
+    width: 50%;
+  }
 }
 /*-----------------------------------
 # Animations
@@ -742,12 +872,16 @@ button:hover {
   overflow: hidden;
 }
 .rc-loader {
-  display: flex;
   align-items: center;
-  justify-content: center;
+  background: #fff;
+  display: flex;
   height: 100vh;
-  position: relative;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
   width: 100vw;
+  z-index: 10;
 }
 .rc-loader .circle-one {
   animation: loading 1.3s .65s infinite;
