@@ -15,6 +15,9 @@ input, textarea  {
   margin: 15px auto;
   padding: 15px;
 }
+#main-contact {
+  float: left;
+}
 .contact-section {
    background-color: rgba(42,48,64,1);
    display: block;
