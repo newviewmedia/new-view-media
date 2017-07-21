@@ -1,56 +1,61 @@
-<section class="testimonials">
+<section class="testimonials carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="6000" >
   <h2>What our clients have to say about us:</h2>
-  <!--{% for testimonial in site.data.testimonials %}-->
-  <!--<section class="client-quotes">-->
-    <!--<blockquote>-->
-      <!--{{ testimonial.quote }}-->
-    <!--</blockquote>-->
-    <!--<h4>{{ testimonial.quoted }}</h4>-->
-    <!--<span>{{ testimonial.position }}, {{ testimonial.company }}</span>-->
-  <!--</section>-->
-  <!--<div class="testimonial-thumbnail">-->
-    <!--<img src="{{ testimonials.photo }}" alt=""/>-->
-  <!--</div>-->
-  <!--{% endfor %}-->
   <section class="client-quotes">
-    <blockquote class="testimonial-quote"></blockquote>
-    <h4 class="testimonial-quoted"></h4>
-    <span class="testimonial-position"></span>
-  </section>
-  <div class="testimonial-thumbnail">
+    {% for testimonial in site.data.testimonials %}
+    {% if forloop.first %}
+    <div class="item active">
+      {% else %}
+      <div class="item">
+        {% endif %}
+        <blockquote>{{ testimonial.quote }}</blockquote>
+        <h4>{{ testimonial.quoted }}</h4>
+        <span>{{ testimonial.position }}, {{ testimonial.company }}</span>
+        <div class="testimonial-thumbnail">
+          <img src="{{ testimonial.photo }}" alt="" />
+        </div>
+      </div>
+      {% endfor %}
+    </section>
+
+      <!-- <section class="client-quotes">
+      <blockquote class="testimonial-quote"></blockquote>
+      <h4 class="testimonial-quoted"></h4>
+      <span class="testimonial-position"></span>
+    </section>
+    <div class="testimonial-thumbnail">
     <img src="http://www.qsconference.com/img/team/placeholder.png" alt=""/>
-  </div>
+  </div> -->
 </section>
 <script type="text/javascript">
-  ( function() {
-    var testimonials = {{ site.data.testimonials | jsonify }};
-    console.log(testimonials);
-
-    function initTestimonials() {
-      $('.client-quotes .testimonial-quote').text(testimonials[0].quote);
-      $('.client-quotes .testimonial-quoted').text(testimonials[0].quoted);
-      $('.client-quotes .testimonial-position').text(testimonials[0].position + ', ' +
-        testimonials[0].company);
-//      $('.client-quotes .testimonial-thumbnail img').attr("src").replace(
-//        testimonials[0].photo);
-    }
-    initTestimonials();
-
-    var itr = 0;
-
-    setInterval(function () {
-      console.log("run");
-      if (itr >= testimonials.length) {
-        itr = 0;
-      } else {
-        itr++;
-      }
-      $('.client-quotes .testimonial-quote').text(testimonials[itr].quote);
-      $('.client-quotes .testimonial-quoted').text(testimonials[itr].quoted);
-      $('.client-quotes .testimonial-position').text(testimonials[itr].position + ', ' +
-        testimonials[itr].company);
-      $('.client-quotes .testimonial-thumbnail img').attr("src").replace(
-        testimonials[num].photo);
-    }, 5000);
-  })();
+//   ( function() {
+//     var testimonials = {{ site.data.testimonials | jsonify }};
+//     console.log(testimonials);
+//
+//     function initTestimonials() {
+//       $('.client-quotes .testimonial-quote').text(testimonials[0].quote);
+//       $('.client-quotes .testimonial-quoted').text(testimonials[0].quoted);
+//       $('.client-quotes .testimonial-position').text(testimonials[0].position + ', ' +
+//         testimonials[0].company);
+// //      $('.client-quotes .testimonial-thumbnail img').attr("src").replace(
+// //        testimonials[0].photo);
+//     }
+//     initTestimonials();
+//
+//     var itr = 0;
+//
+//     setInterval(function () {
+//       console.log("run");
+//       if (itr >= testimonials.length) {
+//         itr = 0;
+//       } else {
+//         itr++;
+//       }
+//       $('.client-quotes .testimonial-quote').text(testimonials[itr].quote);
+//       $('.client-quotes .testimonial-quoted').text(testimonials[itr].quoted);
+//       $('.client-quotes .testimonial-position').text(testimonials[itr].position + ', ' +
+//         testimonials[itr].company);
+//       $('.client-quotes .testimonial-thumbnail img').attr("src").replace(
+//         testimonials[num].photo);
+//     }, 5000);
+//   })();
 </script>
