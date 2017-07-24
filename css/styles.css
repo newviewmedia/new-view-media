@@ -306,11 +306,13 @@ section.hero div.content a button {
   width: 100%;
 }
 .gradient-banner .content {
+  border: 1px solid white;
   color: #fff;
   display: inline-block;
-  float: left;
-  padding: 15px;
+  margin-top: 24px;
+  padding: 40px;
   position: relative;
+  float: left;
   width: 55%;
   /*font-size: 20px;*/
   font-weight: lighter;
@@ -340,7 +342,7 @@ section.hero div.content a button {
 /*----special gradient code------*/
 .gradient-banner .bg-img {
   float: left;
-  width: 45%;
+  width: 44%;
   height: 100%;
   background: url('https://images.pexels.com/photos/321111/pexels-photo-321111.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb') center center no-repeat;
   background-size: cover;
