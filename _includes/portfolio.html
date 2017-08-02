@@ -25,13 +25,14 @@
     </li>
   {% endfor %}
   </ul>
+  {% assign portfolio = site.data.portfolio | where:"id", page.video-id %}
   <div class="modal-video active">
     <div class="modal-video-container">
       <iframe src= "{{ portfolio.video }}" allowfullscreen="allowfullscreen"
               width="100%" frameborder="0"></iframe>
     </div>
     <div class="modal-video-content">
-      <p>Name</p>
+      <p> {{ portfolio.question }}</p>
     </div>
   </div>
 </section>
