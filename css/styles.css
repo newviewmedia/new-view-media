@@ -180,12 +180,15 @@ button:hover {
 # Typography
 ------------------------------------*/
 h1 {
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 2.25em;       /* 2.25*16 = 36 */
 }
 h2 {
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 1.75em;     /* 1.75*16 = 28 */
 }
 h3 {
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 1.25em;    /* 1.25*16 = 20 */
 }
 h4 {
@@ -232,10 +235,11 @@ section.hero video {
   width: 100%;
 }
 section.hero div.content {
-  padding: 0 45px;
+  margin: 0 auto;
   position: absolute;
   text-align: center;
-  top: 25%;
+  top: 50%;
+  transform: perspective(1px) translateY(-50%); /*   centers block level elements vertically */
   width: 100%;
   z-index: 3;
 }
@@ -299,23 +303,31 @@ section.hero div.content a button {
 }
 /*-----UPDATED COPY FOR WHY START VENTURE (END)-----*/
 .gradient-banner {
+  background: url('../img/located.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
   display: block;
   float: left;
-  height: 480px;
+  height: 100vh;
+  min-height: 480px;
   position: relative;
   width: 100%;
 }
 .gradient-banner .content {
+  background-color: rgba(255,255,255,0.75);
   border: 1px solid white;
-  color: #fff;
-  display: inline-block;
-  margin-top: 24px;
-  padding: 40px;
-  position: relative;
-  float: left;
-  width: 55%;
-  /*font-size: 20px;*/
-  font-weight: lighter;
+  color: #333;
+  display: block;
+  left: 0;
+  margin: 0 auto;
+  max-width: 768px;
+  padding: 30px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: perspective(1px) translateY(-50%);
+  width: 80%;
 }
 .gradient-banner .content ul {
   -webkit-margin-before: 0;
@@ -325,43 +337,42 @@ section.hero div.content a button {
   -webkit-padding-start: 0;
   display: inline-block;
   float: left;
-  /*padding: 10px;*/
   width: 25%;
 }
 .gradient-banner .content ul li {
-  list-style-type: disc;
+  list-style-type: none;
 }
 /*----special gradient code------*/
-.gradient-banner .content #special {
-  margin-left: 20px;
-}
-.gradient-banner .content #special-two {
-  margin-left: -60px;
-  margin-right: 26px;
-}
+/*.gradient-banner .content #special {*/
+  /*margin-left: 20px;*/
+/*}*/
+/*.gradient-banner .content #special-two {*/
+  /*margin-left: -60px;*/
+  /*margin-right: 26px;*/
+/*}*/
 /*----special gradient code------*/
-.gradient-banner .bg-img {
-  float: left;
-  width: 44%;
-  height: 100%;
-  background: url('https://images.pexels.com/photos/321111/pexels-photo-321111.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb') center center no-repeat;
-  background-size: cover;
-}
-.gradient-banner .bg-img::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 5%;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    color-stop(0, transparent), /* Top */
-    color-stop(.40, rgba(255,174,0,1.0)) /* Bottom */
-    );
-  }
+/*.gradient-banner .bg-img {*/
+  /*float: left;*/
+  /*width: 44%;*/
+  /*height: 100%;*/
+  /*background: url('https://images.pexels.com/photos/321111/pexels-photo-321111.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb') center center no-repeat;*/
+  /*background-size: cover;*/
+/*}*/
+/*.gradient-banner .bg-img::before {*/
+  /*content: '';*/
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*right: 0;*/
+  /*bottom: 0;*/
+  /*left: 5%;*/
+  /*background: -webkit-gradient(*/
+    /*linear,*/
+    /*left top,*/
+    /*right top,*/
+    /*color-stop(0, transparent), !* Top *!*/
+    /*color-stop(.40, rgba(255,174,0,1.0)) !* Bottom *!*/
+    /*);*/
+  /*}*/
   /*-----------------------------------
   ## Collaborators
   ------------------------------------*/
@@ -410,9 +421,11 @@ section.hero div.content a button {
     border: none;
     border-radius: 50%;
     float: left;
-    height: auto;
     padding: 15px;
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
   }
   ul.collaborators .collaborator h3 {
     margin-bottom: 5px;
@@ -617,6 +630,7 @@ section.hero div.content a button {
     background-color: #efefef;
     display: block;
     float: left;
+    min-height: 50vh;
     min-width: 100%;
     padding: 60px 30px;
     width: 100%;
@@ -668,8 +682,10 @@ section.hero div.content a button {
     width: 60px;
   }
   .testimonial-thumbnail img {
-    height: auto;
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
   }
   .smaller-circles {
     border-radius: 50%;
@@ -726,9 +742,6 @@ section.hero div.content a button {
   ## Desktops, Medium Devices
   ------------------------------------*/
   @media only screen and (max-width : 992px)  {
-    section.hero div.content {
-      top: 30%;
-    }
     .row {
       padding: 45px;
     }
@@ -736,11 +749,11 @@ section.hero div.content a button {
       padding: 0;
       width: 100%;
     }
-    .gradient-banner .content ul {
-      display: inline-block;
-      float: left;
-      width: 50%;
-    }
+    /*.gradient-banner .content ul {*/
+      /*display: inline-block;*/
+      /*float: left;*/
+      /*width: 50%;*/
+    /*}*/
     .clients a {
       width: calc(100% / 6);
     }
@@ -772,9 +785,6 @@ section.hero div.content a button {
       max-width: none;
       width: auto;
       height: 100%;
-    }
-    section.hero div.content {
-      top: 18%;
     }
     .row {
       padding: 45px;
@@ -823,9 +833,6 @@ section.hero div.content a button {
   ## Phones, Extra Small Devices
   ------------------------------------*/
   @media only screen and (max-width: 480px) {
-    section.hero div.content {
-      top: 20%;
-    }
     .row {
       padding: 15px;
     }
