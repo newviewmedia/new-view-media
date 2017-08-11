@@ -59,17 +59,18 @@
   //      modal is the goal
 
 
-  $('ul.media li div .overlay').on("click", function () {
-    // var currVideo = {
-    //   company: '',
-    //   id: '',
-    //   title:'',
-    // }
-    var i = $(this).prev().attr('src').replace('//img.youtube.com/vi/', '').replace('/0.jpg', '');
-    $('.modal-video').toggleClass('active');
-    $('.modal-video iframe').attr('src', 'https://www.youtube.com/embed/'+i);
-  })
-  $('.modal-video').on('click', function () {
-    $('.modal-video').toggleClass('active');
-  })
+  // $('ul.media li div .overlay').on("click", function () {
+  //   // var currVideo = {
+  //   //   company: '',
+  //   //   id: '',
+  //   //   title:'',
+  //   // }
+  //   var i = $(this).prev().attr('src').replace('//img.youtube.com/vi/', '').replace('/0.jpg', '');
+  //   $('.modal-video').toggleClass('active');
+  //   $('.modal-video iframe').attr('src', 'https://www.youtube.com/embed/'+i);
+  // });
+  //
+  // $('.modal-video').on('click', function () {
+  //   $('.modal-video').toggleClass('active');
+  // })
 })();
