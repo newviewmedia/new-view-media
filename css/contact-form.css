@@ -15,6 +15,7 @@
 }
 .contact form {
   margin: auto;
+  max-width: 768px;
   min-width: 768px;
   width: 50%;
 }
@@ -87,6 +88,7 @@
 @media only screen and (max-width : 768px)  {
   .contact form {
     float: left;
+    min-width: 0;
     width: 100%;
   }
   .contact form fieldset label {
@@ -100,14 +102,7 @@
   .contact {
     padding: 15px;
   }
-  .contact form {
-    float: left;
-    width: 100%;
-  }
   .contact form fieldset:nth-of-type(-n+3) {
     width: 100%;
-  }
-  .contact form fieldset label {
-    margin: 0 auto;
   }
 }
