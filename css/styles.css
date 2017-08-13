@@ -859,8 +859,20 @@ li.collaborator {
   }
 }
 /*-----------------------------------
+## Small Devices LANDSCAPE
+------------------------------------*/
+@media only screen and (orientation: landscape) and (max-width: 769px) {
+  section.hero {
+    height: 100vh;
+  }
+  section.hero video {
+    height: 100vw;
+  }
+}
+/*-----------------------------------
 ## Tablets, Small Devices
 ------------------------------------*/
+
 @media only screen and (max-width : 768px)  {
   header {
     padding: 15px;
@@ -869,7 +881,7 @@ li.collaborator {
     display: none;
   }
   section.hero {
-    height: 66vh;
+    height: 100vh;
   }
   section.hero video {
     max-width: none;

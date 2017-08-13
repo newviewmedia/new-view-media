@@ -9,7 +9,6 @@
     position: fixed;
     z-index: 999;
     right: 0;
-    display: auto;
   }
   nav#navigation-drawer div.mobile-toggle {
 
@@ -110,5 +109,16 @@
 
   nav#navigation-drawer div.mobile-toggle li a:hover {
     color: #ffae00;
+  }
+}
+@media only screen and (orientation: landscape) and (max-width: 767px) {
+  nav#navigation-drawer div.mobile-toggle ul.menu {
+    height: 150vh;
+    width: 66vw;
+  }
+  nav#navigation-drawer div.mobile-toggle li {
+    display: inline-block;
+    float: left;
+    width: 50%;
   }
 }
