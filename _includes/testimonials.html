@@ -1,61 +1,69 @@
-<section class="testimonials carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="6000" >
+<section class="testimonials" id="clients">
   <h2>What our clients have to say about us:</h2>
-  <section class="client-quotes">
-    {% for testimonial in site.data.testimonials %}
-    {% if forloop.first %}
-    <div class="item active">
-      {% else %}
-      <div class="item">
-        {% endif %}
-        <blockquote>{{ testimonial.quote }}</blockquote>
-        <h4>{{ testimonial.quoted }}</h4>
-        <span>{{ testimonial.position }}, {{ testimonial.company }}</span>
-        <div class="testimonial-thumbnail">
-          <img src="{{ testimonial.photo }}" alt="" />
-        </div>
-      </div>
-      {% endfor %}
-    </section>
-
-      <!-- <section class="client-quotes">
-      <blockquote class="testimonial-quote"></blockquote>
-      <h4 class="testimonial-quoted"></h4>
-      <span class="testimonial-position"></span>
-    </section>
+  {% for testimonial in site.data.testimonials %}
+  <div class="testimonial">
     <div class="testimonial-thumbnail">
-    <img src="http://www.qsconference.com/img/team/placeholder.png" alt=""/>
-  </div> -->
+      <img src="{{ testimonial.photo }}" alt="" />
+    </div>
+    <div class="copy">
+    <span>{{ testimonial.quoted }}</span>
+    <span>{{ testimonial.position }}, {{ testimonial.company }}</span>
+    <blockquote>{{ testimonial.quote }}</blockquote>
+    </div>
+  </div>
+  {% endfor %}
+  <section class="clients-logo-carousel">
+    {% for clients in site.data.clients %}
+    <a href="{{ clients.url }}" target="_blank">
+      <img src="{{ clients.image }}" alt="">
+    </a>
+    {% endfor %}
+  </section>
 </section>
 <script type="text/javascript">
-//   ( function() {
-//     var testimonials = {{ site.data.testimonials | jsonify }};
-//     console.log(testimonials);
-//
-//     function initTestimonials() {
-//       $('.client-quotes .testimonial-quote').text(testimonials[0].quote);
-//       $('.client-quotes .testimonial-quoted').text(testimonials[0].quoted);
-//       $('.client-quotes .testimonial-position').text(testimonials[0].position + ', ' +
-//         testimonials[0].company);
-// //      $('.client-quotes .testimonial-thumbnail img').attr("src").replace(
-// //        testimonials[0].photo);
-//     }
-//     initTestimonials();
-//
-//     var itr = 0;
-//
-//     setInterval(function () {
-//       console.log("run");
-//       if (itr >= testimonials.length) {
-//         itr = 0;
-//       } else {
-//         itr++;
-//       }
-//       $('.client-quotes .testimonial-quote').text(testimonials[itr].quote);
-//       $('.client-quotes .testimonial-quoted').text(testimonials[itr].quoted);
-//       $('.client-quotes .testimonial-position').text(testimonials[itr].position + ', ' +
-//         testimonials[itr].company);
-//       $('.client-quotes .testimonial-thumbnail img').attr("src").replace(
-//         testimonials[num].photo);
-//     }, 5000);
-//   })();
+  $('.clients-logo-carousel').slick({
+    slidesToShow: 5,
+    slidesToScroll: 4,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    arrows: true,
+//    dots: true,
+    pauseOnHover: true,
+    pauseOnDotsHover: true,
+    variableWidth: true,
+    prevArrow: false,//'<div class="arrow"><span class="left"></span></div>',
+    nextArrow: false, //'<div class="arrow"><span class="right"></span></div>',
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          arrows: false,
+          slidesToShow: 4,
+          slidesToScroll: 3,
+          autoplay: true,
+          autoplaySpeed: 4000,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          slidesToShow: 4,
+          slidesToScroll: 3,
+          autoplay: true,
+          autoplaySpeed: 4000,
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          autoplay: true,
+          autoplaySpeed: 4000,
+        }
+      }
+    ]
+  });
 </script>

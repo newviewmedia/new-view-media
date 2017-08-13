@@ -31,8 +31,11 @@
               width="100%" frameborder="0"></iframe>
     </div>
     <div class="modal-video-content">
-      <p class="portfolio-question"></p>
+      <h3 class="portfolio-question"></h3>
       <p class="portfolio-description"></p>
+      <!--<div class="close-modal-btn">Close</div>-->
+      <a class="close-modal-btn">Close Video</a>
+      <!--<button class="close">Close Modal</button>-->
     </div>
   </div>
 </section>
@@ -55,13 +58,25 @@
       }
 
       $('.modal-video').toggleClass('active');
+      $('body').toggleClass('modal-is-open');
+      $('body').bind('touchmove', function (e) {
+        e.preventDefault();
+      });
       $('.modal-video iframe').attr('src', 'https://www.youtube.com/embed/'+i);
       $('.modal-video .portfolio-question').text(currVideo.question);
       $('.modal-video .portfolio-description').text(currVideo.description);
     });
 
-    $('.modal-video').on('click', function () {
+//    $('.modal-video').add('.close').on('click', function () {
+//      $('.modal-video').toggleClass('active');
+//      $('body').toggleClass('modal-is-open').unbind('touchmove');
+//    });
+
+    $('.close-modal-btn').on('click', function () {
+      console.log("clicky click");
       $('.modal-video').toggleClass('active');
-    })
+      $('body').toggleClass('modal-is-open').unbind('touchmove');
+    });
+
   })();
 </script>

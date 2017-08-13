@@ -6,8 +6,10 @@
       <div class="circle-wrap">
         <img src="{{ collaborator.logo-photo }}" alt="" />
       </div>
-      <h4>{{ collaborator.name }}</h4>
-      <small>{{ collaborator.brief-bio }}</small>
+      <span>
+        <h4>{{ collaborator.name }}</h4>
+        <small>{{ collaborator.brief-bio }}</small>
+      </span>
     </li>
   </a>
 {% endfor %}
