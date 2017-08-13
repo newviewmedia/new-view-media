@@ -1,22 +1,27 @@
-<section class="contact-section">
-  <h2>Lets work together.</h2>
-  <form>
+<section class="contact" id="connect">
+  <h2>Let's work together</h2>
+  <form method="POST" action="http://formspree.io/emilio.a.murillo@gmail.com">
     <fieldset>
       <label for="name">Name</label>
-      <input class="" type="text" id="name" name="name" value="" required>
+      <input type="text" id="name" name="name" placeholder="Full Name" required>
     </fieldset>
     <fieldset>
       <label for="email">Email</label>
-      <input class="" type="text" id="email" name="email" value="" required>
+      <input type="email" id="email" name="email" placeholder="Email Address" required>
     </fieldset>
     <fieldset>
-      <label for="client">Collaborator or Client?</label>
-      <input class="" type="text" id="client" name="" value="">
+      <label for="client">Organization?</label>
+      <input type="text" id="client" name="organization" placeholder="Organization">
+    </fieldset>
+    <fieldset>
+      <label for="timeline">Any hard deadlines?</label>
+      <input type="text" id="timeline" name="timeline" placeholder="MM/DD/YYYY">
     </fieldset>
     <fieldset>
       <label for="message">What projects are you passionate about?</label>
-      <textarea id="message" name="message" rows="8" cols="80"></textarea>
+      <textarea id="message" name="message" rows="8" cols="80"
+                placeholder="Let us know what projects you are passionate about here"></textarea>
     </fieldset>
-    <button type="button" name="button">SUBMIT</button>
+    <button type="submit" name="button">SUBMIT</button>
   </form>
 </section>

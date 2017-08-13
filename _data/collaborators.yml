@@ -1,35 +1,44 @@
-- logo-photo: https://resilientcoders.s3.amazonaws.com/i/logo_redBG.jpg
-  name: Resilient Labs
+- logo-photo: img/davidLam.png
+  name: David Lam
   website: http://www.resilientcoders.org/
+  brief-bio: I am a videographer who aims to capture the breath taking moments we wish to relive
+
+- logo-photo: img/aaron.png
+  name: Aaron Weiss
+  website: http://www.resilientcoders.org/
+  brief-bio:  I aim to create memorable characters and moments that engage an audience
+
+- logo-photo: img/johnLogan.png
+  name: John Logan
+  website: https://www.viz.com/sailor-moon
+  brief-bio: I am an entrepreneurial spirited, coffee loving, multi-media fanatic who loves to tell stories and believes 'impossible' is just a word.
+
+- logo-photo: img/kerinSweeney.png
+  name: Kerin Sweeney
+  website: http://www.resilientcoders.org/
+  brief-bio: I am an artist and graphic designer who strives to create work that captivates and inspires the viewer
+
+- logo-photo: img/branchfood.png
+  name: Branchfood
+  website: http://www.resilientcoders.org/
+  brief-bio: Branchfood seeks to promote food entrepreneurship and support the community of founders launching and scaling transformative businesses.
 
 - logo-photo: https://resilientcoders.s3.amazonaws.com/i/logo_redBG.jpg
   name: Dream Positivity
   website: http://www.resilientcoders.org/
+  brief-bio: lorem ipsum parafium nortis phinxus apsilutum magna carta gloria fort night mort carpe diem
 
-- logo-photo: http://i63.tinypic.com/30vhueb.jpg
+- logo-photo: https://resilientcoders.s3.amazonaws.com/i/logo_redBG.jpg
   name: Sailor Moon
   website: https://www.viz.com/sailor-moon
-
-- logo-photo: https://static1.squarespace.com/static/518020d6e4b00f395718a7b9/t/5491ed02e4b09ea82ed58c69/1418849547487/
-  name: Resilient Labs
-  website: http://www.resilientcoders.org/
+  brief-bio: lorem ipsum parafium nortis phinxus apsilutum magna carta gloria fort night mort carpe diem
 
 - logo-photo: https://resilientcoders.s3.amazonaws.com/i/logo_redBG.jpg
   name: Resilient Labs
   website: http://www.resilientcoders.org/
-
-- logo-photo: https://resilientcoders.s3.amazonaws.com/i/logo_redBG.jpg
-  name: Dream Positivity
-  website: http://www.resilientcoders.org/
-
-- logo-photo: http://i63.tinypic.com/30vhueb.jpg
-  name: Sailor Moon
-  website: https://www.viz.com/sailor-moon
-
-- logo-photo: https://static1.squarespace.com/static/518020d6e4b00f395718a7b9/t/5491ed02e4b09ea82ed58c69/1418849547487/
-  name: Resilient Labs
-  website: http://www.resilientcoders.org/
+  brief-bio: lorem ipsum parafium nortis phinxus apsilutum magna carta gloria fort night mort carpe diem
 
 - logo-photo: https://resilientcoders.s3.amazonaws.com/i/logo_redBG.jpg
   name: Resilient Labs
   website: http://www.resilientcoders.org/
+  brief-bio: lorem ipsum parafium nortis phinxus apsilutum magna carta gloria fort night mort carpe diem

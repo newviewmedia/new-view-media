@@ -1,6 +1,6 @@
 <section class="hero banner">
 {% for hero in site.data.hero %}
-  <video preload="auto" autoplay loop playsinline>
+  <video autoplay muted playsinline>
     <source type="video/mp4" src="{{  site.baseurl }}/vid/{{ hero.video-url }}">
     </video>
   <div class="content">

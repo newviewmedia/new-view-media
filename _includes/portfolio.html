@@ -1,23 +1,82 @@
 <section id="portfolio">
   <section class="content">
     <h2>Diverse range of projects to educate, entertain & motivate action.</h2>
-    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h3>
+    <h3>At NewView.Media, we take pride as video producers that facilitate growth for entrepreneurial causes across a range of industries, want to see our portfolio?</h3>
     <ul class="filter flex-horiz-center">
-        <li>All</li>
-        <li>Crowdfunding</li>
-        <li>Events</li>
-        <li>Marketing</li>
-        <li>Real Estate</li>
-        <li>Creative Content</li>
-      </ul>
+      <li class="all active" data-filter="all">All</li>
+      <li class="crowdfunding" data-filter="crowdfunding">Crowdfunding</li>
+      <li class="events" data-filter="events">Events</li>
+      <li class="marketing" data-filter="marketing">Marketing</li>
+      <li class="real-estate" data-filter="real-estate">Real Estate</li>
+      <li class="creative-content" data-filter="creative-content">Creative Content</li>
+    </ul>
   </section>
   <ul class="media">
-  {% for portfolio in site.data.portfolio %}
-    <li class="portfolio-card">
-      <iframe src= "{{ portfolio.video }}" ></iframe>
-      <h3> {{ portfolio.title }} </h3>
-      <h4> {{ portfolio.project-name }} </h4>
+    {% for portfolio in site.data.portfolio %}
+    <li data-filter="{{ portfolio.filter-type }}" class="portfolio-card">
+      <div>
+        <img src="//img.youtube.com/vi/{{ portfolio.video-id}}/0.jpg" alt="{{ portfolio.title }}-{{ portfolio.company }}"/>
+        <div class="overlay">
+          <div class="text">{{ portfolio.title }}</div>
+        </div>
+      </div>
+      <h4> {{ portfolio.company }} </h4>
     </li>
-  {% endfor %}
+    {% endfor %}
   </ul>
+  {% assign portfolio = site.data.portfolio | where:"id", page.video-id %}
+  <div class="modal-video active">
+    <div class="modal-video-container">
+      <iframe src= "{{ portfolio.video }}" allowfullscreen="allowfullscreen"
+              width="100%" frameborder="0"></iframe>
+    </div>
+    <div class="modal-video-content">
+      <h3 class="portfolio-question"></h3>
+      <p class="portfolio-description"></p>
+      <!--<div class="close-modal-btn">Close</div>-->
+      <a class="close-modal-btn">Close Video</a>
+      <!--<button class="close">Close Modal</button>-->
+    </div>
+  </div>
 </section>
+<script type="text/javascript">
+  ( function() {
+    let $ = window.$;
+
+    $('ul.media li div .overlay').on("click", function () {
+      let currVideo = {};
+
+      let portfolio = {{ site.data.portfolio | jsonify }};
+
+      let i =
+        $(this).prev().attr('src').replace('//img.youtube.com/vi/', '').replace('/0.jpg', '');
+
+      for (let port in portfolio) {
+        if (portfolio[port]["video-id"] == i) {
+          currVideo = portfolio[port]
+        }
+      }
+
+      $('.modal-video').toggleClass('active');
+      $('body').toggleClass('modal-is-open');
+      $('body').bind('touchmove', function (e) {
+        e.preventDefault();
+      });
+      $('.modal-video iframe').attr('src', 'https://www.youtube.com/embed/'+i);
+      $('.modal-video .portfolio-question').text(currVideo.question);
+      $('.modal-video .portfolio-description').text(currVideo.description);
+    });
+
+//    $('.modal-video').add('.close').on('click', function () {
+//      $('.modal-video').toggleClass('active');
+//      $('body').toggleClass('modal-is-open').unbind('touchmove');
+//    });
+
+    $('.close-modal-btn').on('click', function () {
+      console.log("clicky click");
+      $('.modal-video').toggleClass('active');
+      $('body').toggleClass('modal-is-open').unbind('touchmove');
+    });
+
+  })();
+</script>

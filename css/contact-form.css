@@ -1,76 +1,66 @@
-html, body {
-  margin: 0;
-  padding: 0;
+.contact {
+  background-color: rgba(42,48,64,1);
+  display: block;
+  float: left;
+  padding: 30px;
+  width: 100%;
 }
-* {
-  -moz-box-sizing: border-box; /* Firexfox */
-  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-  box-sizing: border-box; /* IE */
-}
-input, textarea  {
-  border-radius: 5px;
+.contact input, .contact textarea  {
+  border-radius: 0;
   border-style: none;
   float: left;
   font-size: 20px;
   margin: 15px auto;
   padding: 15px;
 }
-.contact-section {
-   background-color: #4c5468;
-   display: block;
-   float: left;
-  padding: 30px 0;
-   width: 100%;
- }
-.contact-section form {
+.contact form {
   margin: auto;
+  min-width: 768px;
   width: 50%;
 }
-.contact-section form fieldset {
+.contact form fieldset {
   border: none;
   display: inline-block;
   margin: 0;
   padding: 15px;
 }
-.contact-section form fieldset:nth-of-type(-n+3) {
+.contact form fieldset:nth-of-type(-n+4) {
   float: left;
   width: 50%;
 }
-.contact-section form fieldset:nth-of-type(-n+3) input {
+.contact form fieldset:nth-of-type(-n+4) input {
   margin-left: 0;
   width: 100%;
 }
-.contact-section form fieldset label {
+.contact form fieldset label {
   color: #fff;
   display: block;
   font-weight: lighter;
-  margin: 15px auto;
-  text-transform: uppercase;
+  margin: 0 auto;
 }
-.contact-section form button {
+.contact form button {
   background-color: #fcaf31;
   border: none;
   color: #fff;
   float: right;
-  font-size: 20px;
-  margin-right: 25px;
+  margin: 15px;
   padding: 20px;
   width: 200px;
 }
-.contact-section form button:hover {
+.contact form button:hover {
   cursor: pointer;
 }
-.contact-section h2 {
+.contact h2 {
   color: #fff;
   font-size: 40px;
   font-weight: lighter;
   text-align: center;
   width: 100%;
 }
-.contact-section form fieldset:nth-of-type(n+4) {
+.contact form fieldset:nth-of-type(n+5) {
   width: 100%;
 }
-.contact-section form fieldset textarea {
+.contact form fieldset textarea {
   height: 200px;
   width: 100%;
 }
@@ -86,7 +76,7 @@ input, textarea  {
 ## Desktops, Medium Devices
 ------------------------------------*/
 @media only screen and (max-width : 992px)  {
-  .contact-section form {
+  .contact form {
     margin: auto;
     width: 66%;
   }
@@ -95,11 +85,11 @@ input, textarea  {
 ## Tablets, Small Devices
 ------------------------------------*/
 @media only screen and (max-width : 768px)  {
-  .contact-section form {
+  .contact form {
     float: left;
     width: 100%;
   }
-  .contact-section form fieldset label {
+  .contact form fieldset label {
     margin: 0 auto;
   }
 }
@@ -107,14 +97,17 @@ input, textarea  {
 ## Phones, Extra Small Devices
 ------------------------------------*/
 @media only screen and (max-width: 480px) {
-  .contact-section form {
+  .contact {
+    padding: 15px;
+  }
+  .contact form {
     float: left;
     width: 100%;
   }
-  .contact-section form fieldset:nth-of-type(-n+3) {
+  .contact form fieldset:nth-of-type(-n+3) {
     width: 100%;
   }
-  .contact-section form fieldset label {
+  .contact form fieldset label {
     margin: 0 auto;
   }
 }
