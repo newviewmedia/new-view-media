@@ -1,9 +1,15 @@
+@media only screen and (min-width : 769px) {
+  nav#navigation-drawer {
+    display: none;
+  }
+}
 @media only screen and (max-width : 768px) {
   nav#navigation-drawer {
     float: right;
     position: fixed;
     z-index: 999;
     right: 0;
+    display: auto;
   }
   nav#navigation-drawer div.mobile-toggle {
 
