@@ -396,7 +396,7 @@ li.collaborator {
   padding: 10px 15px;
   vertical-align: middle;
 }
-.collaborators h2 {
+.collaborators h2, h4 {
   text-align: center;
 }
 .collaborators a li:hover {
