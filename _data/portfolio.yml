@@ -3,26 +3,35 @@
   video: https://www.youtube.com/embed/io97zaGmfz8
   video-id: io97zaGmfz8
   filter-type: events
-  question: "Has your startup gained exposure through MIN?"
-  description: "#MIN100! Is an amazing accomplishment for the Mass Innovation Nights team and Boston’s entrepreneurial community. Helping over 1,000 companies launch and gain $1.4 billion in funding is worth celebrating at the Museum of Science!"
+  question: "What issues do you think are impacting humanity?"
+  description: "Mass Technology Leadership Council’s 2017 TRANSFORM conference at the
+  Federal Reserve featured a discussion among Boston’s thought leaders about a diverse range of transformations occurring in society."
 
 - title: LG Training Center
   company: Level Ground MMA
   video: https://www.youtube.com/embed/9JmIvrtnGjM
   video-id: 9JmIvrtnGjM
   filter-type: crowdfunding
+  question: "How can we create youth fitness leaders?"
+  description: "LevelGround’s mission is to train the next generation of fitness leader
+   and inspire a healthier community. Our videos have help to raise funds and awareness for their amazing programs, now centered at an amazing gym in Dorchester!"
 
 - title: Boston Connect Real Estate
   company: Boston Connect
   video: https://www.youtube.com/embed/WwKcqB6hDa0
   video-id: WwKcqB6hDa0
   filter-type: real-estate
+  question: "Who is your trusted real estate advisor?"
+  description: "Boston Connect Real Estate takes pride in exceptional service that MOVES you. As the BCRE team expands throughout Massachusetts, NewView.Media is honored to assist their mission to connect home buyers and sellers."
 
 - title: Vulsec Information Security
   company: Vulsec
   video: https://www.youtube.com/embed/qHhEizigk5s
   video-id: qHhEizigk5s
   filter-type: marketing
+  question: "Who is your cyber security advisor?"
+  description: "Our animated video illustrates Vulsec’s approach to testing and
+   strengthening your cyber security infrastructure against today’s lurking threats."
 
 - title: EdTech Innovation
   company: Cognii
@@ -35,18 +44,27 @@
   video: https://www.youtube.com/embed/CPBzwBuMOWM
   video-id: CPBzwBuMOWM
   filter-type: marketing
+  question: "How can we create youth fitness leaders?"
+  description: "LevelGround’s mission is to train the next generation of fitness leader
+   and inspire a healthier community. Our videos have help to raise funds and awareness for their amazing programs, now centered at an amazing gym in Dorchester!"
 
 - title: LGMMA Corporate Bootcamp
   company: Level Ground MMA
   video: https://www.youtube.com/embed/8vK70JcDNeA
   video-id: 8vK70JcDNeA
   filter-type: marketing
+  question: "How can we create youth fitness leaders?"
+  description: "LevelGround’s mission is to train the next generation of fitness leader
+     and inspire a healthier community. Our videos have help to raise funds and awareness for their amazing programs, now centered at an amazing gym in Dorchester!"
+
 
 - title: Insert title here
   company: Analytix Solutions
   video: https://www.youtube.com/embed/cHYS52StICY
   video-id: cHYS52StICY
   filter-type: crowdfunding
+  question: "What systems manage your data?"
+  description: "Analytix Solutions’ technology enabled solutions organize data, transform it into meaningful and useful output, and in turn provide that critical information to key team members when it is needed most. Our collaboration with A+ Marketing & Design produced a testimonial campaign with high profile clients and a human relations video to recruit international talent"
 
 - title: Insert title here
   company: Blog

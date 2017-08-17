@@ -7,7 +7,6 @@
   </head>
 
   <body>
-    <!-- <div id="fakeLoader"></div> -->
     <div class="rc-loader">
       <div class="circle-one"></div>
       <div class="circle-two"></div>
@@ -19,7 +18,7 @@
 
     {% include portfolio.html %}
 
-<section class="about-nvm">
+<section id="about" class="about-nvm">
     {% include row.html
       title="Meet Tom"
       content="I am a passionate entrepreneur
@@ -63,30 +62,27 @@
     %}
 </section>
 
-{% include gradient.html %}
+{% include services.html %}
 
 {% include testimonials.html %}
 
-{% include clients.html %}
-
-<!-- section below is different so it needs new css  according to mocks-->
-<section id="aboutUs" class="nvm-venture">
+<section class="nvm-venture">
     {% include row.html
       title="Why did we start this venture?"
       content="In today’s fast paced world, every frame matters as viewers have an overload of content competing for their attention. With new technologies, the barriers to create video content has decreased. However, the importance of telling stories that advance humanity has never been greater. Through the medium of video, we intend to educate, entertain and motivate action."
-      photo="tomdodge_webphoto.jpg"
+      photo="nizar-apt.png"
     %}
 
     {% include row.html
       title="What's with the questions?"
       content="In our opinion, the role of media is to advance public discussion. Unfortunately, the current media landscape inconsistently stimulates an intellectual forum that leads to action towards socially responsible causes. Therefore, NewView.Media will produce video content that engages our audience to think about new views."
-      photo="tomdodge_webphoto.jpg"
+      photo="fenway.png"
     %}
 
     {% include row.html
       title="Where are we located?"
       content="NewView.Media HQ is located in the Cambridge Innovation Center’s 50 Milk Street building, where we are surrounded by a world class entrepreneurial community. We welcome collaborators to swing by our space for ideation sessions, filming content or to discuss your video strategy."
-      photo="located.jpg"
+      photo="50milk-day.png"
     %}
 </section>
 
@@ -96,12 +92,9 @@
 
 </section>
 
-<!-- <section id="main-contact"> -->
 {% include contact-form.html %}
-<!-- </section> -->
 
 {% include footer.html %}
 
-    <!-- {{ content }} -->
     </body>
 </html>
