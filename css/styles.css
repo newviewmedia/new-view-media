@@ -81,25 +81,25 @@ header {
   width: 100%;
   z-index: 4;
 }
-header nav {
+header nav:not(#navigation-drawer) {
   display: block;
   float: left;
   min-height: 80px;
   position: relative;
   width: 100%;
 }
-header nav div.logo {
+header nav:not(#navigation-drawer) div.logo {
   display: inline-block;
   float: left;
   position: relative;
 }
-header nav div.logo img {
+header nav:not(#navigation-drawer) div.logo img {
   display: block;
   float: left;
   max-height: 80px;
   width: auto;
 }
-header nav ul {
+header nav:not(#navigation-drawer) ul {
   display: inline-block;
   float: right;
   font-size: 16px;
@@ -113,14 +113,14 @@ header nav ul {
   transform: perspective(1px) translateY(-50%);
   width: 100%;
 }
-header nav ul li {
+header nav:not(#navigation-drawer) ul li {
   color: #fff;
   display: inline-block;
   padding: 5px 5px;
   text-align: center;
   width: calc( (100% / 6) - 15px);
 }
-header nav ul li a {
+header nav:not(#navigation-drawer) ul li a {
 
 }
 /*-----------------------------------
@@ -859,17 +859,29 @@ li.collaborator {
   }
 }
 /*-----------------------------------
+## Small Devices LANDSCAPE
+------------------------------------*/
+@media only screen and (orientation: landscape) and (max-device-width: 769px) {
+  section.hero {
+    height: 100vh;
+  }
+  section.hero video {
+    height: 100vw;
+  }
+}
+/*-----------------------------------
 ## Tablets, Small Devices
 ------------------------------------*/
+
 @media only screen and (max-width : 768px)  {
   header {
     padding: 15px;
   }
-  header nav ul {
+  header nav:not(#navigation-drawer) ul {
     display: none;
   }
   section.hero {
-    height: 66vh;
+    height: 100vh;
   }
   section.hero video {
     max-width: none;
