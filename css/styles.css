@@ -421,6 +421,9 @@ li.collaborator {
   object-fit: cover;
   object-position: top;
 }
+.collaborators > h2, .collaborators > h4 {
+  text-align: center;
+}
 .collaborators .collaborator h4 {
   margin: 0;
 }
