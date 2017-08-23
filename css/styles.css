@@ -396,8 +396,8 @@ li.collaborator {
   padding: 10px 15px;
   vertical-align: middle;
 }
-.collaborators h2 {
-  text-align: center;
+.collaborators > h2, .collaborators > h4 {
+    text-align: center;
 }
 .collaborators a li:hover {
   -webkit-box-shadow: 0 0 8px 1px rgba(0,0,0,0.55);
