@@ -311,7 +311,7 @@ section.hero div.content a button {
 }
 /*-----UPDATED COPY FOR WHY START VENTURE (END)-----*/
 .services {
-  background: url('../img/MIN101_Boston.jpg');
+  background: url('../img/fenway.png');
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -723,6 +723,8 @@ li.collaborator {
   vertical-align: middle;
 }
 .testimonials .testimonial {
+  max-width: 540px;
+  vertical-align: top;
   background-color: white;
   border: 1px solid #eee;
   display: inline-block;
@@ -818,6 +820,14 @@ li.collaborator {
 /*-----------------------------------
 # Media Queries
 ------------------------------------*/
+@media (min-width: 1920px) {
+  .testimonial {
+    float: none;
+  }
+  .collaborators a {
+    width: calc( (100% / 5) - 3px);
+  }
+}
 /*-----------------------------------
 ## Wide Screens, Large Devices
 ------------------------------------*/
