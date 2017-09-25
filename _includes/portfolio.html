@@ -33,9 +33,7 @@
     <div class="modal-video-content">
       <h3 class="portfolio-question"></h3>
       <p class="portfolio-description"></p>
-      <!--<div class="close-modal-btn">Close</div>-->
       <a class="close-modal-btn">Close Video</a>
-      <!--<button class="close">Close Modal</button>-->
     </div>
   </div>
 </section>
@@ -67,15 +65,11 @@
       $('.modal-video .portfolio-description').text(currVideo.description);
     });
 
-//    $('.modal-video').add('.close').on('click', function () {
-//      $('.modal-video').toggleClass('active');
-//      $('body').toggleClass('modal-is-open').unbind('touchmove');
-//    });
-
     $('.close-modal-btn').on('click', function () {
       console.log("clicky click");
       $('.modal-video').toggleClass('active');
       $('body').toggleClass('modal-is-open').unbind('touchmove');
+      $('.modal-video iframe').attr('src','');;
     });
 
   })();

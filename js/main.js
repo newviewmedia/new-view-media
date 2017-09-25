@@ -1,4 +1,16 @@
 ( function() {
+  // Toggle scroll styling for header
+  $(function () {
+    $(document).scroll(function () {
+      var $header = $("header");
+      if ($(window).width() > 767) {
+        $header.toggleClass('scrolled', $(this).scrollTop() > $header.height());
+      } else {
+        $header.removeClass('scrolled');
+      }
+    });
+  });
+
   //gets the youtube thumbnail
   function getYoutubeThumbnail(){
     // var portfolio = {{ site.data.portfolio | jsonify }};
@@ -57,20 +69,4 @@
   //TODO: animation and active state for the filter texts. ex. when crowdfunding is selected it tints yellow
   //      going for Sandwichvideo.com asthetic
   //      modal is the goal
-
-
-  // $('ul.media li div .overlay').on("click", function () {
-  //   // var currVideo = {
-  //   //   company: '',
-  //   //   id: '',
-  //   //   title:'',
-  //   // }
-  //   var i = $(this).prev().attr('src').replace('//img.youtube.com/vi/', '').replace('/0.jpg', '');
-  //   $('.modal-video').toggleClass('active');
-  //   $('.modal-video iframe').attr('src', 'https://www.youtube.com/embed/'+i);
-  // });
-  //
-  // $('.modal-video').on('click', function () {
-  //   $('.modal-video').toggleClass('active');
-  // })
 })();
