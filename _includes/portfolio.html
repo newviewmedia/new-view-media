@@ -1,7 +1,7 @@
 <section id="portfolio">
   <section class="content">
-    <h2>Diverse range of projects to educate, entertain & motivate action.</h2>
-    <h3>At NewView.Media, we take pride as video producers that facilitate growth for entrepreneurial causes across a range of industries, want to see our portfolio?</h3>
+    <h2>Our projects aim to educate, entertain and engage</h2>
+    <h3>Want to see our portfolio?</h3>
     <ul class="filter flex-horiz-center">
       <li class="all active" data-filter="all">All</li>
       <li class="crowdfunding" data-filter="crowdfunding">Crowdfunding</li>
@@ -37,6 +37,7 @@
     </div>
   </div>
 </section>
+<span>
 <script type="text/javascript">
   ( function() {
     let $ = window.$;
@@ -51,7 +52,7 @@
 
       for (let port in portfolio) {
         if (portfolio[port]["video-id"] == i) {
-          currVideo = portfolio[port]
+          currVideo = portfolio[port];
         }
       }
 
@@ -66,7 +67,6 @@
     });
 
     $('.close-modal-btn').on('click', function () {
-      console.log("clicky click");
       $('.modal-video').toggleClass('active');
       $('body').toggleClass('modal-is-open').unbind('touchmove');
       $('.modal-video iframe').attr('src','');;
@@ -74,3 +74,4 @@
 
   })();
 </script>
+</span>
