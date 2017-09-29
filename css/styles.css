@@ -311,6 +311,9 @@ section.hero div.content a button {
   box-shadow: 0 3px 8px rgba(0, 0, 0, .35);
   width: 50%;
 }
+#about {
+  float: left;
+}
 .about-nvm .row:nth-of-type(odd) .media,
 .about-nvm .row:nth-of-type(odd) .row-media {
   float: right;
