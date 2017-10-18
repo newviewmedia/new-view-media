@@ -423,6 +423,9 @@ li.collaborator {
   padding: 10px 15px;
   vertical-align: middle;
 }
+.collaborator small {
+  display: flex; 
+}
 .collaborators a li:hover {
   -webkit-box-shadow: 0 0 8px 1px rgba(0,0,0,0.55);
   -moz-box-shadow: 0 0 8px 1px rgba(0,0,0,0.55);
