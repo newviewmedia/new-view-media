@@ -1,183 +1,220 @@
+---
+- title: Lendbuzz Customer Testimonial
+  company: Lendbuzz
+  video: https://www.youtube.com/embed/08vhrQSQdYU
+  video-id: 08vhrQSQdYU
+  filter-type: Marketing
+  question: How do you finance your car loans?
+  description: ''
 - title: StartEngine Crowdfunding Campaign
   company: GeoOrbital
   video: https://www.youtube.com/embed/ufs9gfFDZFI
   video-id: ufs9gfFDZFI
   filter-type: crowdfunding
-  question: "Would you invest in an electric bike wheel?"
-  description: "The GeoOrbital Wheel converts any standard bicycle into an electric bike in seconds by simply replacing the front wheel. Outside of the biking world, the GeoOrbital platform opens up a world of possibilities for alternative electric vehicles."
-
-- title: Standup Bevi Installation Guide 
+  question: Would you invest in an electric bike wheel?
+  description: The GeoOrbital Wheel converts any standard bicycle into an electric
+    bike in seconds by simply replacing the front wheel. Outside of the biking world,
+    the GeoOrbital platform opens up a world of possibilities for alternative electric
+    vehicles.
+- title: Standup Bevi Installation Guide
   company: Bevi
   video: https://www.youtube.com/embed/egkIqXWhfxw
   video-id: egkIqXWhfxw
   filter-type: marketing
-  question: "Does environmentally friendly, flavored water interest you?"
-  description: "Bevi’s mission to eliminate the use of bottles & cans is rapidly expanding and we’re proud to help out the cause through a video campaign to facilitate their machine’s installation process."
-
-- title: NetCapital Crowdfunding Campaign 
+  question: Does environmentally friendly, flavored water interest you?
+  description: Bevi’s mission to eliminate the use of bottles & cans is rapidly expanding
+    and we’re proud to help out the cause through a video campaign to facilitate their
+    machine’s installation process.
+- title: NetCapital Crowdfunding Campaign
   company: Sidekick
   video: https://www.youtube.com/embed/7qiUd4n8adk
   video-id: 7qiUd4n8adk
   filter-type: crowdfunding
-  question: "Would you benefit from a single point of contact for all your home improvement needs?"
-  description: "Sidekick mission is to simplify the home improvement process and allow contractors to focus on what they do best. Our video contributed to tell their story in a Netcapital crowdfunding campaign that raised $160k. "
-
+  question: Would you benefit from a single point of contact for all your home improvement
+    needs?
+  description: 'Sidekick mission is to simplify the home improvement process and allow
+    contractors to focus on what they do best. Our video contributed to tell their
+    story in a Netcapital crowdfunding campaign that raised $160k. '
 - title: Animated Marketing Video
   company: Vulsec
   video: https://www.youtube.com/embed/qHhEizigk5s
   video-id: qHhEizigk5s
   filter-type: marketing
-  question: "Who is your cyber security advisor?"
-  description: "Our animated video illustrates Vulsec’s approach to testing and strengthening your cyber security infrastructure against today’s lurking threats. "
-
+  question: Who is your cyber security advisor?
+  description: 'Our animated video illustrates Vulsec’s approach to testing and strengthening
+    your cyber security infrastructure against today’s lurking threats. '
 - title: Graduation and Spring Soiree Fundraising Campaign
   company: MindsMatter
   video: https://www.youtube.com/embed/KGLNxzvcZas
   video-id: KGLNxzvcZas
   filter-type: crowdfunding
-  question: "Want to help mentor Boston high schoolers?"
-  description: "Minds Matter Boston helps low income, highly motivated students achieve through their mentorship program ran every Saturday morning at MIT. Our video celebrated the class of 2017 while also helping to raise $170k at the organization’s Spring Soiree event. "
-
+  question: Want to help mentor Boston high schoolers?
+  description: 'Minds Matter Boston helps low income, highly motivated students achieve
+    through their mentorship program ran every Saturday morning at MIT. Our video
+    celebrated the class of 2017 while also helping to raise $170k at the organization’s
+    Spring Soiree event. '
 - title: Kickstarter Campaign
   company: GeoOrbital
   video: https://www.youtube.com/embed/d7tewq4p4PI
   video-id: d7tewq4p4PI
   filter-type: crowdfunding
-  question: "Want to watch our video for one of the most successful crowdfunding campaigns ever?"
-  description: "GeoOrbital has reinvented the wheel with their innovative design to easily adapt your bike into an electric vehicle. We were honored to collaborate on this amazing campaign that raised over $1.26 million."
-
+  question: Want to watch our video for one of the most successful crowdfunding campaigns
+    ever?
+  description: GeoOrbital has reinvented the wheel with their innovative design to
+    easily adapt your bike into an electric vehicle. We were honored to collaborate
+    on this amazing campaign that raised over $1.26 million.
 - title: NetCapital Crowdfunding Campaign
   company: Chronability
   video: https://www.youtube.com/embed/IQTvG7-S1jQ
   video-id: IQTvG7-S1jQ
   filter-type: crowdfunding
-  question: "How do you maximize your time?"
-  description: "A diverse range of characters leverage Chronability’s iPhone and Apple Watch apps to effectively manage their time throughout the day. Created to launch a crowdfunding campaign on the NetCapital platform, the video features the talented Tina Bell, Ancel Hernandez and Arkadiy Norkin. "
-
+  question: How do you maximize your time?
+  description: 'A diverse range of characters leverage Chronability’s iPhone and Apple
+    Watch apps to effectively manage their time throughout the day. Created to launch
+    a crowdfunding campaign on the NetCapital platform, the video features the talented
+    Tina Bell, Ancel Hernandez and Arkadiy Norkin. '
 - title: Marketing Video
   company: Boston Connect Real Estate
   video: https://www.youtube.com/embed/WwKcqB6hDa0
   video-id: WwKcqB6hDa0
   filter-type: real-estate
-  question: "Who is your trusted real estate advisor?"
-  description: "Boston Connect Real Estate takes pride in exceptional service that MOVES you. As the BCRE team expands throughout Massachusetts, NewView.Media is honored to assist their mission to connect home buyers and sellers."
-
+  question: Who is your trusted real estate advisor?
+  description: Boston Connect Real Estate takes pride in exceptional service that
+    MOVES you. As the BCRE team expands throughout Massachusetts, NewView.Media is
+    honored to assist their mission to connect home buyers and sellers.
 - title: MassTLC Transform 2016
   company: Mass TLC
   video: https://www.youtube.com/embed/io97zaGmfz8
   video-id: io97zaGmfz8
   filter-type: events
-  question: "What issues do you think are impacting humanity?"
-  description: "Mass Technology Leadership Council’s 2017 TRANSFORM conference at the Federal Reserve featured a discussion among Boston’s thought leaders about a diverse range of transformations occurring in society."
-
+  question: What issues do you think are impacting humanity?
+  description: Mass Technology Leadership Council’s 2017 TRANSFORM conference at the
+    Federal Reserve featured a discussion among Boston’s thought leaders about a diverse
+    range of transformations occurring in society.
 - title: Advanced Installation and Use
   company: GeoOrbital
   video: https://www.youtube.com/embed/Bf0HmNvYY9Y
   video-id: Bf0HmNvYY9Y
   filter-type: marketing
-  question: "Want to learn how to install a GeoOrbital wheel?"
-  description: "GeoOrbital’s CTO Dakota explains how to install, adjust and operate the GeoOrbital wheel on a variety of bicycles. "
-
+  question: Want to learn how to install a GeoOrbital wheel?
+  description: 'GeoOrbital’s CTO Dakota explains how to install, adjust and operate
+    the GeoOrbital wheel on a variety of bicycles. '
 - title: Recap Video
   company: Silent Disco Snow Day
   video: https://www.youtube.com/embed/MhsOH0RLMQ0
   video-id: MhsOH0RLMQ0
   filter-type: events
-  question: "Do you like to dance?"
-  description: "The Silent Disco mission is to build community through dancing and we had a great time capturing their adventure through the streets of Cambridge! "
-
+  question: Do you like to dance?
+  description: 'The Silent Disco mission is to build community through dancing and
+    we had a great time capturing their adventure through the streets of Cambridge! '
 - title: Documentary Trailer
   company: Enjoy Life Education
   video: https://www.youtube.com/embed/1INrOZHfO38
   video-id: 1INrOZHfO38
   filter-type: creative-content
-  question: "What’s your purpose?"
-  description: "The Enjoy Life Education Documentary highlights the curriculum and inspirational takeaways from their leadership academy. NewView.Media will cherish the memories from producing this project as revolutionizing education and motivating youth to maximize their potential is our mutual mission. "
-
+  question: What’s your purpose?
+  description: 'The Enjoy Life Education Documentary highlights the curriculum and
+    inspirational takeaways from their leadership academy. NewView.Media will cherish
+    the memories from producing this project as revolutionizing education and motivating
+    youth to maximize their potential is our mutual mission. '
 - title: Indiegogo Crowdfunding Campaign
   company: Level Ground MMA
   video: https://www.youtube.com/embed/9JmIvrtnGjM
   video-id: 9JmIvrtnGjM
   filter-type: crowdfunding
-  question: "How can we create youth fitness leaders?"
-  description: "LevelGround’s mission is to train the next generation of fitness leader and inspire a healthier community. Our videos have help to raise funds and awareness for their amazing programs, now centered at an amazing gym in Dorchester!"
-
+  question: How can we create youth fitness leaders?
+  description: LevelGround’s mission is to train the next generation of fitness leader
+    and inspire a healthier community. Our videos have help to raise funds and awareness
+    for their amazing programs, now centered at an amazing gym in Dorchester!
 - title: Marketing Video
   company: Official Kings Playing Card Deck
   video: https://www.youtube.com/embed/sdfR-Tm1bD8
   video-id: sdfR-Tm1bD8
   filter-type: marketing
-  question: "Do you ever dispute the rules of King’s?"
-  description: "The Official Kings Playing Card Deck is a much needed solution to a problem many friends face when gathering for an evening!"
-
-- title: Basic Wheel Installation 
+  question: Do you ever dispute the rules of King’s?
+  description: The Official Kings Playing Card Deck is a much needed solution to a
+    problem many friends face when gathering for an evening!
+- title: Basic Wheel Installation
   company: GeoOrbital
   video: https://www.youtube.com/embed/i7HVVT9D5HY
   video-id: i7HVVT9D5HY
   filter-type: marketing
-  question: "Want to learn the basics behind GeoOrbital’s revolutionary wheel?"
-  description: "After collaborating on GeoOrbital’s amazing Kickstarter campaign, we teamed up to help supporters learn the basics behind installing the wheel. "
-
+  question: Want to learn the basics behind GeoOrbital’s revolutionary wheel?
+  description: 'After collaborating on GeoOrbital’s amazing Kickstarter campaign,
+    we teamed up to help supporters learn the basics behind installing the wheel. '
 - title: Hawaii Music Video
   company: Kahleo
   video: https://www.youtube.com/embed/T2x_yrPhFUw
   video-id: T2x_yrPhFUw
   filter-type: creative-content
-  question: "Where do you feel at home?"
-  description: "From the waves of Hawaii, to his current music grounds in Boston, have fun exploring the worlds that Kahlo resides. A special shoutout to an amazing crew!"
-
+  question: Where do you feel at home?
+  description: From the waves of Hawaii, to his current music grounds in Boston, have
+    fun exploring the worlds that Kahlo resides. A special shoutout to an amazing
+    crew!
 - title: Aerial Real Estate Videography
   company: Barcellos Lighting & Design
   video: https://www.youtube.com/embed/nXfvuAjGzDY
   video-id: nXfvuAjGzDY
   filter-type: real-estate
-  question: "How do you light your home?"
-  description: "Our teams have collaborated on multiple media projects for Barcellos Lighting and Design, a company that is committed to provide landscape architects, designers, contractors and homeowners with the finest, versatile, and dramatic lighting systems available."
-
+  question: How do you light your home?
+  description: Our teams have collaborated on multiple media projects for Barcellos
+    Lighting and Design, a company that is committed to provide landscape architects,
+    designers, contractors and homeowners with the finest, versatile, and dramatic
+    lighting systems available.
 - title: Sembler Office at Draper Recap Video
-  company: MassInnovationNights #94
+  company: MassInnovationNights
   video: https://www.youtube.com/embed/TwozVpT6NbM
   video-id: TwozVpT6NbM
   filter-type: marketing
-  question: "Did you attend #MIN94?"
-  description: "Watch our recap video featuring the range of startups at #MIN94 and a testimonial from Sembler Office at Draper’s Director Nathan Wiedenman about the importance of sponsoring the growth of the Boston entrepreneurial ecosystem."
-
+  question: 'Did you attend #MIN94?'
+  description: 'Watch our recap video featuring the range of startups at #MIN94 and
+    a testimonial from Sembler Office at Draper’s Director Nathan Wiedenman about
+    the importance of sponsoring the growth of the Boston entrepreneurial ecosystem.'
 - title: South Shore Indie Music Festival Marketing Video
   company: Fuller Craft Museum
   video: https://www.youtube.com/embed/Vjuk5iZWou0
   video-id: Vjuk5iZWou0
-  filter-type: marketing 
-  question: "How do use craftivism to spread compassion?"
-  description: "The Fuller Craft Museum hosted the South Shore Indie Music Festival featuring Aldous Collins and highlighting the importance of how art sustains us."
-
+  filter-type: marketing
+  question: How do use craftivism to spread compassion?
+  description: The Fuller Craft Museum hosted the South Shore Indie Music Festival
+    featuring Aldous Collins and highlighting the importance of how art sustains us.
 - title: Women Founder’s Recap Video
-  company:  MassInnovationNights #91 
+  company: MassInnovationNights
   video: https://www.youtube.com/embed/a1TE2kQkg3I
   video-id: a1TE2kQkg3I
   filter-type: marketing
-  question: "How do you sponsor women entrepreneurship?"
-  description: "Watch our recap video featuring Boston Mayor Marty Walsh at Mass Innovation Nights 91 Women Founders at District Hall in Boston"
-
+  question: How do you sponsor women entrepreneurship?
+  description: Watch our recap video featuring Boston Mayor Marty Walsh at Mass Innovation
+    Nights 91 Women Founders at District Hall in Boston
 - title: Corporate Bootcamp
   company: Level Ground MMA
   video: https://www.youtube.com/embed/CPBzwBuMOWM
   video-id: CPBzwBuMOWM
   filter-type: marketing
-  question: "Want help leading workout bootcamps right in the workplace while supporting an important cause?"
-  description: "Proceeds from LG Bootcamps directly benefit our Student Trainer Certification program. The Certification program trains urban youth to be leaders in the fitness industry."
-
+  question: Want help leading workout bootcamps right in the workplace while supporting
+    an important cause?
+  description: Proceeds from LG Bootcamps directly benefit our Student Trainer Certification
+    program. The Certification program trains urban youth to be leaders in the fitness
+    industry.
 - title: Client Testimonial
   company: Analytix Solutions
   video: https://www.youtube.com/embed/cHYS52StICY
   video-id: cHYS52StICY
   filter-type: marketing
-  question: "What systems manage your data?"
-  description: "Analytix Solutions’ technology enabled solutions organize data, transform it into meaningful and useful output, and in turn provide that critical information to key team members when it is needed most. Our collaboration with A+ Marketing & Design produced a testimonial campaign with high profile clients and a human relations video to recruit international talent"
-
+  question: What systems manage your data?
+  description: Analytix Solutions’ technology enabled solutions organize data, transform
+    it into meaningful and useful output, and in turn provide that critical information
+    to key team members when it is needed most. Our collaboration with A+ Marketing
+    & Design produced a testimonial campaign with high profile clients and a human
+    relations video to recruit international talent
 - title: The Man from Barre Documentary
   company: MA State Senator Steve Brewer
   video: https://www.youtube.com/embed/e67ON7bmTkE
   video-id: e67ON7bmTkE
   filter-type: creative-content
-  question: "Have you heard of Steve Brewer, a man who has dedicated a lifetime to helping his community through outstanding government service?"
-  description: "Rising from Selectman, to Representative, MA State Senator and Chairman of Ways and Means, he has fought for countless individuals and their causes on Beacon Hill. We are honored to present “The Boy from Barre” as a testament to Senator Brewer’s impactful career. "
+  question: Have you heard of Steve Brewer, a man who has dedicated a lifetime to
+    helping his community through outstanding government service?
+  description: 'Rising from Selectman, to Representative, MA State Senator and Chairman
+    of Ways and Means, he has fought for countless individuals and their causes on
+    Beacon Hill. We are honored to present “The Boy from Barre” as a testament to
+    Senator Brewer’s impactful career. '
