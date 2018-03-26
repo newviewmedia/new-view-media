@@ -53,6 +53,11 @@ body  {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
+@media only screen and (max-width : 769px) {
+  body {
+    font-size: 14px;
+  }
+}
 body,
 button,
 input {
@@ -303,8 +308,15 @@ section.hero div.content h1 {
 section.hero div.content h2 {
   color: white;
 }
-section.hero div.content a {
-
+@media only screen and (max-width : 576px) {
+  section.hero div.content h1,
+  section.hero div.content h2,
+  section.hero div.content h3 {
+    display: none;
+  }
+  section.hero div.content a button {
+    
+  }
 }
 section.hero div.content a button {
   background-color: rgb(255,174,0);
@@ -352,10 +364,7 @@ section.hero div.content a button {
 .about-nvm .row:nth-of-type(odd) .row-media {
   float: right;
 }
-/*.about-nvm .row:nth-child(n+2) {*/
-  /*background-color: rgba(255,174,0,1.0);*/
-  /*color: #fff;*/
-/*}*/
+
 .row .media img {
   height: auto;
   width: 100%;
@@ -429,8 +438,9 @@ section.hero div.content a button {
   width: 100%;
 }
 .collaborators {
-  display: table;
-  float: left;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0;
   position: relative;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
@@ -440,7 +450,6 @@ section.hero div.content a button {
 }
 .collaborators a {
   display: inline-block;
-  /* float: left; */
   margin: 0;
   min-height: 200px;
   position: relative;
@@ -487,6 +496,7 @@ li.collaborator {
 }
 .collaborators > h2, .collaborators > h4 {
   text-align: center;
+  width: 100%;
 }
 .collaborators .collaborator h4 {
   margin: 0;
@@ -609,6 +619,7 @@ li.collaborator {
 #portfolio .filter {
   float: left;
   margin: 15px auto;
+  padding: 0;
   text-align: center;
   width: 100%;
 }
@@ -646,10 +657,11 @@ li.collaborator {
   font-size: 22px;
 }
 #portfolio .media {
-  display: table;
-  float: left;
+  display: flex;
+  flex-flow: row wrap;
   margin: 15px auto;
   min-width: 100%;
+  padding: 0;
 }
 #portfolio .media .portfolio-card {
   background-color: #2a3040;
