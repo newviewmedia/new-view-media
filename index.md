@@ -19,6 +19,12 @@ process-row:
     through every step of the video production process. With over $2 million raised
     in crowdfunding campaigns, NewView.Media is confident we can visually communicate
     your view.
+ventures2:
+  rows:
+    - title: Help
+      content: Test
+    - title: wow
+      content: Test also
 ventures:
     rows:
         - title: Why did we start this venture?
