@@ -19,13 +19,10 @@ process-row:
     through every step of the video production process. With over $2 million raised
     in crowdfunding campaigns, NewView.Media is confident we can visually communicate
     your view.
-ventures:
-  rows:
-  - title: ''
-    photo: ''
-    content: ''
-ventures-row:
-  title: ''
+venture-row:
+  title: Why did we start this venture?
+  photo: MIN101_Two_2.jpg
+  content: In today's fast paced world, every frame matters as viewers have an overload of content competiting for their attention. With new technologies, the barriers to create video content has decreased. However, the importance of telling stories that advance humanity has never been greater. Through the medium of video, we intend to educate, entertain and motivate action.
 questions-row:
   title: What's with the questions?
   photo: drydock-sunset.png
@@ -40,13 +37,5 @@ location-row:
     Street building, where we are surrounded by a world class entrepreneurial community.
     We welcome collaborators to swing by our space for ideation sessions, filming
     content or to discuss your video strategy.
-process-row2:
-  title: What's Our Process?
-  photo: tom-on-water.jpg
-  content: NewView.Media provides video services to entrepreneurial causes in the
-    Greater Boston area and beyond. Beginning with the critical preproduction phase,
-    to executing shoots and through each editing iteration, we aim to guide our clients
-    through every step of the video production process. With over $2 million raised
-    in crowdfunding campaigns, NewView.Media is confident we can visually communicate
-    your view.
+    
 ---
