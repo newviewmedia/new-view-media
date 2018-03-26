@@ -20,7 +20,7 @@ process-row:
     in crowdfunding campaigns, NewView.Media is confident we can visually communicate
     your view.
 ventures:
-  row:
+  rows:
     - title: Why did we start this venture?
       photo: MIN101_Two_2.jpg
       content: In today’s fast paced world, every frame matters as viewers have an overload of content competing for their attention. With new technologies, the barriers to create video content has decreased. However, the importance of telling stories that advance humanity has never been greater. Through the medium of video, we intend to educate, entertain and motivate action.
