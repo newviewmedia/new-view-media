@@ -19,6 +19,15 @@ process-row:
     through every step of the video production process. With over $2 million raised
     in crowdfunding campaigns, NewView.Media is confident we can visually communicate
     your view.
+process-row2:
+  title: What's Our Process?
+  photo: tom-on-water.jpg
+  content: NewView.Media provides video services to entrepreneurial causes in the
+    Greater Boston area and beyond. Beginning with the critical preproduction phase,
+    to executing shoots and through each editing iteration, we aim to guide our clients
+    through every step of the video production process. With over $2 million raised
+    in crowdfunding campaigns, NewView.Media is confident we can visually communicate
+    your view.
 ventures-row:
   title: Why did we start this venture?
   photo: MIN101_Two_2.jpg
