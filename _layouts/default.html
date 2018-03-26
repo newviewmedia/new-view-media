@@ -42,15 +42,27 @@
       content="NewView.Media HQ is located in the Cambridge Innovation Center’s 50 Milk Street building, where we are surrounded by a world class entrepreneurial community. We welcome collaborators to swing by our space for ideation sessions, filming content or to discuss your video strategy."
       photo="milk-street.jpg"
     %}
-    {% for row in page.ventures.rows %}
-      <section class="row">
-          <div class="content">
-            <h3>{{ row.title }}</h3>
-            <p>{{ row.content }}</p>
-          </div>
-          <img src="{{ site.baseurl }}/img/{{ row.photo }}" class="row-media" alt="" />
-        </section>  
-    {% endfor %}
+  <section class="row">
+    <div class="content">
+      <h3>{{ page.venture-row.title }}</h3>
+      <p>{{ page.venture-row.content }}</p>
+    </div>
+    <img src="{{ site.baseurl }}/img/{{ page.venture-row.photo }}" class="row-media" alt="" />
+  </section>  
+  <section class="row">
+    <div class="content">
+      <h3>{{ page.questions-row.title }}</h3>
+      <p>{{ page.questions-row.content }}</p>
+    </div>
+    <img src="{{ site.baseurl }}/img/{{ page.questions-row.photo }}" class="row-media" alt="" />
+  </section>
+  <section class="row">
+    <div class="content">
+      <h3>{{ page.location-row.title }}</h3>
+      <p>{{ page.location-row.content }}</p>
+    </div>
+    <img src="{{ site.baseurl }}/img/{{ page.location-row.photo }}" class="row-media" alt="" />
+  </section>  
     
 </section>
 
