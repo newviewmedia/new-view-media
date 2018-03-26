@@ -225,6 +225,40 @@ label, input, textarea {
 small {
   font-size: 0.9em;
 }
+@media only screen and (max-width : 768px)  {
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.65em;
+  }
+  h3 {
+    font-size: 1.4em;
+  }
+  h4 {
+    font-size: 1.15em;
+  }
+  h5 {
+    font-size: 1em;
+  }
+  h6 {
+    font-size: 0.83em;
+  }
+  p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin: 0 0 1em;
+  }
+  blockquote {
+    font-size: 1.15em;
+  }
+  label, input, textarea {
+    font-family: 'Josefin Sans', Helvetica, sans-serif;;
+  }
+  small {
+    font-size: 0.8em;
+  }
+}
 /*-----------------------------------
 # Hero
 ------------------------------------*/
@@ -922,13 +956,10 @@ li.collaborator {
   header nav:not(#navigation-drawer) ul {
     display: none;
   }
-  section.hero {
-    height: 100vh;
-  }
   section.hero video {
     max-width: none;
-    width: auto;
-    height: 100%;
+    width: 100%;
+    height: auto;
   }
   .row {
     padding: 45px;
