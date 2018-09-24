@@ -1,4 +1,14 @@
 ---
+- title: Consumer Testimonials
+  company: Relativity Whiskey
+  video: https://youtu.be/HDbZJzOONWI
+  video-id: HDbZJzOONWI
+  filter-type: 'marketing '
+  question: Have you tried Relativity whiskey?
+  description: 'Relativity is the most innovative whiskey in the market today. Our
+    proprietary software allows us to simulate the traditional interaction between
+    whiskey and wood by rapidly cycling pressure and temperature. Our video helped
+    scale Relativity across the state of Massachusetts with the brand slogan #BeAheadofYourTime'
 - title: Kickstarter Campaign
   company: 'Sated '
   video: https://youtu.be/zo74Z3FpP_g
@@ -8,15 +18,6 @@
   description: 'Sated shakes are a complete, convenient, affordable meal in a bottle.
     Our team produced the video and design assets to help launch Sated''s Ready to
     Drink shake with over 900 backers and ~$180k raised on Kickstarter. '
-- title: CounterTop Installation Guide
-  company: Bevi
-  video: https://youtu.be/gk7mdjkCKZ8
-  video-id: gk7mdjkCKZ8
-  filter-type: 'marketing '
-  question: Is there a Bevi in your office?
-  description: 'Bevi''s new Countertop setup allows an office to drink environmentally
-    friendly, flavored water. Our video provides a visual step by step guide to help
-    service providers complete the installation process. '
 - title: Student Profile Spotlight
   company: Duet-SNHU
   video: https://youtu.be/aW7KsZMDmOI
@@ -46,6 +47,15 @@
     They’re transforming long-distance commuting, carpooling, and road trips, so you
     can travel on your own terms! Our collaboration with Tina Bell, John Logan and
     Shree Ramachandran across Greater Boston helped launch TrABu on the app store.  '
+- title: CounterTop Installation Guide
+  company: Bevi
+  video: https://youtu.be/gk7mdjkCKZ8
+  video-id: gk7mdjkCKZ8
+  filter-type: 'marketing '
+  question: Is there a Bevi in your office?
+  description: 'Bevi''s new Countertop setup allows an office to drink environmentally
+    friendly, flavored water. Our video provides a visual step by step guide to help
+    service providers complete the installation process. '
 - title: Summit on Data Smart Gov
   company: Harvard Ash Center
   video: https://youtu.be/5ybedUaHzrg
