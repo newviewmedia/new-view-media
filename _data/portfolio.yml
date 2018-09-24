@@ -12,7 +12,7 @@
   company: Relativity Whiskey
   video: https://youtu.be/HDbZJzOONWI
   video-id: HDbZJzOONWI
-  filter-type: 'marketing '
+  filter-type: marketing
   question: Have you tried Relativity whiskey?
   description: 'Relativity is the most innovative whiskey in the market today. Our
     proprietary software allows us to simulate the traditional interaction between
@@ -22,7 +22,7 @@
   company: Duet-SNHU
   video: https://youtu.be/aW7KsZMDmOI
   video-id: aW7KsZMDmOI
-  filter-type: 'marketing '
+  filter-type: marketing
   question: What is the future of education?
   description: Duet partners with Southern New Hampshire University to offer highly
     flexible and affordable degree programs and start-to-finish coaching right here
@@ -41,7 +41,7 @@
   company: TrABu
   video: https://youtu.be/u2unfIwk1vM
   video-id: u2unfIwk1vM
-  filter-type: 'marketing '
+  filter-type: marketing
   question: How can you save or earn money with long distance travel?
   description: 'TrABu is a travel app that allows travelers to connect with passengers.
     They’re transforming long-distance commuting, carpooling, and road trips, so you
@@ -71,7 +71,7 @@
   company: Harvard Ash Center
   video: https://youtu.be/5ybedUaHzrg
   video-id: 5ybedUaHzrg
-  filter-type: 'events '
+  filter-type: events
   question: How can we leverage data to enhance government?
   description: 'Chief Data Officers from forward thinking cities across the United
     States gathered for a weekend of talks, workshops and networking to share best
@@ -82,7 +82,7 @@
   company: BYHP
   video: https://youtu.be/iv5yOA5whAo
   video-id: iv5yOA5whAo
-  filter-type: 'events '
+  filter-type: events
   question: How do you connect with healthcare professionals?
   description: Boston Young Healthcare Professionals organized a summer social to
     help connect people who are passionate about the healthcare industry. Our team
@@ -109,7 +109,7 @@
   company: Brandeis Innovation Center
   video: https://youtu.be/O9apXhB5-ZI
   video-id: O9apXhB5-ZI
-  filter-type: 'events '
+  filter-type: events
   question: How does your community showcase innovation?
   description: Brandeis Innovation Center hosted a showcase featuring startup companies
     and students their program invested in to help reach that next level of growth.
