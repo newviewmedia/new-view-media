@@ -1,11 +1,15 @@
 ---
-- title: ''
-  company: ''
-  video: ''
-  video-id: ''
-  filter-type: ''
-  question: ''
-  description: ''
+- title: Netcapital Fundraising Campaign
+  company: Atmos | XR City
+  video: https://youtu.be/S9L2M7wRfso
+  video-id: S9L2M7wRfso
+  filter-type: 'crowdfunding '
+  question: What is the future of XR?
+  description: 'Atmos | XR City is where digital and physical reality meet curated
+    experience. A guest''s Smart Phone can unlock doors and access elevators, control
+    the TV, Lights, and Thermostat, all without downloading a mobile application or
+    connecting to bluetooth or wifi. Our team created branding, animation and video
+    assets to help launch Atmos'' fundraising campaign. '
 - title: Summit on Data Smart Gov
   company: Harvard Ash Center
   video: https://youtu.be/5ybedUaHzrg
