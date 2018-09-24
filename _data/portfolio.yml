@@ -1,4 +1,13 @@
 ---
+- title: Kickstarter Campaign
+  company: 'Sated '
+  video: https://youtu.be/zo74Z3FpP_g
+  video-id: zo74Z3FpP_g
+  filter-type: 'crowdfunding '
+  question: How do you stay Keto?
+  description: 'Sated shakes are a complete, convenient, affordable meal in a bottle.
+    Our team produced the video and design assets to help launch Sated''s Ready to
+    Drink shake with over 900 backers and ~$180k raised on Kickstarter. '
 - title: Consumer Testimonials
   company: Relativity Whiskey
   video: https://youtu.be/HDbZJzOONWI
@@ -9,15 +18,6 @@
     proprietary software allows us to simulate the traditional interaction between
     whiskey and wood by rapidly cycling pressure and temperature. Our video helped
     scale Relativity across the state of Massachusetts with the brand slogan #BeAheadofYourTime'
-- title: Kickstarter Campaign
-  company: 'Sated '
-  video: https://youtu.be/zo74Z3FpP_g
-  video-id: zo74Z3FpP_g
-  filter-type: 'crowdfunding '
-  question: How do you stay Keto?
-  description: 'Sated shakes are a complete, convenient, affordable meal in a bottle.
-    Our team produced the video and design assets to help launch Sated''s Ready to
-    Drink shake with over 900 backers and ~$180k raised on Kickstarter. '
 - title: Student Profile Spotlight
   company: Duet-SNHU
   video: https://youtu.be/aW7KsZMDmOI
@@ -56,17 +56,6 @@
   description: 'Bevi''s new Countertop setup allows an office to drink environmentally
     friendly, flavored water. Our video provides a visual step by step guide to help
     service providers complete the installation process. '
-- title: Summit on Data Smart Gov
-  company: Harvard Ash Center
-  video: https://youtu.be/5ybedUaHzrg
-  video-id: 5ybedUaHzrg
-  filter-type: 'events '
-  question: How can we leverage data to enhance government?
-  description: 'Chief Data Officers from forward thinking cities across the United
-    States gathered for a weekend of talks, workshops and networking to share best
-    results on how to leverage data to improve government programs. NewView.Media''s
-    team captured 25 sessions, interviews and highlights that contributed to this
-    conference recap video. '
 - title: Netcapital Fundraising Campaign
   company: Atmos | XR City
   video: https://youtu.be/S9L2M7wRfso
@@ -78,14 +67,17 @@
     the TV, Lights, and Thermostat, all without downloading a mobile application or
     connecting to bluetooth or wifi. Our team created branding, animation and video
     assets to help launch Atmos'' fundraising campaign. '
-- title: Innovation Showcase Recap
-  company: Brandeis Innovation Center
-  video: https://youtu.be/O9apXhB5-ZI
-  video-id: O9apXhB5-ZI
+- title: Summit on Data Smart Gov
+  company: Harvard Ash Center
+  video: https://youtu.be/5ybedUaHzrg
+  video-id: 5ybedUaHzrg
   filter-type: 'events '
-  question: How does your community showcase innovation?
-  description: Brandeis Innovation Center hosted a showcase featuring startup companies
-    and students their program invested in to help reach that next level of growth.
+  question: How can we leverage data to enhance government?
+  description: 'Chief Data Officers from forward thinking cities across the United
+    States gathered for a weekend of talks, workshops and networking to share best
+    results on how to leverage data to improve government programs. NewView.Media''s
+    team captured 25 sessions, interviews and highlights that contributed to this
+    conference recap video. '
 - title: Summer Social at Tia's
   company: BYHP
   video: https://youtu.be/iv5yOA5whAo
@@ -113,6 +105,14 @@
     bike in seconds by simply replacing the front wheel. Outside of the biking world,
     the GeoOrbital platform opens up a world of possibilities for alternative electric
     vehicles.
+- title: Innovation Showcase Recap
+  company: Brandeis Innovation Center
+  video: https://youtu.be/O9apXhB5-ZI
+  video-id: O9apXhB5-ZI
+  filter-type: 'events '
+  question: How does your community showcase innovation?
+  description: Brandeis Innovation Center hosted a showcase featuring startup companies
+    and students their program invested in to help reach that next level of growth.
 - title: Standup Bevi Installation Guide
   company: Bevi
   video: https://www.youtube.com/embed/egkIqXWhfxw
@@ -122,6 +122,14 @@
   description: Bevi’s mission to eliminate the use of bottles & cans is rapidly expanding
     and we’re proud to help out the cause through a video campaign to facilitate their
     machine’s installation process.
+- title: Animated Marketing Video
+  company: Vulsec
+  video: https://www.youtube.com/embed/qHhEizigk5s
+  video-id: qHhEizigk5s
+  filter-type: marketing
+  question: Who is your cyber security advisor?
+  description: 'Our animated video illustrates Vulsec’s approach to testing and strengthening
+    your cyber security infrastructure against today’s lurking threats. '
 - title: NetCapital Crowdfunding Campaign
   company: Sidekick
   video: https://www.youtube.com/embed/7qiUd4n8adk
@@ -132,14 +140,6 @@
   description: 'Sidekick mission is to simplify the home improvement process and allow
     contractors to focus on what they do best. Our video contributed to tell their
     story in a Netcapital crowdfunding campaign that raised $160k. '
-- title: Animated Marketing Video
-  company: Vulsec
-  video: https://www.youtube.com/embed/qHhEizigk5s
-  video-id: qHhEizigk5s
-  filter-type: marketing
-  question: Who is your cyber security advisor?
-  description: 'Our animated video illustrates Vulsec’s approach to testing and strengthening
-    your cyber security infrastructure against today’s lurking threats. '
 - title: Graduation and Spring Soiree Fundraising Campaign
   company: MindsMatter
   video: https://www.youtube.com/embed/KGLNxzvcZas
