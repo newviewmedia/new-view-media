@@ -1,8 +1,18 @@
 ---
+- title: BYHP Summer Social at Tia's
+  company: Boston Young Healthcare Professionals
+  video: https://youtu.be/iv5yOA5whAo
+  video-id: iv5yOA5whAo
+  filter-type: Events
+  question: How do you connect with healthcare professionals?
+  description: Boston Young Healthcare Professionals organized a summer social to
+    help connect people who are passionate about the healthcare industry. Our team
+    helped capture executive testimonials and video highlights of the beautiful, engaging
+    evening at Tia's on the Boston waterfront.
 - title: Lendbuzz Customer Testimonial
   company: Lendbuzz
   video: https://www.youtube.com/embed/08vhrQSQdYU
-  video-id: 08vhrQSQdYU
+  video-id: '08vhrQSQdYU'
   filter-type: marketing
   question: How do you finance your car loans?
   description: ''
