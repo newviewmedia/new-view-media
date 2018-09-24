@@ -1,11 +1,13 @@
 ---
-- title: Running
-  company: 'Bob Massie Campaign '
-  video: https://youtu.be/Z7Fshsf6UCc
-  video-id: Z7Fshsf6UCc
+- title: CounterTop Installation Guide
+  company: Bevi
+  video: https://youtu.be/gk7mdjkCKZ8
+  video-id: gk7mdjkCKZ8
   filter-type: 'marketing '
-  question: Why is Bob Massie running for Governor of MA?
-  description: 'Bob Massie is running to build a just and sustainable future for all. '
+  question: Is there a Bevi in your office?
+  description: 'Bevi''s new Countertop setup allows an office to drink environmentally
+    friendly, flavored water. Our video provides a visual step by step guide to help
+    service providers complete the installation process. '
 - title: Student Profile Spotlight
   company: Duet-SNHU
   video: https://youtu.be/aW7KsZMDmOI
@@ -18,25 +20,23 @@
     in the workplace, and get all the support you need as you earn your degree and
     get the career you want. NewView.Media supported this innovative education model
     through a website and instagram student spotlight video campaign.
-- title: Innovation Showcase Recap
-  company: Brandeis Innovation Center
-  video: https://youtu.be/O9apXhB5-ZI
-  video-id: O9apXhB5-ZI
-  filter-type: 'events '
-  question: How does your community showcase innovation?
-  description: Brandeis Innovation Center hosted a showcase featuring startup companies
-    and students their program invested in to help reach that next level of growth.
-- title: Netcapital Fundraising Campaign
-  company: Atmos | XR City
-  video: https://youtu.be/S9L2M7wRfso
-  video-id: S9L2M7wRfso
-  filter-type: crowdfunding
-  question: What is the future of XR?
-  description: 'Atmos | XR City is where digital and physical reality meet curated
-    experience. A guest''s Smart Phone can unlock doors and access elevators, control
-    the TV, Lights, and Thermostat, all without downloading a mobile application or
-    connecting to bluetooth or wifi. Our team created branding, animation and video
-    assets to help launch Atmos'' fundraising campaign. '
+- title: Running
+  company: 'Bob Massie Campaign '
+  video: https://youtu.be/Z7Fshsf6UCc
+  video-id: Z7Fshsf6UCc
+  filter-type: 'marketing '
+  question: Why is Bob Massie running for Governor of MA?
+  description: 'Bob Massie is running to build a just and sustainable future for all. '
+- title: TrABu App Launch Video
+  company: TrABu
+  video: https://youtu.be/u2unfIwk1vM
+  video-id: u2unfIwk1vM
+  filter-type: 'marketing '
+  question: How can you save or earn money with long distance travel?
+  description: 'TrABu is a travel app that allows travelers to connect with passengers.
+    They’re transforming long-distance commuting, carpooling, and road trips, so you
+    can travel on your own terms! Our collaboration with Tina Bell, John Logan and
+    Shree Ramachandran across Greater Boston helped launch TrABu on the app store.  '
 - title: Summit on Data Smart Gov
   company: Harvard Ash Center
   video: https://youtu.be/5ybedUaHzrg
@@ -48,16 +48,25 @@
     results on how to leverage data to improve government programs. NewView.Media''s
     team captured 25 sessions, interviews and highlights that contributed to this
     conference recap video. '
-- title: TrABu App Launch Video
-  company: TrABu
-  video: https://youtu.be/u2unfIwk1vM
-  video-id: u2unfIwk1vM
-  filter-type: 'marketing '
-  question: How can you save or earn money with long distance travel?
-  description: 'TrABu is a travel app that allows travelers to connect with passengers.
-    They’re transforming long-distance commuting, carpooling, and road trips, so you
-    can travel on your own terms! Our collaboration with Tina Bell, John Logan and
-    Shree Ramachandran across Greater Boston helped launch TrABu on the app store.  '
+- title: Netcapital Fundraising Campaign
+  company: Atmos | XR City
+  video: https://youtu.be/S9L2M7wRfso
+  video-id: S9L2M7wRfso
+  filter-type: crowdfunding
+  question: What is the future of XR?
+  description: 'Atmos | XR City is where digital and physical reality meet curated
+    experience. A guest''s Smart Phone can unlock doors and access elevators, control
+    the TV, Lights, and Thermostat, all without downloading a mobile application or
+    connecting to bluetooth or wifi. Our team created branding, animation and video
+    assets to help launch Atmos'' fundraising campaign. '
+- title: Innovation Showcase Recap
+  company: Brandeis Innovation Center
+  video: https://youtu.be/O9apXhB5-ZI
+  video-id: O9apXhB5-ZI
+  filter-type: 'events '
+  question: How does your community showcase innovation?
+  description: Brandeis Innovation Center hosted a showcase featuring startup companies
+    and students their program invested in to help reach that next level of growth.
 - title: Summer Social at Tia's
   company: BYHP
   video: https://youtu.be/iv5yOA5whAo
