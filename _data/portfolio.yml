@@ -188,22 +188,6 @@
   description: Mass Technology Leadership Council’s 2017 TRANSFORM conference at the
     Federal Reserve featured a discussion among Boston’s thought leaders about a diverse
     range of transformations occurring in society.
-- title: Advanced Installation and Use
-  company: GeoOrbital
-  video: https://www.youtube.com/embed/Bf0HmNvYY9Y
-  video-id: Bf0HmNvYY9Y
-  filter-type: marketing
-  question: Want to learn how to install a GeoOrbital wheel?
-  description: 'GeoOrbital’s CTO Dakota explains how to install, adjust and operate
-    the GeoOrbital wheel on a variety of bicycles. '
-- title: Recap Video
-  company: Silent Disco Snow Day
-  video: https://www.youtube.com/embed/MhsOH0RLMQ0
-  video-id: MhsOH0RLMQ0
-  filter-type: events
-  question: Do you like to dance?
-  description: 'The Silent Disco mission is to build community through dancing and
-    we had a great time capturing their adventure through the streets of Cambridge! '
 - title: Documentary Trailer
   company: Enjoy Life Education
   video: https://www.youtube.com/embed/1INrOZHfO38
@@ -223,6 +207,22 @@
   description: LevelGround’s mission is to train the next generation of fitness leader
     and inspire a healthier community. Our videos have help to raise funds and awareness
     for their amazing programs, now centered at an amazing gym in Dorchester!
+- title: Advanced Installation and Use
+  company: GeoOrbital
+  video: https://www.youtube.com/embed/Bf0HmNvYY9Y
+  video-id: Bf0HmNvYY9Y
+  filter-type: marketing
+  question: Want to learn how to install a GeoOrbital wheel?
+  description: 'GeoOrbital’s CTO Dakota explains how to install, adjust and operate
+    the GeoOrbital wheel on a variety of bicycles. '
+- title: Recap Video
+  company: Silent Disco Snow Day
+  video: https://www.youtube.com/embed/MhsOH0RLMQ0
+  video-id: MhsOH0RLMQ0
+  filter-type: events
+  question: Do you like to dance?
+  description: 'The Silent Disco mission is to build community through dancing and
+    we had a great time capturing their adventure through the streets of Cambridge! '
 - title: Marketing Video
   company: Official Kings Playing Card Deck
   video: https://www.youtube.com/embed/sdfR-Tm1bD8
