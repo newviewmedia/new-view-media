@@ -1,4 +1,9 @@
 ---
+- photo: img/johnLogan.png
+  name: John Logan
+  website: http://www.johndukelogan.com/
+  brief-bio: I am an entrepreneurial spirited, coffee loving, multi-media fanatic
+    who loves to tell stories and believes 'impossible' is just a word.
 - photo: "/uploads/2019/01/14/IMG_4496.jpeg"
   name: Eli Bock
   website: ''
@@ -8,11 +13,6 @@
   website: https://www.davidhuylam.com/
   brief-bio: I am a videographer who aims to capture the breath taking moments we
     wish to relive
-- photo: img/johnLogan.png
-  name: John Logan
-  website: http://www.johndukelogan.com/
-  brief-bio: I am an entrepreneurial spirited, coffee loving, multi-media fanatic
-    who loves to tell stories and believes 'impossible' is just a word.
 - photo: img/aaron.png
   name: Aaron Weiss
   website: ''
