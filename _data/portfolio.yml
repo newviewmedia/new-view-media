@@ -1,14 +1,4 @@
 ---
-- title: What is Unlocking Creativity?
-  company: Unlocking Creativity
-  video: https://youtu.be/GdmTWiihzbw
-  video-id: GdmTWiihzbw
-  filter-type: marketing
-  question: What is Unlocking Creativity?
-  description: 'Why is there resistance to new ideas? Why do original thinkers keep
-    running into walls? As the #1 new release in the Management Science category on
-    Amazon, Professor Michael Roberto is changing the way companies tackle perplexing
-    problems with his groundbreaking book: Unlocking Creativity'
 - title: Kickstarter Campaign
   company: 'Sated '
   video: https://youtu.be/zo74Z3FpP_g
@@ -20,6 +10,16 @@
     Drink shake with over 900 backers and ~$185k raised on Kickstarter and Indiegogo.
     The first day of the campaign was the largest single day of crowdfunding for a
     food product in history. '
+- title: What is Unlocking Creativity?
+  company: Unlocking Creativity
+  video: https://youtu.be/GdmTWiihzbw
+  video-id: GdmTWiihzbw
+  filter-type: marketing
+  question: What is Unlocking Creativity?
+  description: 'Why is there resistance to new ideas? Why do original thinkers keep
+    running into walls? As the #1 new release in the Management Science category on
+    Amazon, Professor Michael Roberto is changing the way companies tackle perplexing
+    problems with his groundbreaking book: Unlocking Creativity'
 - title: Consumer Testimonials
   company: Relativity Whiskey
   video: https://youtu.be/HDbZJzOONWI
