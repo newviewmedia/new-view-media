@@ -29,8 +29,8 @@ questions-row:
   photo: drydock-sunset.png
   content: In our opinion, the role of media is to advance public discussion. Unfortunately,
     the current media landscape inconsistently stimulates an intellectual forum that
-    leads to action towards socially responsible causes. Therefore, NewView.Media
-    will produce video content that engages our audience to think about new views.
+    leads to action towards socially responsible causes. NewView.Media strives on
+    producing video content that allows others to understand different perspectives.
 location-row:
   title: Where are we located?
   photo: milk-street.jpg
