@@ -41,13 +41,13 @@ location-row:
 process-row2:
   title: What's Our Process?
   photo: tom-on-water.jpg
-  content: NewView.Media provides video services to entrepreneurial causes in the
+  content: 'NewView.Media provides video services to entrepreneurial causes in the
     Greater Boston area and beyond. Beginning with the critical preproduction phase,
     to executing shoots and through each editing iteration, we aim to guide our clients
     through every step of the video production process. We’ve written, filmed and
     edited videos to tell stories for company overview videos, client testimonial
-    campaigns, instructional videos, gubernatorial video campaigns and crowdfunding
-    video campaigns that have raised over $3 million.
+    campaigns, animations, instructional videos, gubernatorial video campaigns, and
+    crowdfunding campaigns that have raised over $3 million. '
 venture-row:
   title: Why did we start this venture?
   content: In today's fast paced world, every frame matters as viewers have an overload
