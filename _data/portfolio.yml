@@ -1,14 +1,4 @@
 ---
-- title: 'Relativity Visionary Series: Branchfood'
-  company: 'Relativity: Branchfood'
-  video: https://youtu.be/sg-z0RYHHNk
-  video-id: sg-z0RYHHNk
-  filter-type: Marketing
-  question: How is a food company inspired by a whisky company?
-  description: 'As part of Relativity Whiskey''s Instagram campaign, we collaborated
-    with visionaries that share the same passion with Relativity: combining science
-    with innovation. In this customized Instagram video, we highlight Branchfood and
-    how they''re making an impact on the world.'
 - title: Kickstarter Campaign
   company: 'Sated '
   video: https://youtu.be/zo74Z3FpP_g
@@ -50,8 +40,8 @@
     proprietary software allows us to simulate the traditional interaction between
     whiskey and wood by rapidly cycling pressure and temperature. Our video helped
     scale Relativity across the state of Massachusetts with the brand slogan #BeAheadofYourTime'
-- title: John Francis Designs
-  company: Relativity Visionary Series
+- title: 'Relativity Visionary Series: John Francis Designs'
+  company: 'Relativity: John Francis Designs'
   video: https://youtu.be/Rpw7VhtJtfA
   video-id: Rpw7VhtJtfA
   filter-type: 'Marketing '
@@ -60,6 +50,16 @@
     with visionaries that share the same passion with Relativity: combining science
     with innovation. In this customized Instagram video, we highlight John Francis
     Designs and how he''s making an impact on the world.'
+- title: 'Relativity Visionary Series: Branchfood'
+  company: 'Relativity: Branchfood'
+  video: https://youtu.be/sg-z0RYHHNk
+  video-id: sg-z0RYHHNk
+  filter-type: Marketing
+  question: How is a food company inspired by a whisky company?
+  description: 'As part of Relativity Whiskey''s Instagram campaign, we collaborated
+    with visionaries that share the same passion with Relativity: combining science
+    with innovation. In this customized Instagram video, we highlight Branchfood and
+    how they''re making an impact on the world.'
 - title: Student Profile Spotlight
   company: Duet-SNHU
   video: https://youtu.be/aW7KsZMDmOI
