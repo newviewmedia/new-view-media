@@ -1,11 +1,4 @@
 ---
-- title: The Future of Robots
-  company: Righthand Robotics
-  video: https://youtu.be/pTL5C2tSMb8
-  video-id: pTL5C2tSMb8
-  filter-type: marketing
-  question: What is the Future of Robotics?
-  description: Righthand Robotics is helping change the world through robotics
 - title: Kickstarter Campaign
   company: 'Sated '
   video: https://youtu.be/zo74Z3FpP_g
@@ -68,6 +61,13 @@
     And it’s past time we do something. Among with legislators and civic leaders who
     are ready to innovate and solve this congestions problem, we are fighting for
     smart solutions and we want you to know about it.
+- title: The Future of Robots
+  company: Righthand Robotics
+  video: https://youtu.be/pTL5C2tSMb8
+  video-id: pTL5C2tSMb8
+  filter-type: marketing
+  question: What is the Future of Robotics?
+  description: Righthand Robotics is helping change the world through robotics
 - title: Hiring for Diversity in Tech
   company: Resilient Coders
   video: https://youtu.be/wK3mPMWljEA
