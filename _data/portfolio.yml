@@ -1,15 +1,4 @@
 ---
-- title: Boston Transportation
-  company: T4MA
-  video: https://youtu.be/7eXjeMJWy_U
-  video-id: 7eXjeMJWy_U
-  filter-type: marketing
-  question: Are You Frustrated with Boston Traffic?
-  description: Our video may be lighthearted, but it brings up a serious point. Our
-    region’s clogged roads are harming our quality of life, our economy and our health.
-    And it’s past time we do something. Among with legislators and civic leaders who
-    are ready to innovate and solve this congestions problem, we are fighting for
-    smart solutions and we want you to know about it.
 - title: Kickstarter Campaign
   company: 'Sated '
   video: https://youtu.be/zo74Z3FpP_g
@@ -61,6 +50,17 @@
   description: The Rhode Island Society of Certified Public Accountants hosts an annual
     Emerging Leaders Network conference that helps with your personal and professional
     growth.
+- title: Boston Transportation
+  company: T4MA
+  video: https://youtu.be/7eXjeMJWy_U
+  video-id: 7eXjeMJWy_U
+  filter-type: marketing
+  question: Are You Frustrated with Boston Traffic?
+  description: Our video may be lighthearted, but it brings up a serious point. Our
+    region’s clogged roads are harming our quality of life, our economy and our health.
+    And it’s past time we do something. Among with legislators and civic leaders who
+    are ready to innovate and solve this congestions problem, we are fighting for
+    smart solutions and we want you to know about it.
 - title: Hiring for Diversity in Tech
   company: Resilient Coders
   video: https://youtu.be/wK3mPMWljEA
