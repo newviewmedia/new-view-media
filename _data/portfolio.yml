@@ -1,13 +1,4 @@
 ---
-- title: Enhancing LinkedIn Profiles
-  company: ProfileGraderPro
-  video: https://youtu.be/5a8WTDoP7WI
-  video-id: 5a8WTDoP7WI
-  filter-type: marketing
-  question: How Can You Enhance Your LinkedIn Profile?
-  description: ProfileGraderPro knows how to help professionals create a powerful
-    personal brand on LinkedIn. Don’t just take our word for it - see how we helped
-    these clients get ahead in their careers!
 - title: Kickstarter Campaign
   company: 'Sated '
   video: https://youtu.be/zo74Z3FpP_g
@@ -101,6 +92,15 @@
   description: 'As more of Boston''s progressive tech companies begin hiring software
     engineers with diversity in mind, Resilient Coders graduates are stepping up to
     fill the growing demand for technical talent. '
+- title: Enhancing LinkedIn Profiles
+  company: ProfileGraderPro
+  video: https://youtu.be/5a8WTDoP7WI
+  video-id: 5a8WTDoP7WI
+  filter-type: marketing
+  question: How Can You Enhance Your LinkedIn Profile?
+  description: ProfileGraderPro knows how to help professionals create a powerful
+    personal brand on LinkedIn. Don’t just take our word for it - see how we helped
+    these clients get ahead in their careers!
 - title: What is Unlocking Creativity?
   company: Unlocking Creativity
   video: https://youtu.be/GdmTWiihzbw
