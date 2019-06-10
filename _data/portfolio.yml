@@ -1,13 +1,13 @@
 ---
-- title: You Give Blue!
-  company: Blue Cross Blue Shield
-  video: https://youtu.be/DjjRBgmm22o
-  video-id: DjjRBgmm22o
-  filter-type: fundraising
-  question: How Can You Give Blue?
-  description: 'Our animated video helps promote Blue Cross Blue Shield''s new internal
-    fundraising campaign to raise money for non-profits across Massachusetts: You
-    Give Blue!'
+- title: Emerging Leaders Network
+  company: Rhode Island CPA Leadership
+  video: https://youtu.be/pzmotvsdkIc
+  video-id: pzmotvsdkIc
+  filter-type: marketing
+  question: How Can You Enhance Your Leadership?
+  description: The Rhode Island Society of Certified Public Accountants hosts an annual
+    Emerging Leaders Network conference that helps with your personal and professional
+    growth.
 - title: The Benchmarking Curse
   company: Unlocking Creativity
   video: https://youtu.be/WGOdzLJiSiM
@@ -50,6 +50,15 @@
   description: 'As more of Boston''s progressive tech companies begin hiring software
     engineers with diversity in mind, Resilient Coders graduates are stepping up to
     fill the growing demand for technical talent. '
+- title: You Give Blue!
+  company: Blue Cross Blue Shield
+  video: https://youtu.be/DjjRBgmm22o
+  video-id: DjjRBgmm22o
+  filter-type: fundraising
+  question: How Can You Give Blue?
+  description: 'Our animated video helps promote Blue Cross Blue Shield''s new internal
+    fundraising campaign to raise money for non-profits across Massachusetts: You
+    Give Blue!'
 - title: What is Unlocking Creativity?
   company: Unlocking Creativity
   video: https://youtu.be/GdmTWiihzbw
