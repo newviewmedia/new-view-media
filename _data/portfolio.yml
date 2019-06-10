@@ -65,6 +65,13 @@
     collaborated with visionaries that share the same passion with Relativity: combining
     science with innovation. In this customized Instagram video, we highlight Chew
     and how they''re taking a leap of faith to change the world.'
+- title: The Future of Robots
+  company: Righthand Robotics
+  video: https://youtu.be/pTL5C2tSMb8
+  video-id: pTL5C2tSMb8
+  filter-type: marketing
+  question: What is the Future of Robotics?
+  description: Righthand Robotics is helping change the world through robotics
 - title: Boston Transportation
   company: Transportation for Massachusetts
   video: https://youtu.be/7eXjeMJWy_U
@@ -76,13 +83,6 @@
     And it’s past time we do something. Among with legislators and civic leaders who
     are ready to innovate and solve this congestions problem, we are fighting for
     smart solutions and we want you to know about it.
-- title: The Future of Robots
-  company: Righthand Robotics
-  video: https://youtu.be/pTL5C2tSMb8
-  video-id: pTL5C2tSMb8
-  filter-type: marketing
-  question: What is the Future of Robotics?
-  description: Righthand Robotics is helping change the world through robotics
 - title: Hiring for Diversity in Tech
   company: Resilient Coders
   video: https://youtu.be/wK3mPMWljEA
@@ -151,16 +151,37 @@
     with visionaries that share the same passion with Relativity: combining science
     with innovation. In this customized Instagram video, we highlight John Francis
     Designs and how he''s setting himself apart from other designers.'
-- title: 'Relativity Visionary Series: Branchfood'
-  company: 'Relativity: Branchfood'
-  video: https://youtu.be/sg-z0RYHHNk
-  video-id: sg-z0RYHHNk
+- title: Lendbuzz Customer Testimonial
+  company: Lendbuzz
+  video: https://www.youtube.com/embed/08vhrQSQdYU
+  video-id: '08vhrQSQdYU'
   filter-type: marketing
-  question: How is Branchfood inspired by Relativity?
-  description: 'As part of Relativity Whiskey''s 60 Second Instagram campaign, we
-    collaborated with visionaries that share the same passion with Relativity: combining
-    science with innovation. In this customized Instagram video, we highlight Branchfood''s
-    food mission to help companies be ahead of their time in Boston.'
+  question: How do you finance your car loans?
+  description: 'Lendbuzz helps expats & international students earn better interests
+    rates when looking for car loans by considering your full profile, education,
+    and experience. Our team brought this testimonial video project to life for their
+    google adwords campaign. '
+- title: TrABu App Launch Video
+  company: TrABu
+  video: https://youtu.be/u2unfIwk1vM
+  video-id: u2unfIwk1vM
+  filter-type: marketing
+  question: How can you save or earn money with long distance travel?
+  description: 'TrABu is a travel app that allows travelers to connect with passengers.
+    They’re transforming long-distance commuting, carpooling, and road trips, so you
+    can travel on your own terms! Our collaboration with Tina Bell, John Logan and
+    Shree Ramachandran across Greater Boston helped launch TrABu on the app store.  '
+- title: Netcapital Fundraising Campaign
+  company: Atmos | XR City
+  video: https://youtu.be/S9L2M7wRfso
+  video-id: S9L2M7wRfso
+  filter-type: crowdfunding
+  question: What is the future of XR?
+  description: 'Atmos | XR City is where digital and physical reality meet curated
+    experience. A guest''s Smart Phone can unlock doors and access elevators, control
+    the TV, Lights, and Thermostat, all without downloading a mobile application or
+    connecting to bluetooth or wifi. Our team created branding, animation and video
+    assets to help launch Atmos'' fundraising campaign. '
 - title: Brandeis Innovation Center
   company: Brandeis University
   video: https://youtu.be/eog9jF7Did8
@@ -192,16 +213,6 @@
     in the workplace, and get all the support you need as you earn your degree and
     get the career you want. NewView.Media supported this innovative education model
     through a website and instagram student spotlight video campaign.
-- title: TrABu App Launch Video
-  company: TrABu
-  video: https://youtu.be/u2unfIwk1vM
-  video-id: u2unfIwk1vM
-  filter-type: marketing
-  question: How can you save or earn money with long distance travel?
-  description: 'TrABu is a travel app that allows travelers to connect with passengers.
-    They’re transforming long-distance commuting, carpooling, and road trips, so you
-    can travel on your own terms! Our collaboration with Tina Bell, John Logan and
-    Shree Ramachandran across Greater Boston helped launch TrABu on the app store.  '
 - title: CounterTop Installation Guide
   company: Bevi
   video: https://youtu.be/gk7mdjkCKZ8
@@ -211,17 +222,16 @@
   description: 'Bevi''s new Countertop setup allows an office to drink environmentally
     friendly, flavored water. Our video provides a visual step by step guide to help
     service providers complete the installation process. '
-- title: Netcapital Fundraising Campaign
-  company: Atmos | XR City
-  video: https://youtu.be/S9L2M7wRfso
-  video-id: S9L2M7wRfso
-  filter-type: crowdfunding
-  question: What is the future of XR?
-  description: 'Atmos | XR City is where digital and physical reality meet curated
-    experience. A guest''s Smart Phone can unlock doors and access elevators, control
-    the TV, Lights, and Thermostat, all without downloading a mobile application or
-    connecting to bluetooth or wifi. Our team created branding, animation and video
-    assets to help launch Atmos'' fundraising campaign. '
+- title: 'Relativity Visionary Series: Branchfood'
+  company: 'Relativity: Branchfood'
+  video: https://youtu.be/sg-z0RYHHNk
+  video-id: sg-z0RYHHNk
+  filter-type: marketing
+  question: How is Branchfood inspired by Relativity?
+  description: 'As part of Relativity Whiskey''s 60 Second Instagram campaign, we
+    collaborated with visionaries that share the same passion with Relativity: combining
+    science with innovation. In this customized Instagram video, we highlight Branchfood''s
+    food mission to help companies be ahead of their time in Boston.'
 - title: Summit on Data Smart Gov
   company: Harvard Ash Center
   video: https://youtu.be/5ybedUaHzrg
@@ -243,16 +253,6 @@
     help connect people who are passionate about the healthcare industry. Our team
     helped capture executive testimonials and video highlights of the beautiful, engaging
     evening at Tia's on the Boston waterfront.
-- title: Lendbuzz Customer Testimonial
-  company: Lendbuzz
-  video: https://www.youtube.com/embed/08vhrQSQdYU
-  video-id: '08vhrQSQdYU'
-  filter-type: marketing
-  question: How do you finance your car loans?
-  description: 'Lendbuzz helps expats & international students earn better interests
-    rates when looking for car loans by considering your full profile, education,
-    and experience. Our team brought this testimonial video project to life for their
-    google adwords campaign. '
 - title: StartEngine Crowdfunding Campaign
   company: GeoOrbital
   video: https://www.youtube.com/watch?v=Sh5UTIzykx8
