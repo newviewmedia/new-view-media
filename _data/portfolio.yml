@@ -1,14 +1,4 @@
 ---
-- title: Brandeis Innovation Center
-  company: Brandeis University
-  video: https://youtu.be/eog9jF7Did8
-  video-id: eog9jF7Did8
-  filter-type: marketing
-  question: What Does Innovation Mean To You?
-  description: 'We asked Brandeis Innovators: "What does innovation mean to you?"
-    The responses were as diverse and creative as our innovators themselves. Learn
-    about how members of the Brandeis community are repairing the world, one innovation
-    at a time.'
 - title: Kickstarter Campaign
   company: 'Sated '
   video: https://youtu.be/zo74Z3FpP_g
@@ -156,6 +146,16 @@
     collaborated with visionaries that share the same passion with Relativity: combining
     science with innovation. In this customized Instagram video, we highlight Branchfood''s
     food mission to help companies be ahead of their time in Boston.'
+- title: Brandeis Innovation Center
+  company: Brandeis University
+  video: https://youtu.be/eog9jF7Did8
+  video-id: eog9jF7Did8
+  filter-type: marketing
+  question: What Does Innovation Mean To You?
+  description: 'We asked Brandeis Innovators: "What does innovation mean to you?"
+    The responses were as diverse and creative as our innovators themselves. Learn
+    about how members of the Brandeis community are repairing the world, one innovation
+    at a time.'
 - title: Student Profile Spotlight
   company: Duet-SNHU
   video: https://youtu.be/aW7KsZMDmOI
