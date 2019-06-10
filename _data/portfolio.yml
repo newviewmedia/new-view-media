@@ -1,13 +1,4 @@
 ---
-- title: Creating the World We Want
-  company: NewView.Media
-  video: https://youtu.be/R9wlNADjv5s
-  video-id: R9wlNADjv5s
-  filter-type: fundraising
-  question: What is the Connection Between Media, Public Policy, and Politics?
-  description: Setti Warren explains the importance of how media, public policy, and
-    politics influence each other on this edition of "Creating the World We Want".
-    To view the full episode and learn more about the program, please visit www.CreatingTheWorldWeWant.org
 - title: Kickstarter Campaign
   company: 'Sated '
   video: https://youtu.be/zo74Z3FpP_g
@@ -59,6 +50,15 @@
   description: The Rhode Island Society of Certified Public Accountants hosts an annual
     Emerging Leaders Network conference that helps with your personal and professional
     growth.
+- title: Creating the World We Want
+  company: NewView.Media
+  video: https://youtu.be/R9wlNADjv5s
+  video-id: R9wlNADjv5s
+  filter-type: fundraising
+  question: What is the Connection Between Media, Public Policy, and Politics?
+  description: Setti Warren explains the importance of how media, public policy, and
+    politics influence each other on this edition of "Creating the World We Want".
+    To view the full episode and learn more about the program, please visit www.CreatingTheWorldWeWant.org
 - title: Boston Transportation
   company: T4MA
   video: https://youtu.be/7eXjeMJWy_U
