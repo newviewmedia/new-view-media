@@ -92,15 +92,6 @@
   description: 'As more of Boston''s progressive tech companies begin hiring software
     engineers with diversity in mind, Resilient Coders graduates are stepping up to
     fill the growing demand for technical talent. '
-- title: Enhancing LinkedIn Profiles
-  company: ProfileGraderPro
-  video: https://youtu.be/5a8WTDoP7WI
-  video-id: 5a8WTDoP7WI
-  filter-type: marketing
-  question: How Can You Enhance Your LinkedIn Profile?
-  description: ProfileGraderPro knows how to help professionals create a powerful
-    personal brand on LinkedIn. Don’t just take our word for it - see how we helped
-    these clients get ahead in their careers!
 - title: What is Unlocking Creativity?
   company: Unlocking Creativity
   video: https://youtu.be/GdmTWiihzbw
@@ -111,6 +102,15 @@
     running into walls? As the #1 new release in the Management Science category on
     Amazon, Professor Michael Roberto is changing the way companies tackle perplexing
     problems with his groundbreaking book: Unlocking Creativity'
+- title: Enhancing LinkedIn Profiles
+  company: ProfileGraderPro
+  video: https://youtu.be/5a8WTDoP7WI
+  video-id: 5a8WTDoP7WI
+  filter-type: marketing
+  question: How Can You Enhance Your LinkedIn Profile?
+  description: ProfileGraderPro knows how to help professionals create a powerful
+    personal brand on LinkedIn. Don’t just take our word for it - see how we helped
+    these clients get ahead in their careers!
 - title: Consumer Testimonials
   company: Relativity Whiskey
   video: https://youtu.be/HDbZJzOONWI
