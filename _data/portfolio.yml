@@ -12,15 +12,6 @@
     You’re inputting important data repetitively in a process that hasn't changed in decades. These outdated, disparate systems create swirls of emails and scattered documents resulting in inaccurate reports, and painfully long customer response times.
 
     Imagine having a system with one point of input that can produce any deal component in a click of a button.
-- title: You Give Blue!
-  company: Blue Cross Blue Shield
-  video: https://youtu.be/DjjRBgmm22o
-  video-id: DjjRBgmm22o
-  filter-type: fundraising
-  question: How Can You Give Blue?
-  description: 'Working along Ciampa Creative, our animated video helps promote Blue
-    Cross Blue Shield''s new internal fundraising campaign to raise money for non-profits
-    across Massachusetts: You Give Blue!'
 - title: Kickstarter Campaign
   company: 'Sated '
   video: https://youtu.be/zo74Z3FpP_g
@@ -32,6 +23,15 @@
     Drink shake with over 900 backers and ~$185k raised on Kickstarter and Indiegogo.
     The first day of the campaign was the largest single day of crowdfunding for a
     food product in history. '
+- title: You Give Blue!
+  company: Blue Cross Blue Shield
+  video: https://youtu.be/DjjRBgmm22o
+  video-id: DjjRBgmm22o
+  filter-type: fundraising
+  question: How Can You Give Blue?
+  description: 'Working along Ciampa Creative, our animated video helps promote Blue
+    Cross Blue Shield''s new internal fundraising campaign to raise money for non-profits
+    across Massachusetts: You Give Blue!'
 - title: 'The Future of Transportation '
   company: GeoOrbital
   video: https://youtu.be/jfWpYnwVRcY
