@@ -1,12 +1,4 @@
 ---
-- title: 'Success Stories: Aflac'
-  company: Gryphon Networks
-  video: https://youtu.be/Iv-6zye4H1U
-  video-id: Iv-6zye4H1U
-  filter-type: marketing
-  question: How can your team improve their sales performance?
-  description: Aflac improves sales performance with Gryphon's top-rated sales performance
-    management software for enterprise teams and dispersed teams.
 - title: Salesforce Product Demo
   company: CB2 Financial
   video: https://youtu.be/KVXjFggxXrU
@@ -31,6 +23,16 @@
     Drink shake with over 900 backers and ~$185k raised on Kickstarter and Indiegogo.
     The first day of the campaign was the largest single day of crowdfunding for a
     food product in history. '
+- title: 'Relativity Visionary Series: Chew'
+  company: 'Relativity: Chew'
+  video: https://youtu.be/v6zpFyHZMUw
+  video-id: v6zpFyHZMUw
+  filter-type: marketing
+  question: How is Chew inspired by Relativity?
+  description: 'As part of Relativity Whiskey''s 60 Second Instagram campaign, we
+    collaborated with visionaries that share the same passion with Relativity: combining
+    science with innovation. In this customized Instagram video, we highlight Chew
+    and how they''re taking a leap of faith to change the world.'
 - title: You Give Blue!
   company: Blue Cross Blue Shield
   video: https://youtu.be/DjjRBgmm22o
@@ -40,16 +42,14 @@
   description: 'Working along Ciampa Creative, our animated video helps promote Blue
     Cross Blue Shield''s new internal fundraising campaign to raise money for non-profits
     across Massachusetts: You Give Blue!'
-- title: 'The Future of Transportation '
-  company: GeoOrbital
-  video: https://youtu.be/jfWpYnwVRcY
-  video-id: jfWpYnwVRcY
-  filter-type: crowdfunding
-  question: What's the future of transportation?
-  description: 'As seen on Sharktank, our videos have helped tell the story of this
-    team''s mission to reimagine the electric wheel as a mobility platform. Invest
-    in GeoOrbital''s patented and revolutionary approach to defining the future of
-    transportation on Startengine. '
+- title: 'Success Stories: Aflac'
+  company: Gryphon Networks
+  video: https://youtu.be/Iv-6zye4H1U
+  video-id: Iv-6zye4H1U
+  filter-type: marketing
+  question: How can your team improve their sales performance?
+  description: Aflac improves sales performance with Gryphon's top-rated sales performance
+    management software for enterprise teams and dispersed teams.
 - title: The Benchmarking Curse
   company: Unlocking Creativity
   video: https://youtu.be/WGOdzLJiSiM
@@ -62,16 +62,16 @@
     Learn what "Survivor", coffee cups, and the Foo Fighters all have in common in our animated video centered around The Benchmarking Curse.
 
     Professor Michael Roberto discusses how many of us unintentionally use copy-cat behavior when trying to be creative, along with strategies to overcome it in his new book, "Unlocking Creativity"
-- title: 'Relativity Visionary Series: Chew'
-  company: 'Relativity: Chew'
-  video: https://youtu.be/v6zpFyHZMUw
-  video-id: v6zpFyHZMUw
-  filter-type: marketing
-  question: How is Chew inspired by Relativity?
-  description: 'As part of Relativity Whiskey''s 60 Second Instagram campaign, we
-    collaborated with visionaries that share the same passion with Relativity: combining
-    science with innovation. In this customized Instagram video, we highlight Chew
-    and how they''re taking a leap of faith to change the world.'
+- title: 'The Future of Transportation '
+  company: GeoOrbital
+  video: https://youtu.be/jfWpYnwVRcY
+  video-id: jfWpYnwVRcY
+  filter-type: crowdfunding
+  question: What's the future of transportation?
+  description: 'As seen on Sharktank, our videos have helped tell the story of this
+    team''s mission to reimagine the electric wheel as a mobility platform. Invest
+    in GeoOrbital''s patented and revolutionary approach to defining the future of
+    transportation on Startengine. '
 - title: NewView.Media
   company: Creating the World We Want
   video: https://youtu.be/R9wlNADjv5s
