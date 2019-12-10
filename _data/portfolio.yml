@@ -42,14 +42,6 @@
   description: 'Working along Ciampa Creative, our animated video helps promote Blue
     Cross Blue Shield''s new internal fundraising campaign to raise money for non-profits
     across Massachusetts: You Give Blue!'
-- title: 'Success Stories: Aflac'
-  company: Gryphon Networks
-  video: https://youtu.be/Iv-6zye4H1U
-  video-id: Iv-6zye4H1U
-  filter-type: marketing
-  question: How can your team improve their sales performance?
-  description: Aflac improves sales performance with Gryphon's top-rated sales performance
-    management software for enterprise teams and dispersed teams.
 - title: The Benchmarking Curse
   company: Unlocking Creativity
   video: https://youtu.be/WGOdzLJiSiM
@@ -62,6 +54,21 @@
     Learn what "Survivor", coffee cups, and the Foo Fighters all have in common in our animated video centered around The Benchmarking Curse.
 
     Professor Michael Roberto discusses how many of us unintentionally use copy-cat behavior when trying to be creative, along with strategies to overcome it in his new book, "Unlocking Creativity"
+- title: The Future of Robots
+  company: Righthand Robotics
+  video: https://youtu.be/pTL5C2tSMb8
+  video-id: pTL5C2tSMb8
+  filter-type: marketing
+  question: What is the Future of Robotics?
+  description: Righthand Robotics is helping change the world through robotics
+- title: 'Success Stories: Aflac'
+  company: Gryphon Networks
+  video: https://youtu.be/Iv-6zye4H1U
+  video-id: Iv-6zye4H1U
+  filter-type: marketing
+  question: How can your team improve their sales performance?
+  description: Aflac improves sales performance with Gryphon's top-rated sales performance
+    management software for enterprise teams and dispersed teams.
 - title: 'The Future of Transportation '
   company: GeoOrbital
   video: https://youtu.be/jfWpYnwVRcY
@@ -86,13 +93,6 @@
     to overlook in order to engage, educate and encourage actions to build towards
     a sustainable future for the many, not just the few. To view the full episode
     and learn more about the program, please visit www.CreatingTheWorldWeWant.org
-- title: The Future of Robots
-  company: Righthand Robotics
-  video: https://youtu.be/pTL5C2tSMb8
-  video-id: pTL5C2tSMb8
-  filter-type: marketing
-  question: What is the Future of Robotics?
-  description: Righthand Robotics is helping change the world through robotics
 - title: Boston Transportation
   company: Transportation for Massachusetts
   video: https://youtu.be/7eXjeMJWy_U
