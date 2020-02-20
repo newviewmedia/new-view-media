@@ -47,7 +47,7 @@ process-row2:
     through every step of the video production process. \n\nWe’ve written, filmed
     and edited videos to tell stories for company overview videos, client testimonial
     campaigns, event recaps, animations, instructional videos, gubernatorial video
-    campaigns, and crowdfunding campaigns that have raised over $3 million. "
+    campaigns, and crowdfunding campaigns that have raised over $4 million. "
 venture-row:
   title: Why did we start this venture?
   content: In today's fast paced world, every frame matters as viewers have an overload
